@@ -188,20 +188,5 @@ namespace EDRouteOptimizer.Tests
             Assert.AreEqual(actualOutput, expectedOutput);
             Assert.AreEqual(boxB.Equals(boxA), expectedOutput);
         }
-
-        [TestMethod]
-        [DataRow("AA-A h0")]
-        [DataRow("RT-Y d1")]
-        public void GetChildBoxelsTest(string input)
-        {
-            EDBoxel box = EDBoxel.ParseBoxelFromString(input);
-
-            int[][] children = box.GetChildBoxels();
-            foreach (int[] child in children)
-            {
-                Console.WriteLine("[{0}]", string.Join(", ", child));
-            }
-        }
-
     }
 }
