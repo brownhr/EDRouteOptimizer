@@ -13,17 +13,6 @@ namespace EDRouteOptimizer
 
     }
 
-    public class EDSubsector
-    {
-
-    }
-
-    public class EDSector
-    {
-
-
-    }
-
     public class EDBoxel
     {
         private static readonly char[] ValidMassCodes = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h' };
@@ -195,6 +184,47 @@ namespace EDRouteOptimizer
             }
             return result;
         }
+
+        // TODO: Boxel Coordinate to EDBoxel
+
+        public void ParseBoxelCoordinates()
+        {
+
+        }
+
+
+        public int[][] GetChildBoxels()
+        {
+            if (MassCode == 'a')
+            {
+                return new int[8][];
+            }
+
+            char childMassCode = (char)(MassCode + 1);
+
+            int[] dX = { 0, 1 };
+            int[] dY = { 0, 1 };
+            int[] dZ = { 0, 1 };
+            var cartesianProduct =
+                (from x in dX
+                 from y in dY
+                 from z in dZ
+                 select new int[] { x, y, z });
+            int[] coordArray = new int[3] { Coordinates.x, Coordinates.y, Coordinates.z };
+
+            int[][] children = new int[8][];
+            int[][] prod = cartesianProduct.ToArray();
+
+            for (int i = 0; i < prod.Length; i++)
+            {
+                children[i] = Enumerable.Zip(coordArray, prod[i], (x, y) => (2 * x) + y).ToArray();
+            }
+
+            return children;
+        }
+
+
+
 
         public override bool Equals(object? obj)
         {
