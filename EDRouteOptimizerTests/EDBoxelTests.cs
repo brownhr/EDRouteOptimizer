@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using EDRouteOptimizer;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EDRouteOptimizer.Tests
 {
@@ -60,6 +61,18 @@ namespace EDRouteOptimizer.Tests
         {
             int actualOutput = EDBoxel.BoxelCharToIndex(boxelChar);
             Assert.AreEqual(expectedOutput, actualOutput);
+        }
+
+        [DataTestMethod]
+        [DataRow(new int[] {0, 0, 0}, new char[] {'A', 'A', 'A'})]
+        [DataRow(new int[] {25, 25, 25}, new char[] {'Z', 'Z', 'Z'})]
+        public void IntToBoxelCharArrayTest(int[] ints, char[] expectedOutput)
+        {
+            char[] actualOutput = EDBoxel.IntToBoxelCharArray(ints);
+
+            CollectionAssert.AreEqual(actualOutput, expectedOutput);
+
+
         }
     }
 
