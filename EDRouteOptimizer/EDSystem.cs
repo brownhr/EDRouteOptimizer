@@ -205,7 +205,7 @@ namespace EDRouteOptimizer
             int[] dX = { 0, 1 };
             int[] dY = { 0, 1 };
             int[] dZ = { 0, 1 };
-            var cartesianProduct =
+            IEnumerable<int[]>? cartesianProduct =
                 (from x in dX
                  from y in dY
                  from z in dZ
@@ -217,7 +217,7 @@ namespace EDRouteOptimizer
 
             for (int i = 0; i < prod.Length; i++)
             {
-                children[i] = Enumerable.Zip(coordArray, prod[i], (x, y) => (2 * x) + y).ToArray();
+                children[i] = Enumerable.Zip(coordArray, prod[i], (int x, int y) => (2 * x) + y).ToArray();
             }
 
             return children;
