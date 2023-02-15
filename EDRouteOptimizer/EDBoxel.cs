@@ -28,8 +28,6 @@ namespace EDRouteOptimizer
         private readonly int BoxelIndex;
         private readonly char[] BoxelChar;
 
-        private readonly int Remainder;
-        private readonly int N2;
 
         public BoxelCoord Coordinates;
 
@@ -48,8 +46,7 @@ namespace EDRouteOptimizer
             BoxelChar = GetBoxelChar(BoxelCode);
             BoxelIndex = BoxelCharToIndex(BoxelChar) + massNum * MaxNum;
 
-            Remainder = BoxelIndex % MaxNum;
-            N2 = BoxelIndex / MaxNum;
+
 
             Coordinates = IndexToBoxelCoord(BoxelIndex);
 
