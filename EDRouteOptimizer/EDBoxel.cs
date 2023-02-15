@@ -215,7 +215,16 @@ namespace EDRouteOptimizer
 
             return children;
         }
+        public static char[] IntToBoxelCharArray(int[] intArray)
+        {
+            char[] charArray = new char[intArray.Length];
+            for (int i = 0; i < intArray.Length; i++)
+            {
+                charArray[i] = (char)('A' + intArray[i]);
+            }
+            return charArray;
 
+        }
 
         public static string CharArrayToBoxelString(char[] charArray)
         {
