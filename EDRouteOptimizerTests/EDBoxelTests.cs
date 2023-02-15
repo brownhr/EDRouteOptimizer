@@ -64,8 +64,8 @@ namespace EDRouteOptimizer.Tests
         }
 
         [DataTestMethod]
-        [DataRow(new int[] {0, 0, 0}, new char[] {'A', 'A', 'A'})]
-        [DataRow(new int[] {25, 25, 25}, new char[] {'Z', 'Z', 'Z'})]
+        [DataRow(new int[] { 0, 0, 0 }, new char[] { 'A', 'A', 'A' })]
+        [DataRow(new int[] { 25, 25, 25 }, new char[] { 'Z', 'Z', 'Z' })]
         public void IntToBoxelCharArrayTest(int[] ints, char[] expectedOutput)
         {
             char[] actualOutput = EDBoxel.IntToBoxelCharArray(ints);
@@ -73,6 +73,47 @@ namespace EDRouteOptimizer.Tests
             CollectionAssert.AreEqual(actualOutput, expectedOutput);
 
 
+        }
+
+        [DataTestMethod()]
+        [DataRow(0, 0, 0, 0)]
+        [DataRow(3, 1, 0, 131)]
+        [DataRow(0, 1, 1, 16512)]
+
+        public void CoordToBoxelIndexTest(int x, int y, int z, int expectedIndex)
+        {
+            BoxelCoord coord = new BoxelCoord(x, y, z);
+
+            int actualIndex = EDBoxel.CoordToBoxelIndex(coord);
+
+            Assert.AreEqual(expectedIndex, actualIndex);
+
+        }
+
+        [DataTestMethod()]
+        [DataRow(new char[] { 'A', 'A', 'A' }, "AA-A")]
+        [DataRow(new char[] { 'C', 'L', 'Y' }, "CL-Y")]
+        public void CharArrayToBoxelStringTest(char[] charArray, string expectedString)
+        {
+            string actualString = EDBoxel.CharArrayToBoxelString(charArray);
+            Assert.AreEqual(expectedString, actualString);
+
+        }
+
+        private static IEnumerable<object[]> GetBoxelFromCoordinatesData =>
+            new List<object[]>
+            {
+                new object[] {new BoxelCoord(0, 0, 0), 'd', new EDBoxel("AA-A", 'd', 0)},
+                new object[] {new BoxelCoord(1, 1, 1), 'g', new EDBoxel("DL-Y", 'g', 0)},
+                new object[] {new BoxelCoord(28, 22, 24), 'c', new EDBoxel("CX-N", 'c', 22)}
+            };
+        [TestMethod()]
+        [DynamicData(nameof(GetBoxelFromCoordinatesData))]
+        public void GetBoxelFromCoordinatesTest(BoxelCoord coord, char massCode, EDBoxel expectedBoxel)
+        {
+            EDBoxel actualBoxel = EDBoxel.GetBoxelFromCoordinates(coord, massCode);
+
+            Assert.AreEqual(expectedBoxel, actualBoxel);
         }
     }
 

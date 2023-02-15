@@ -214,7 +214,7 @@ namespace EDRouteOptimizer
         }
 
 
-        public EDBoxel GetBoxelFromCoordinates(BoxelCoord coordinates, char massCode)
+        public static EDBoxel GetBoxelFromCoordinates(BoxelCoord coordinates, char massCode)
         {
             int index = CoordToBoxelIndex(coordinates);
             int massNum = index / MaxNum;
