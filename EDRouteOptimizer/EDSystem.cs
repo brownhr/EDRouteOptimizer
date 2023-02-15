@@ -13,6 +13,17 @@ namespace EDRouteOptimizer
 
     }
 
+    public class EDSubsector
+    {
+
+    }
+
+    public class EDSector
+    {
+
+
+    }
+
     public class EDBoxel
     {
         private static readonly char[] ValidMassCodes = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h' };
