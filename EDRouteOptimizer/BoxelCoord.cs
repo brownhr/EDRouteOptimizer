@@ -39,5 +39,11 @@ namespace EDRouteOptimizer
         {
             return x + 128 * y + (int)Math.Pow(128, 2) * z;
         }
+
+        public int[] ToArray()
+        {
+            return new int[] { x, y, z };
+        }
+
     }
 }
