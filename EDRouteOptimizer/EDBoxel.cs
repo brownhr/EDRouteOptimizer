@@ -215,6 +215,20 @@ namespace EDRouteOptimizer
 
             return children;
         }
+
+
+        public EDBoxel GetBoxelFromCoordinates(BoxelCoord coordinates, char massCode)
+        {
+            int index = CoordToBoxelIndex(coordinates);
+            int massNum = index / MaxNum;
+            int remainder = index % MaxNum;
+            int[] intArray = DecomposeBase26(remainder);
+            char[] charArray = IntToBoxelCharArray(intArray);
+            string boxelCode = CharArrayToBoxelString(charArray);
+
+            return new EDBoxel(boxelCode, massCode, massNum);
+        }
+
         public static char[] IntToBoxelCharArray(int[] intArray)
         {
             char[] charArray = new char[intArray.Length];
