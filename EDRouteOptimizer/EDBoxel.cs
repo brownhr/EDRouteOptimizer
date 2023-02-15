@@ -183,14 +183,14 @@ namespace EDRouteOptimizer
         }
 
 
-        public int[][] GetChildBoxels()
+        public EDBoxel[]? GetChildBoxels()
         {
             if (MassCode == 'a')
             {
-                return new int[8][];
+                return null;
             }
 
-            char childMassCode = (char)(MassCode + 1);
+            char childMassCode = (char)(MassCode - 1);
 
             int[] dX = { 0, 1 };
             int[] dY = { 0, 1 };
@@ -209,8 +209,19 @@ namespace EDRouteOptimizer
             {
                 children[i] = Enumerable.Zip(coordArray, prod[i], (x, y) => (2 * x) + y).ToArray();
             }
+            EDBoxel[] childBoxels = new EDBoxel[children.Length];
+            for (int i = 0; i < children.Length; i++)
+            {
+                EDBoxel box = GetBoxelFromCoordinates(
+                    coordinates: new BoxelCoord(
+                        children[i][0],
+                        children[i][1],
+                        children[i][2]),
+                    massCode: childMassCode);
+                childBoxels[i] = box;
+            }
+            return childBoxels;
 
-            return children;
         }
 
 
@@ -239,7 +250,7 @@ namespace EDRouteOptimizer
 
         public static string CharArrayToBoxelString(char[] charArray)
         {
-             return new string(charArray[..2]) + "-" + new string(charArray[2..]);
+            return new string(charArray[..2]) + "-" + new string(charArray[2..]);
         }
 
         public static int CoordToBoxelIndex(BoxelCoord coordinates)

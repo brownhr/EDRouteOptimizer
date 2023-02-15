@@ -244,18 +244,35 @@ namespace EDRouteOptimizer.Tests
         }
 
         [TestMethod]
-        [DataRow("AA-A h0")]
-        [DataRow("RT-Y d1")]
-        public void GetChildBoxelsTest(string input)
-        {
-            EDBoxel box = EDBoxel.ParseBoxelFromString(input);
+        [DynamicData(nameof(GetChildBoxelData))]
 
-            int[][] children = box.GetChildBoxels();
-            foreach (int[] child in children)
+        public void GetChildBoxelsTest(string parentBoxels, string[] expectedChildBoxels)
+        {
+            EDBoxel parentBoxel = EDBoxel.ParseBoxelFromString(parentBoxels);
+            EDBoxel[] actualChildBoxels = parentBoxel.GetChildBoxels();
+
+            EDBoxel[] expectedChildren = new EDBoxel[8];
+            for (int i = 0; i < expectedChildBoxels.Length; i++)
             {
-                Console.WriteLine("[{0}]", string.Join(", ", child));
+                expectedChildren[i] = EDBoxel.ParseBoxelFromString(expectedChildBoxels[i]);
             }
+
+            foreach (EDBoxel e in actualChildBoxels)
+            {
+                CollectionAssert.Contains(expectedChildren, e);
+            }
+
         }
+
+        private static IEnumerable<object[]> GetChildBoxelData =>
+            new List<object[]>
+            {
+                new object[] {"AA-A h0",
+                new string[8] {"AA-A g0", "BA-A g0",
+                               "YE-A g0", "ZE-A g0",
+                               "EG-Y g0", "FG-Y g0",
+                               "CL-Y g0", "DL-Y g0"}}
+            };
 
     }
 }
