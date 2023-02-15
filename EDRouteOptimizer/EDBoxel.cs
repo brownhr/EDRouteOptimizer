@@ -217,6 +217,16 @@ namespace EDRouteOptimizer
         }
 
 
+        public static int CoordToBoxelIndex(BoxelCoord coordinates)
+        {
+            int _z = coordinates.z * 128 * 128;
+            int _y = coordinates.y * 128;
+            int _x = coordinates.x;
+
+            return _x + _y + _z;
+        }
+
+
 
 
         public override bool Equals(object? obj)
