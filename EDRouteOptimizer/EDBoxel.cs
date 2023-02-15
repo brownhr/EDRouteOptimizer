@@ -217,6 +217,11 @@ namespace EDRouteOptimizer
         }
 
 
+        public static string CharArrayToBoxelString(char[] charArray)
+        {
+             return new string(charArray[..2]) + "-" + new string(charArray[2..]);
+        }
+
         public static int CoordToBoxelIndex(BoxelCoord coordinates)
         {
             int _z = coordinates.z * 128 * 128;
