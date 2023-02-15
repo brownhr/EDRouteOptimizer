@@ -107,14 +107,73 @@ namespace EDRouteOptimizer.Tests
                 new object[] {new BoxelCoord(1, 1, 1), 'g', new EDBoxel("DL-Y", 'g', 0)},
                 new object[] {new BoxelCoord(28, 22, 24), 'c', new EDBoxel("CX-N", 'c', 22)}
             };
+
         [TestMethod()]
         [DynamicData(nameof(GetBoxelFromCoordinatesData))]
         public void GetBoxelFromCoordinatesTest(BoxelCoord coord, char massCode, EDBoxel expectedBoxel)
         {
             EDBoxel actualBoxel = EDBoxel.GetBoxelFromCoordinates(coord, massCode);
-
             Assert.AreEqual(expectedBoxel, actualBoxel);
         }
+
+        [TestMethod]
+        [DynamicData(nameof(GetChildBoxelData))]
+
+        public void GetChildBoxelsTest(string parentBoxels, List<string>? expectedChildBoxelStrings)
+        {
+            EDBoxel parentBoxel = EDBoxel.ParseBoxelFromString(parentBoxels);
+            List<EDBoxel>? actualChildBoxels = parentBoxel.GetChildBoxels();
+
+            List<EDBoxel>? expectedChildren = new List<EDBoxel>();
+            if (expectedChildBoxelStrings == null)
+            {
+                Assert.IsNull(actualChildBoxels);
+            }
+            if (expectedChildBoxelStrings != null)
+            {
+                foreach (string s in expectedChildBoxelStrings)
+                {
+                    expectedChildren.Add(EDBoxel.ParseBoxelFromString(s));
+                }
+
+
+
+                foreach (EDBoxel e in actualChildBoxels)
+                {
+                    CollectionAssert.Contains(expectedChildren, e);
+                }
+            }
+
+        }
+
+        private static IEnumerable<object[]> GetChildBoxelData =>
+            new List<object[]>
+            {
+                new object[] {       "AA-A h0",
+                new List<string> {      "AA-A g0", "BA-A g0",
+                                     "YE-A g0", "ZE-A g0",
+                                     "EG-Y g0", "FG-Y g0",
+                                     "CL-Y g0", "DL-Y g0"}},
+                new object[] {"AA-A a0", null}
+            };
+
+
+
+        [TestMethod()]
+        [DynamicData(nameof(GetParentBoxelData))]
+        public void GetParentBoxelTest(EDBoxel childBoxel, EDBoxel? expectedParentBoxel)
+        {
+            EDBoxel? actualParentBoxel = childBoxel.GetParentBoxel();
+            Assert.AreEqual(expectedParentBoxel, actualParentBoxel);
+        }
+
+        private static IEnumerable<object[]> GetParentBoxelData =>
+            new List<object[]>
+            {
+                new object[] {EDBoxel.ParseBoxelFromString("CL-Y g0"), EDBoxel.ParseBoxelFromString("AA-A h0")},
+                new object[] {EDBoxel.ParseBoxelFromString("AA-A h0"), null},
+                new object[] {EDBoxel.ParseBoxelFromString("GX-L d7"), EDBoxel.ParseBoxelFromString("QY-S e3")}
+            };
     }
 
     [TestClass()]
@@ -242,37 +301,5 @@ namespace EDRouteOptimizer.Tests
             Assert.AreEqual(actualOutput, expectedOutput);
             Assert.AreEqual(boxB.Equals(boxA), expectedOutput);
         }
-
-        [TestMethod]
-        [DynamicData(nameof(GetChildBoxelData))]
-
-        public void GetChildBoxelsTest(string parentBoxels, string[] expectedChildBoxels)
-        {
-            EDBoxel parentBoxel = EDBoxel.ParseBoxelFromString(parentBoxels);
-            EDBoxel[] actualChildBoxels = parentBoxel.GetChildBoxels();
-
-            EDBoxel[] expectedChildren = new EDBoxel[8];
-            for (int i = 0; i < expectedChildBoxels.Length; i++)
-            {
-                expectedChildren[i] = EDBoxel.ParseBoxelFromString(expectedChildBoxels[i]);
-            }
-
-            foreach (EDBoxel e in actualChildBoxels)
-            {
-                CollectionAssert.Contains(expectedChildren, e);
-            }
-
-        }
-
-        private static IEnumerable<object[]> GetChildBoxelData =>
-            new List<object[]>
-            {
-                new object[] {"AA-A h0",
-                new string[8] {"AA-A g0", "BA-A g0",
-                               "YE-A g0", "ZE-A g0",
-                               "EG-Y g0", "FG-Y g0",
-                               "CL-Y g0", "DL-Y g0"}}
-            };
-
     }
 }

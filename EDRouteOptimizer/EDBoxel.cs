@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions;
-using System.Configuration;
+﻿using System.Text.RegularExpressions;
 
 namespace EDRouteOptimizer
 
@@ -13,6 +11,9 @@ namespace EDRouteOptimizer
 
         private static readonly string boxelRegexPattern =
             @"(?<boxelCode>[A-Z]{2}-[A-Z]) (?<massCode>[a-h])(?<massNum>\d+)";
+
+        private EDBoxel? _parentBoxel;
+        private List<EDBoxel>? _children = new List<EDBoxel>();
 
 
         private static readonly int MaxNum = (int)Math.Pow(26, 3);
@@ -175,20 +176,10 @@ namespace EDRouteOptimizer
             return result;
         }
 
-        // TODO: Boxel Coordinate to EDBoxel
 
-        public void ParseBoxelCoordinates()
+        public List<EDBoxel>? GetChildBoxels()
         {
-
-        }
-
-
-        public EDBoxel[]? GetChildBoxels()
-        {
-            if (MassCode == 'a')
-            {
-                return null;
-            }
+            if (MassCode == 'a') return null;
 
             char childMassCode = (char)(MassCode - 1);
 
@@ -200,7 +191,7 @@ namespace EDRouteOptimizer
                  from y in dY
                  from z in dZ
                  select new int[] { x, y, z });
-            int[] coordArray = new int[3] { Coordinates.x, Coordinates.y, Coordinates.z };
+            int[] coordArray = Coordinates.ToArray();
 
             int[][] children = new int[8][];
             int[][] prod = cartesianProduct.ToArray();
@@ -220,7 +211,22 @@ namespace EDRouteOptimizer
                     massCode: childMassCode);
                 childBoxels[i] = box;
             }
-            return childBoxels;
+            return childBoxels.ToList();
+
+        }
+
+        public EDBoxel? GetParentBoxel()
+        {
+            if (MassCode == 'h') return null;
+
+            char parentMassCode = (char)(MassCode + 1);
+
+            int[] coordArray = Coordinates.ToArray();
+
+            int[] parentArray = coordArray.Select(c => c / 2).ToArray();
+
+            return GetBoxelFromCoordinates(new BoxelCoord(parentArray[0], parentArray[1], parentArray[2]), parentMassCode);
+
 
         }
 
