@@ -142,46 +142,4 @@ namespace EDRouteOptimizer
         }
     }
 
-    internal class IDCollection
-    {
-        private readonly int ID64X;
-        private readonly int ID64Y;
-        private readonly int ID64Z;
-        public IDCollection(int ID64X, int ID64Y, int ID64Z)
-        {
-            this.ID64X = ID64X;
-            this.ID64Y = ID64Y;
-            this.ID64Z = ID64Z;
-        }
-        public SectorCoordinateCollection TranslateIDToCoordinate()
-        {
-            double cx = ((ID64X - 39) * 1280) - 65;
-            double cy = ((ID64Y - 32) * 1280) - 25;
-            double cz = ((ID64Z - 19) * 1280) + 215;
-
-            return new SectorCoordinateCollection(cx, cy, cz);
-
-        }
-    }
-
-    internal class SectorCoordinateCollection
-    {
-        private readonly double coordinateX;
-        private readonly double coordinateY;
-        private readonly double coordinateZ;
-        public SectorCoordinateCollection(double coordinateX, double coordinateY, double coordinateZ)
-        {
-            this.coordinateX = coordinateX;
-            this.coordinateY = coordinateY;
-            this.coordinateZ = coordinateZ;
-        }
-
-        public IDCollection TranslateCoordinatesToID()
-        {
-            int idx = (int)((coordinateX + 65) / 1280) + 39;
-            int idy = (int)((coordinateY + 25) / 1280) + 32;
-            int idz = (int)((coordinateZ - 215) / 1280) + 19;
-            return new IDCollection(idx, idy, idz);
-        }
-    }
 }
