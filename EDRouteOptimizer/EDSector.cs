@@ -4,60 +4,69 @@ using System.Globalization;
 
 namespace EDRouteOptimizer
 {
-    public class EDSector
+    public class EDSector : ParseableSector
     {
+
+
+
         private static readonly string SectorCSVFilePath = @"sector_dataframe.csv";
-        public static readonly List<ParseableSector> SectorList = ParseSectorCSV();
+        private static readonly Dictionary<string, ParseableSector> SectorDict = ParseSectorCSV();
 
 
-        public static readonly int SectorLYDist = 1280;
-        public readonly string SectorName;
-
-
-        public readonly double MinXCoord;
-        public readonly double MinYCoord;
-        public readonly double MinZCoord;
-        public readonly double MaxXCoord;
-        public readonly double MaxYCoord;
-        public readonly double MaxZCoord;
-
-        public readonly int ID64X;
-        public readonly int ID64Y;
-        public readonly int ID64Z;
-
-        public EDSector(string SectorName)
+        public EDSector(string sectorName)
         {
-            this.SectorName = SectorName;
-            bool success = false;
 
-            foreach (ParseableSector sector in SectorList)
+            if (SectorDict.TryGetValue(sectorName, out ParseableSector? s))
             {
+                SectorName = s.SectorName;
+                MaxXCoord = s.MaxXCoord;
+                MaxYCoord = s.MaxYCoord;
+                MaxZCoord = s.MaxZCoord;
 
-                if (this.SectorName == sector.SectorName)
-                {
-                    success = true;
-                    ID64X = sector.ID64X;
-                    ID64Y = sector.ID64Y;
-                    ID64Z = sector.ID64Z;
-
-                    MaxXCoord = sector.MaxXCoord;
-                    MaxYCoord = sector.MaxYCoord;
-                    MaxZCoord = sector.MaxZCoord;
-                }
-
-
-            }
-            if (success)
-            {
-                MinXCoord = MaxXCoord - SectorLYDist;
-                MinYCoord = MaxYCoord - SectorLYDist;
-                MinZCoord = MaxZCoord - SectorLYDist;
+                ID64X = s.ID64X;
+                ID64Y = s.ID64Y;
+                ID64Z = s.ID64Z;
             }
             else
             {
-                throw new Exception(message: "Invalid Sector; Sector name must be fully procgen.");
+                throw new KeyNotFoundException(nameof(sectorName));
             }
         }
+
+        public static Dictionary<string, ParseableSector> ParseSectorCSV()
+        {
+
+            CsvConfiguration config = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord = true,
+                Delimiter = ","
+            };
+
+            using (StreamReader reader = new StreamReader(SectorCSVFilePath))
+            using (CsvReader csv = new CsvReader(reader, config))
+            {
+                csv.Context.RegisterClassMap<ParseableSectorMap>();
+                var records = csv.GetRecords<ParseableSector>();
+                return records.ToList().ToDictionary(x => x.SectorName, x => x);
+            }
+        }
+
+
+
+        public static EDSector GetSectorFromCoords(GalacticCoordinates coords)
+        {
+            foreach (ParseableSector sector in SectorDict.Values)
+            {
+                if (sector.CoordInSector(coords))
+                {
+                    return new EDSector(sector.SectorName);
+                }
+            }
+            throw new ArgumentOutOfRangeException(nameof(coords), message: $"Coordinates {coords.ToString()} not found within any sector");
+        }
+
+
+
 
 
         public override string ToString()
@@ -65,18 +74,31 @@ namespace EDRouteOptimizer
             return SectorName;
         }
 
-
-
-        public static List<ParseableSector> ParseSectorCSV()
+        public override int GetHashCode()
         {
-            using (StreamReader? reader = new StreamReader(SectorCSVFilePath))
-            using (CsvReader? csv = new CsvReader(reader, CultureInfo.InvariantCulture))
-            {
-                //csv.Context.RegisterClassMap<EDSectorMap>();
-                var records = csv.GetRecords<ParseableSector>();
+            return HashCode.Combine(SectorName);
+        }
 
-                return records.ToList();
-            }
+        //public static bool operator ==(EDSector? s1, EDSector? s2)
+        //{
+
+        //    return s1.Equals(s2);
+        //}
+        //public static bool operator !=(EDSector? s1, EDSector? s2)
+        //{
+
+        //    return !s1.Equals(s2);
+        //}
+
+
+
+
+
+        public override bool Equals(object obj)
+        {
+            EDSector? item = obj as EDSector;
+
+            return item != null && SectorName == item.SectorName;
         }
     }
 
@@ -87,25 +109,39 @@ namespace EDRouteOptimizer
         public int ID64X { get; set; }
         public int ID64Y { get; set; }
         public int ID64Z { get; set; }
-        public int MaxYCoord { get; set; }
-        public int MaxZCoord { get; set; }
-        public int MaxXCoord { get; set; }
+        public double MaxYCoord { get; set; }
+        public double MaxZCoord { get; set; }
+        public double MaxXCoord { get; set; }
 
 
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(SectorName);
+        }
+
+        public bool CoordInSector(GalacticCoordinates coords)
+        {
+
+            bool _x = coords.x <= MaxXCoord && coords.x >= MaxXCoord - 1280;
+            bool _y = coords.y <= MaxYCoord && coords.y >= MaxYCoord - 1280;
+            bool _z = coords.z <= MaxZCoord && coords.z >= MaxZCoord - 1280;
+
+            return _x && _y && _z;
+        }
     }
 
-    internal class EDSectorMap : ClassMap<EDSector>
+    internal class ParseableSectorMap : ClassMap<ParseableSector>
     {
-        public EDSectorMap()
+        public ParseableSectorMap()
         {
-            Map(p => p.SectorName).Index(0);
-            Map(p => p.ID64X).Index(1);
-            Map(p => p.ID64Y).Index(2);
-            Map(p => p.ID64Z).Index(3);
+            Map(p => p.SectorName).Name("SectorName");
+            Map(p => p.ID64X).Name("ID64X");
+            Map(p => p.ID64Y).Name("ID64Y");
+            Map(p => p.ID64Z).Name("ID64Z");
 
-            Map(p => p.MaxXCoord).Index(4);
-            Map(p => p.MaxYCoord).Index(5);
-            Map(p => p.MaxZCoord).Index(6);
+            Map(p => p.MaxXCoord).Name("MaxXCoord");
+            Map(p => p.MaxYCoord).Name("MaxYCoord");
+            Map(p => p.MaxZCoord).Name("MaxZCoord");
         }
     }
 
@@ -122,9 +158,9 @@ namespace EDRouteOptimizer
         }
         public SectorCoordinateCollection TranslateIDToCoordinate()
         {
-            double cx = ((ID64X - 39) * EDSector.SectorLYDist) - 65;
-            double cy = ((ID64Y - 32) * EDSector.SectorLYDist) - 25;
-            double cz = ((ID64Z - 19) * EDSector.SectorLYDist) + 215;
+            double cx = ((ID64X - 39) * 1280) - 65;
+            double cy = ((ID64Y - 32) * 1280) - 25;
+            double cz = ((ID64Z - 19) * 1280) + 215;
 
             return new SectorCoordinateCollection(cx, cy, cz);
 
