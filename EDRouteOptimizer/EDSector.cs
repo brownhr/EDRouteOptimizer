@@ -6,9 +6,6 @@ namespace EDRouteOptimizer
 {
     public class EDSector : ParseableSector
     {
-
-
-
         private static readonly string SectorCSVFilePath = @"sector_dataframe.csv";
         private static readonly Dictionary<string, ParseableSector> SectorDict = ParseSectorCSV();
 
@@ -186,11 +183,5 @@ namespace EDRouteOptimizer
             int idz = (int)((coordinateZ - 215) / 1280) + 19;
             return new IDCollection(idx, idy, idz);
         }
-    }
-
-
-    public class EDSubsector
-    {
-
     }
 }
