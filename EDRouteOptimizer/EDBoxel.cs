@@ -12,8 +12,8 @@ namespace EDRouteOptimizer
         private static readonly string boxelRegexPattern =
             @"(?<boxelCode>[A-Z]{2}-[A-Z]) (?<massCode>[a-h])(?<massNum>\d+)";
 
-        private EDBoxel? _parentBoxel;
-        private List<EDBoxel>? _children = new List<EDBoxel>();
+        //private EDBoxel? _parentBoxel;
+        //private List<EDBoxel>? _children = new List<EDBoxel>();
 
 
         private static readonly int MaxNum = (int)Math.Pow(26, 3);
