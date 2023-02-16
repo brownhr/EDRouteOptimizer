@@ -1,11 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EDRouteOptimizer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
 
 namespace EDRouteOptimizer.Tests
 {
@@ -19,15 +12,40 @@ namespace EDRouteOptimizer.Tests
         }
 
         [DataTestMethod]
-
         [DataRow("Graea Hypue")]
-        [DataRow("Eol Prou")]
-        public void EDSectorTest(string inputSectorName)
+        public void InitializeSectorTest(string inputSectorName)
         {
             EDSector sector = new EDSector(inputSectorName);
-
-            Assert.IsNotNull(sector);
             Assert.AreEqual(inputSectorName, sector.SectorName);
         }
+
+        [TestMethod]
+        public void EDSectorKeyNotFoundException()
+        {
+            string notFound = "BBBBBBB";
+            Assert.ThrowsException<KeyNotFoundException>(() => new EDSector(notFound));
+        }
+
+        [TestMethod()]
+        [DynamicData(nameof(GetSectorFromCoordsData))]
+        public void GetSectorFromCoordsTest(GalacticCoordinates coords, EDSector expectedSector)
+        {
+            EDSector actualSector = EDSector.GetSectorFromCoords(coords);
+
+            Assert.AreEqual(expectedSector.SectorName, actualSector.SectorName);
+        }
+
+        private static IEnumerable<object[]> GetSectorFromCoordsData =>
+            new List<object[]>
+            {
+                new object[] {new GalacticCoordinates(-1260.94,1257.75,44783.66),
+                              new EDSector("Aaefong")},
+                new object[] {new GalacticCoordinates(844.25, 1444.03, 13312.22),
+                              new EDSector("Byeia Aerb")},
+                new object[] {new GalacticCoordinates(24870.18, 449.93, 15071.09), 
+                              new EDSector("Blaea Aip")}
+
+            };
+
     }
 }
