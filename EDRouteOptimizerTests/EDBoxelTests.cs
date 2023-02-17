@@ -112,7 +112,7 @@ namespace EDRouteOptimizer.Tests
         [DynamicData(nameof(GetBoxelFromCoordinatesData))]
         public void GetBoxelFromCoordinatesTest(BoxelCoord coord, char massCode, EDBoxel expectedBoxel)
         {
-            EDBoxel actualBoxel = EDBoxel.GetBoxelFromCoordinates(coord, massCode);
+            EDBoxel actualBoxel = EDBoxel.GetBoxelFromBoxelCoordinates(coord, massCode);
             Assert.AreEqual(expectedBoxel, actualBoxel);
         }
 
