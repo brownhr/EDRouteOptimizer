@@ -29,6 +29,15 @@ namespace EDRouteOptimizer
         public double MaxZCoord { get; set; }
 
 
+        public GalacticCoordinates MinimumCoordinates;
+
+        public GalacticCoordinates GetMinimumCoordinates()
+        {
+            return new GalacticCoordinates(MaxXCoord - 1280, MaxYCoord - 1280, MaxZCoord - 1280);
+        }
+
+
+
         public static Dictionary<string, EDSector> ReadJson()
         {
             using (StreamReader reader = new StreamReader(JsonFilePath))
@@ -70,6 +79,30 @@ namespace EDRouteOptimizer
             throw new ArgumentOutOfRangeException(nameof(coords), message: $"Coordinates {coords} not found within any sector");
         }
 
+        public static EDSector? GetSectorFromIDs(int IDX, int IDY, int IDZ)
+        {
+            EDSector? sector =
+                EDSectorDictionary.First(
+                    x =>
+                    x.Value.ID64X == IDX &&
+                    x.Value.ID64Y == IDY &&
+                    x.Value.ID64Z == IDZ
+                    ).Value;
+
+            return sector;
+        }
+
+        public static EDSector? GetSectorFromIDs(int[] IDArray)
+        {
+            if (IDArray.Length != 3)
+            {
+                throw new IndexOutOfRangeException(nameof(IDArray));
+            }
+
+            return GetSectorFromIDs(IDArray[0], IDArray[1], IDArray[2]);
+        }
+
+
         public bool CoordInSector(GalacticCoordinates coords)
         {
             bool _x = coords.x <= MaxXCoord && coords.x >= MaxXCoord - 1280;
@@ -77,6 +110,38 @@ namespace EDRouteOptimizer
             bool _z = coords.z <= MaxZCoord && coords.z >= MaxZCoord - 1280;
 
             return _x && _y && _z;
+        }
+        public List<EDSector?> GetNeighboringSectors()
+        {
+            int[] offsetX = { -1, 0, 1 };
+            int[] offsetY = { -1, 0, 1 };
+            int[] offsetZ = { -1, 0, 1 };
+
+            int[][] cartesianProduct = (
+                from x in offsetX
+                from y in offsetY
+                from z in offsetZ
+                select new int[] { x, y, z }).ToArray();
+
+            List<EDSector?> result = new List<EDSector?>();
+
+            foreach (int[] off in cartesianProduct)
+            {
+                int[] offsetCoords = Enumerable.Zip(IDArray(), off, (x, y) => x + y).ToArray();
+                EDSector? sector = EDSector.GetSectorFromIDs(offsetCoords);
+                if (sector.SectorName != SectorName)
+                {
+                    result.Add(sector);
+
+                };
+            }
+            return result;
+
+        }
+
+        public string PrintIDs()
+        {
+            return string.Join(", ", IDArray());
         }
 
         public override string ToString()
@@ -94,6 +159,11 @@ namespace EDRouteOptimizer
             EDSector? item = obj as EDSector;
 
             return item != null && SectorName == item.SectorName;
+        }
+
+        public int[] IDArray()
+        {
+            return new int[3] { ID64X, ID64Y, ID64Z };
         }
     }
 }
