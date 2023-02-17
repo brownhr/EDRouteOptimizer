@@ -111,6 +111,14 @@
             this.z = z;
         }
 
+        public static GalacticCoordinates operator +(GalacticCoordinates lhs, double[] offset)
+        {
+            double[] doubles = lhs.ToArray();
+            double[] result = new double[3];
+            result = Enumerable.Zip(doubles, offset, (x, y) => x + y).ToArray();
+            return new GalacticCoordinates(result);
+        }
+
         public double[] ToArray()
         {
             return new double[3] { x, y, z };
