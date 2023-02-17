@@ -160,11 +160,14 @@ namespace EDRouteOptimizer
             return HashCode.Combine(SectorName);
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object? obj)
         {
-            EDSector? item = obj as EDSector;
-
-            return item != null && SectorName == item.SectorName;
+            if (obj is EDSector)
+            {
+                var that = obj as EDSector;
+                return this.SectorName.Equals(that.SectorName);
+            }
+            return false;
         }
 
         public int[] IDArray()
