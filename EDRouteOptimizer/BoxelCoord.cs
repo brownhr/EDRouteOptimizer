@@ -59,6 +59,45 @@
 
     }
 
+    public class SectorCoordinates
+    {
+        public readonly int x;
+        public readonly int y;
+        public readonly int z;
+
+
+        public SectorCoordinates(int x, int y, int z)
+        {
+            this.x = x;
+            this.y = y;
+            this.z = z;
+        }
+
+        public SectorCoordinates(int[] array)
+        {
+            if (array.Length != 3) throw new IndexOutOfRangeException(nameof(array));
+
+            this.x = array[0];
+            this.y = array[1];
+            this.z = array[2];
+        }
+
+        public static SectorCoordinates operator +(SectorCoordinates sCoordA, int[] offset)
+        {
+            int[] coordArray = sCoordA.ToArray();
+            int[] result = new int[3];
+            result = Enumerable.Zip(coordArray, offset, (x, y) => x + y).ToArray();
+
+            return new SectorCoordinates(result);
+        }
+
+
+        public int[] ToArray()
+        {
+            return new int[] { x, y, z };
+        }
+    }
+
     public class GalacticCoordinates
     {
         public readonly double x;
