@@ -5,8 +5,8 @@ namespace EDRouteOptimizer
     {
         public static void Main()
         {
-            EDSector secA = EDSector.GetSector("Eishoqs");
-            EDSector secB = EDSector.GetSector("Iowhophs");
+            EDSector secA = EDSector.GetSector("Graea Hypue");
+            EDSector secB = EDSector.GetSector("Byeia Aerb");
 
             int mDist = EDSubsector.ManhattanDistanceBetweenSectors(secA, secB);
 
