@@ -56,8 +56,8 @@ namespace EDRouteOptimizer.Tests
                 {
                     Assert.IsTrue(
                         Array.Exists(
-                            strings.ToArray(), e => e == s), 
-                        message: $"Actual neighbors does not contain sector {s}"                        
+                            strings.ToArray(), e => e == s),
+                        message: $"Actual neighbors does not contain sector {s}"
                         );
 
                 }
@@ -99,5 +99,80 @@ namespace EDRouteOptimizer.Tests
                 }
 
             };
+
+        [TestMethod()]
+        [DynamicData(nameof(ShiftSubsectorByOffsetData))]
+        public void ShiftSubsectorByOffsetTest(EDSubsector inputSubsector, int[] offsetArray, EDSubsector? expectedSubsector)
+        {
+            EDSubsector? actualSubsector = inputSubsector.ShiftSubsectorByOffset(offsetArray);
+
+            if (expectedSubsector == null)
+            {
+                Assert.IsNull(actualSubsector);
+            }
+            else
+            {
+                Assert.IsNotNull(actualSubsector);
+                Assert.AreEqual(expectedSubsector, actualSubsector,
+                    message: $"Actual: {actualSubsector}; Expected: {expectedSubsector}");
+            }
+
+        }
+
+        public static IEnumerable<object[]> ShiftSubsectorByOffsetData =>
+            new List<object[]>
+            {
+                new object[]
+                {
+                    new EDSubsector(EDSector.GetSector("Graea Hypue"),
+                                    EDBoxel.GetBoxel("AA-A g0")),
+                    new int[] {0, 3, 0 },
+                    new EDSubsector(EDSector.GetSector("Puekee"),
+                                    EDBoxel.GetBoxel("YE-A g0"))
+                },
+                new object[]
+                {
+                    new EDSubsector(EDSector.GetSector("Graea Hypue"),
+                                    EDBoxel.GetBoxel("AA-A h0")),
+                    new int[] {0, 10, 0 },
+                    null
+                },
+                new object[]
+                {
+                    new EDSubsector(EDSector.GetSector("Byeia Aerb"),
+                                    EDBoxel.GetBoxel("AA-A b0")),
+                    new int[] {45, 9, 14 },
+                    new EDSubsector(EDSector.GetSector("Byeia Aerb"),
+                                    EDBoxel.GetBoxel("FC-D b13"))
+                }
+            };
+
+        [TestMethod()]
+        [DynamicData(nameof(GetSubsectorData))]
+        public void GetSubsectorTest(string input, EDSubsector expectedSubsector)
+        {
+            EDSubsector actualSubsector = EDSubsector.GetSubsector(input);
+            Assert.AreEqual(expectedSubsector, actualSubsector);
+
+        }
+
+        private static IEnumerable<object[]> GetSubsectorData =>
+            new List<object[]>
+            {
+                new object[]
+                {
+                    "Graea Hypue RT-Y d2",
+                    new EDSubsector(EDSector.GetSector("Graea Hypue"),
+                                    EDBoxel.GetBoxel("RT-Y d2"))
+                }
+            };
+
+        [TestMethod()]
+        public void GetSubsectorFailureTest()
+        {
+            string failure = "Efinowke";
+            Assert.ThrowsException<ArgumentException>(() => { EDSubsector.GetSubsector(failure); });
+
+        }
     }
 }
