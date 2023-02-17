@@ -54,6 +54,24 @@
             this.z = z;
         }
 
+        public double[] ToArray()
+        {
+            return new double[3] { x, y, z };
+        }
+
+
+        public GalacticCoordinates(double[] coordArray)
+        {
+            if (coordArray.Length != 3)
+            {
+                throw new IndexOutOfRangeException(nameof(coordArray));
+            }
+
+            x = coordArray[0];
+            y = coordArray[1];
+            z = coordArray[2];
+        }
+
         public override string ToString()
         {
             return $"({x:F3}, {y:F3}, {z:F3})";
