@@ -49,6 +49,17 @@ namespace EDRouteOptimizer
             return EDSector.GetSectorFromIDs(IDOffsets);
 
 
+        public override bool Equals(object? obj)
+        {
+            if (obj is EDSubsector)
+            {
+                EDSubsector? that = obj as EDSubsector;
+                return this.Sector.Equals(that.Sector) &&
+                    this.Boxel.Equals(that.Boxel);
+            }
+            return false;
+
+        }
         }
 
 
