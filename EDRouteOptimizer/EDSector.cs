@@ -2,6 +2,7 @@
 using CsvHelper;
 using System.Globalization;
 using Newtonsoft.Json;
+using System;
 
 namespace EDRouteOptimizer
 {
@@ -31,10 +32,17 @@ namespace EDRouteOptimizer
 
         public GalacticCoordinates MinimumCoordinates;
 
+        public SectorCoordinates GetSectorCoordinates()
+        {
+            return new SectorCoordinates(ID64X, ID64Y, ID64Z);
+        }
+
         public GalacticCoordinates GetMinimumCoordinates()
         {
             return new GalacticCoordinates(MaxXCoord - 1280, MaxYCoord - 1280, MaxZCoord - 1280);
         }
+
+
 
 
 
@@ -108,6 +116,11 @@ namespace EDRouteOptimizer
             return GetSectorFromIDs(IDArray[0], IDArray[1], IDArray[2]);
         }
 
+        public static EDSector? GetSectorFromIDs(SectorCoordinates sCoords)
+        {
+            int[] ids = sCoords.ToArray();
+            return GetSectorFromIDs(ids);
+        }
 
         public bool CoordInSector(GalacticCoordinates coords)
         {
