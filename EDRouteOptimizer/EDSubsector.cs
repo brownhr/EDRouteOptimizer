@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace EDRouteOptimizer
@@ -20,8 +22,6 @@ namespace EDRouteOptimizer
 
 
 
-        // TODO: Calculate Manhattan distance between sectors
-
         public static int ManhattanDistanceBetweenSectors(EDSector sectorA, EDSector sectorB)
         {
 
@@ -33,11 +33,49 @@ namespace EDRouteOptimizer
             return axisDistances.Sum();
         }
 
-        
-        
 
 
-        public EDSector? Shift(int[] offsets)
+        public EDSubsector? ShiftSubsectorByOffset(int[] offsetArray)
+        {
+            if (offsetArray.Length != 3)
+            {
+                throw new IndexOutOfRangeException(nameof(offsetArray));
+            }
+            int maxCoordInMassCode = (int)Math.Cbrt(EDBoxel.GetNumBoxelsInMasscode(Boxel.MassCode));
+
+            BoxelCoord bcoords = Boxel.BoxelCoords;
+            int[] coordWrap = new int[3];
+
+            // AA-A g0
+            // [0, 0, 0] + [0, 3, 5] => [0, 1, 0], Sector.Y + 1
+            int[] coordAdd = (bcoords + offsetArray).ToArray();
+
+            coordWrap = coordAdd.Select(x => x % maxCoordInMassCode).ToArray();
+
+            int[] sectorAdd = coordAdd.Select(x => x / maxCoordInMassCode).ToArray();
+            SectorCoordinates sectorMove = Sector.GetSectorCoordinates() + sectorAdd;
+
+
+            EDSector? newSector = EDSector.GetSectorFromIDs(sectorMove);
+
+
+            EDBoxel newBoxel = EDBoxel.GetBoxelFromBoxelCoordinates(new BoxelCoord(coordWrap), Boxel.MassCode);
+
+            if (newSector == null)
+            {
+                return null;
+            }
+
+            return new EDSubsector(newSector, newBoxel);
+
+        }
+
+        //public bool Equals(EDSubsector? obj)
+        //{
+        //    if (obj == null) return false;
+        //    return (Sector == obj.Sector && Boxel == obj.Boxel);
+        //}
+
         public static EDSubsector GetSubsector(string input)
         {
             Regex sectorRegex = new Regex(@"(?<sector>[\w ]+(?= [A-Z]{2}))");
