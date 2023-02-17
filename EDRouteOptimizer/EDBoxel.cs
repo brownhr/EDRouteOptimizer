@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text.RegularExpressions;
 
 namespace EDRouteOptimizer
 
@@ -205,7 +206,7 @@ namespace EDRouteOptimizer
             EDBoxel[] childBoxels = new EDBoxel[children.Length];
             for (int i = 0; i < children.Length; i++)
             {
-                EDBoxel box = GetBoxelFromCoordinates(
+                EDBoxel box = GetBoxelFromBoxelCoordinates(
                     coordinates: new BoxelCoord(
                         children[i][0],
                         children[i][1],
@@ -227,11 +228,11 @@ namespace EDRouteOptimizer
 
             int[] parentArray = coordArray.Select(c => c / 2).ToArray();
 
-            return GetBoxelFromCoordinates(new BoxelCoord(parentArray[0], parentArray[1], parentArray[2]), parentMassCode);
+            return GetBoxelFromBoxelCoordinates(new BoxelCoord(parentArray[0], parentArray[1], parentArray[2]), parentMassCode);
         }
 
 
-        public static EDBoxel GetBoxelFromCoordinates(BoxelCoord coordinates, char massCode)
+        public static EDBoxel GetBoxelFromBoxelCoordinates(BoxelCoord coordinates, char massCode)
         {
             int index = CoordToBoxelIndex(coordinates);
             int massNum = index / MaxNum;
@@ -294,6 +295,10 @@ namespace EDRouteOptimizer
         {
             return $"{BoxelCode} {MassCode}{MassNum}";
         }
+
+
+
+
     }
 
 
