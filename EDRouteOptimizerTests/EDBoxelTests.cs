@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using EDRouteOptimizer;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EDRouteOptimizer.Tests
 {
@@ -61,6 +62,118 @@ namespace EDRouteOptimizer.Tests
             int actualOutput = EDBoxel.BoxelCharToIndex(boxelChar);
             Assert.AreEqual(expectedOutput, actualOutput);
         }
+
+        [DataTestMethod]
+        [DataRow(new int[] { 0, 0, 0 }, new char[] { 'A', 'A', 'A' })]
+        [DataRow(new int[] { 25, 25, 25 }, new char[] { 'Z', 'Z', 'Z' })]
+        public void IntToBoxelCharArrayTest(int[] ints, char[] expectedOutput)
+        {
+            char[] actualOutput = EDBoxel.IntToBoxelCharArray(ints);
+
+            CollectionAssert.AreEqual(actualOutput, expectedOutput);
+
+
+        }
+
+        [DataTestMethod()]
+        [DataRow(0, 0, 0, 0)]
+        [DataRow(3, 1, 0, 131)]
+        [DataRow(0, 1, 1, 16512)]
+
+        public void CoordToBoxelIndexTest(int x, int y, int z, int expectedIndex)
+        {
+            BoxelCoord coord = new BoxelCoord(x, y, z);
+
+            int actualIndex = EDBoxel.CoordToBoxelIndex(coord);
+
+            Assert.AreEqual(expectedIndex, actualIndex);
+
+        }
+
+        [DataTestMethod()]
+        [DataRow(new char[] { 'A', 'A', 'A' }, "AA-A")]
+        [DataRow(new char[] { 'C', 'L', 'Y' }, "CL-Y")]
+        public void CharArrayToBoxelStringTest(char[] charArray, string expectedString)
+        {
+            string actualString = EDBoxel.CharArrayToBoxelString(charArray);
+            Assert.AreEqual(expectedString, actualString);
+
+        }
+
+        private static IEnumerable<object[]> GetBoxelFromCoordinatesData =>
+            new List<object[]>
+            {
+                new object[] {new BoxelCoord(0, 0, 0), 'd', new EDBoxel("AA-A", 'd', 0)},
+                new object[] {new BoxelCoord(1, 1, 1), 'g', new EDBoxel("DL-Y", 'g', 0)},
+                new object[] {new BoxelCoord(28, 22, 24), 'c', new EDBoxel("CX-N", 'c', 22)}
+            };
+
+        [TestMethod()]
+        [DynamicData(nameof(GetBoxelFromCoordinatesData))]
+        public void GetBoxelFromCoordinatesTest(BoxelCoord coord, char massCode, EDBoxel expectedBoxel)
+        {
+            EDBoxel actualBoxel = EDBoxel.GetBoxelFromBoxelCoordinates(coord, massCode);
+            Assert.AreEqual(expectedBoxel, actualBoxel);
+        }
+
+        [TestMethod]
+        [DynamicData(nameof(GetChildBoxelData))]
+
+        public void GetChildBoxelsTest(string parentBoxels, List<string>? expectedChildBoxelStrings)
+        {
+            EDBoxel parentBoxel = EDBoxel.GetBoxel(parentBoxels);
+            List<EDBoxel>? actualChildBoxels = parentBoxel.GetChildBoxels();
+
+            List<EDBoxel>? expectedChildren = new List<EDBoxel>();
+            if (expectedChildBoxelStrings == null)
+            {
+                Assert.IsNull(actualChildBoxels);
+            }
+            if (expectedChildBoxelStrings != null)
+            {
+                foreach (string s in expectedChildBoxelStrings)
+                {
+                    expectedChildren.Add(EDBoxel.GetBoxel(s));
+                }
+
+
+
+                foreach (EDBoxel e in actualChildBoxels)
+                {
+                    CollectionAssert.Contains(expectedChildren, e);
+                }
+            }
+
+        }
+
+        private static IEnumerable<object[]> GetChildBoxelData =>
+            new List<object[]>
+            {
+                new object[] {       "AA-A h0",
+                new List<string> {      "AA-A g0", "BA-A g0",
+                                     "YE-A g0", "ZE-A g0",
+                                     "EG-Y g0", "FG-Y g0",
+                                     "CL-Y g0", "DL-Y g0"}},
+                new object[] {"AA-A a0", null}
+            };
+
+
+
+        [TestMethod()]
+        [DynamicData(nameof(GetParentBoxelData))]
+        public void GetParentBoxelTest(EDBoxel childBoxel, EDBoxel? expectedParentBoxel)
+        {
+            EDBoxel? actualParentBoxel = childBoxel.GetParentBoxel();
+            Assert.AreEqual(expectedParentBoxel, actualParentBoxel);
+        }
+
+        private static IEnumerable<object[]> GetParentBoxelData =>
+            new List<object[]>
+            {
+                new object[] {EDBoxel.GetBoxel("CL-Y g0"), EDBoxel.GetBoxel("AA-A h0")},
+                new object[] {EDBoxel.GetBoxel("AA-A h0"), null},
+                new object[] {EDBoxel.GetBoxel("GX-L d7"), EDBoxel.GetBoxel("QY-S e3")}
+            };
     }
 
     [TestClass()]
@@ -115,9 +228,9 @@ namespace EDRouteOptimizer.Tests
             //Thread.Sleep(3000);
             EDBoxel box = new EDBoxel(boxelCode, massCode, massNum);
             BoxelCoord coord = new BoxelCoord(X: _x, Y: _y, Z: _z);
-            Assert.AreEqual(coord.x, box.Coordinates.x);
-            Assert.AreEqual(coord.y, box.Coordinates.y);
-            Assert.AreEqual(coord.z, box.Coordinates.z);
+            Assert.AreEqual(coord.x, box.BoxelCoords.x);
+            Assert.AreEqual(coord.y, box.BoxelCoords.y);
+            Assert.AreEqual(coord.z, box.BoxelCoords.z);
         }
 
 
@@ -128,7 +241,7 @@ namespace EDRouteOptimizer.Tests
         public void ParseBoxelFromStringTest(string input, string boxelCode, char massCode, int massNum)
         {
             EDBoxel expectedBoxel = new EDBoxel(boxelCode, massCode, massNum);
-            EDBoxel actualBoxel = EDBoxel.ParseBoxelFromString(input);
+            EDBoxel actualBoxel = EDBoxel.GetBoxel(input);
 
             Assert.AreEqual(expectedBoxel, actualBoxel);
         }
@@ -139,7 +252,7 @@ namespace EDRouteOptimizer.Tests
         [DataRow("Keltim")]
         public void ParseBoxelFromStringRegexFailureTest(string input)
         {
-            Assert.ThrowsException<ArgumentException>(() => EDBoxel.ParseBoxelFromString(input));
+            Assert.ThrowsException<ArgumentException>(() => EDBoxel.GetBoxel(input));
 
         }
 
@@ -166,7 +279,7 @@ namespace EDRouteOptimizer.Tests
 
         public void IsValidBoxelTest(string inputBoxelString, bool expectedOutput)
         {
-            EDBoxel testBoxel = EDBoxel.ParseBoxelFromString(inputBoxelString);
+            EDBoxel testBoxel = EDBoxel.GetBoxel(inputBoxelString);
             bool actualOutput = testBoxel.IsValidBoxel();
 
             Assert.AreEqual(expectedOutput, actualOutput);
@@ -182,8 +295,8 @@ namespace EDRouteOptimizer.Tests
         [DataRow("BA-A d1", "AA-A d1", false)]
         public void BoxelEqualsTest(string inputStringA, string inputStringB, bool expectedOutput)
         {
-            EDBoxel boxA = EDBoxel.ParseBoxelFromString(inputStringA);
-            EDBoxel boxB = EDBoxel.ParseBoxelFromString(inputStringB);
+            EDBoxel boxA = EDBoxel.GetBoxel(inputStringA);
+            EDBoxel boxB = EDBoxel.GetBoxel(inputStringB);
             bool actualOutput = boxA.Equals(boxB);
             Assert.AreEqual(actualOutput, expectedOutput);
             Assert.AreEqual(boxB.Equals(boxA), expectedOutput);

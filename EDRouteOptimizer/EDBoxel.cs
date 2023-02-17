@@ -1,28 +1,9 @@
-﻿using System;
+﻿using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
-using System.Configuration;
 
 namespace EDRouteOptimizer
 
 {
-
-    public class EDSystem
-    {
-
-
-
-    }
-
-    public class EDSubsector
-    {
-
-    }
-
-    public class EDSector
-    {
-
-
-    }
 
     public class EDBoxel
     {
@@ -32,9 +13,12 @@ namespace EDRouteOptimizer
         private static readonly string boxelRegexPattern =
             @"(?<boxelCode>[A-Z]{2}-[A-Z]) (?<massCode>[a-h])(?<massNum>\d+)";
 
+        //private EDBoxel? _parentBoxel;
+        //private List<EDBoxel>? _children = new List<EDBoxel>();
+
 
         private static readonly int MaxNum = (int)Math.Pow(26, 3);
-        private static readonly int MaxIndex = int.MaxValue;
+        private static readonly int MaxIndex = Int32.MaxValue;
 
         public readonly string BoxelCode;
         public readonly char MassCode;
@@ -46,10 +30,10 @@ namespace EDRouteOptimizer
         private readonly int BoxelIndex;
         private readonly char[] BoxelChar;
 
-        private readonly int Remainder;
-        private readonly int N2;
 
-        public BoxelCoord Coordinates;
+        public BoxelCoord BoxelCoords;
+        public GalacticCoordinates GalacticCoords;
+
 
         public EDBoxel(string boxelCode, char massCode, int massNum)
         {
@@ -62,19 +46,12 @@ namespace EDRouteOptimizer
                 throw new ArgumentOutOfRangeException(nameof(MassCode), message: "Invalid Masscode");
             }
 
-
             BoxelChar = GetBoxelChar(BoxelCode);
             BoxelIndex = BoxelCharToIndex(BoxelChar) + massNum * MaxNum;
-
-            Remainder = BoxelIndex % MaxNum;
-            N2 = BoxelIndex / MaxNum;
-
-            Coordinates = IndexToBoxelCoord(BoxelIndex);
-
-
+            BoxelCoords = IndexToBoxelCoord(BoxelIndex);
         }
 
-        public static EDBoxel ParseBoxelFromString(string boxelString)
+        public static EDBoxel GetBoxel(string boxelString)
         {
             Regex boxelRX = new Regex(boxelRegexPattern);
 
@@ -93,8 +70,6 @@ namespace EDRouteOptimizer
                 EDBoxel result = new EDBoxel(boxelCode, char.Parse(massCode), int.Parse(massNum));
                 return result;
             }
-
-
         }
 
 
@@ -119,9 +94,9 @@ namespace EDRouteOptimizer
             int maxCoordinateAlongAxis = (int)Math.Cbrt(numBoxelsInMassCode) - 1;
 
             bool coordinatesInValidRange =
-                Coordinates.x <= maxCoordinateAlongAxis &&
-                Coordinates.y <= maxCoordinateAlongAxis &&
-                Coordinates.z <= maxCoordinateAlongAxis;
+                BoxelCoords.x <= maxCoordinateAlongAxis &&
+                BoxelCoords.y <= maxCoordinateAlongAxis &&
+                BoxelCoords.z <= maxCoordinateAlongAxis;
 
             bool isValidChar = true;
 
@@ -196,18 +171,110 @@ namespace EDRouteOptimizer
             return result;
         }
 
-        public override bool Equals(object? obj)
+
+        public List<EDBoxel>? GetChildBoxels()
         {
-            return Equals(obj as EDBoxel);
+            if (MassCode == 'a') return null;
+
+            char childMassCode = (char)(MassCode - 1);
+
+            int[] dX = { 0, 1 };
+            int[] dY = { 0, 1 };
+            int[] dZ = { 0, 1 };
+            var cartesianProduct =
+                (from x in dX
+                 from y in dY
+                 from z in dZ
+                 select new int[] { x, y, z });
+            int[] coordArray = BoxelCoords.ToArray();
+
+            int[][] children = new int[8][];
+            int[][] prod = cartesianProduct.ToArray();
+
+            for (int i = 0; i < prod.Length; i++)
+            {
+                children[i] = Enumerable.Zip(coordArray, prod[i], (x, y) => (2 * x) + y).ToArray();
+            }
+            EDBoxel[] childBoxels = new EDBoxel[children.Length];
+            for (int i = 0; i < children.Length; i++)
+            {
+                EDBoxel box = GetBoxelFromBoxelCoordinates(
+                    coordinates: new BoxelCoord(
+                        children[i][0],
+                        children[i][1],
+                        children[i][2]),
+                    massCode: childMassCode);
+                childBoxels[i] = box;
+            }
+            return childBoxels.ToList();
+
         }
 
-        public bool Equals(EDBoxel? obj)
+        public EDBoxel? GetParentBoxel()
         {
-            return obj != null &&
-                //obj.GetType() == GetType() &&
-                obj.BoxelCode == BoxelCode &&
-                obj.MassCode == MassCode &&
-                obj.MassNum == MassNum;
+            if (MassCode == 'h') return null;
+
+            char parentMassCode = (char)(MassCode + 1);
+
+            int[] coordArray = BoxelCoords.ToArray();
+
+            int[] parentArray = coordArray.Select(c => c / 2).ToArray();
+
+            return GetBoxelFromBoxelCoordinates(new BoxelCoord(parentArray[0], parentArray[1], parentArray[2]), parentMassCode);
+        }
+
+
+        public static EDBoxel GetBoxelFromBoxelCoordinates(BoxelCoord coordinates, char massCode)
+        {
+            int index = CoordToBoxelIndex(coordinates);
+            int massNum = index / MaxNum;
+            int remainder = index % MaxNum;
+            int[] intArray = DecomposeBase26(remainder);
+            char[] charArray = IntToBoxelCharArray(intArray);
+            string boxelCode = CharArrayToBoxelString(charArray);
+
+            return new EDBoxel(boxelCode, massCode, massNum);
+        }
+
+        public static char[] IntToBoxelCharArray(int[] intArray)
+        {
+            char[] charArray = new char[intArray.Length];
+            for (int i = 0; i < intArray.Length; i++)
+            {
+                charArray[i] = (char)('A' + intArray[i]);
+            }
+            return charArray;
+
+        }
+
+        public static string CharArrayToBoxelString(char[] charArray)
+        {
+            return new string(charArray[..2]) + "-" + new string(charArray[2..]);
+        }
+
+        public static int CoordToBoxelIndex(BoxelCoord coordinates)
+        {
+            int _z = coordinates.z * 128 * 128;
+            int _y = coordinates.y * 128;
+            int _x = coordinates.x;
+
+            return _x + _y + _z;
+        }
+
+
+
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is EDBoxel)
+            {
+                var that = obj as EDBoxel;
+
+                return this.BoxelCode.Equals(that.BoxelCode) &&
+                    this.MassCode.Equals(that.MassCode) &&
+                    this.MassNum.Equals(that.MassNum);
+            }
+            return false;
         }
 
         public override int GetHashCode()
@@ -219,41 +286,12 @@ namespace EDRouteOptimizer
         {
             return $"{BoxelCode} {MassCode}{MassNum}";
         }
+
+
+
+
     }
-    public class BoxelCoord
-    {
-        public readonly int x;
-        public readonly int y;
-        public readonly int z;
 
-        public BoxelCoord(int X, int Y, int Z)
-        {
-            x = X;
-            y = Y;
-            z = Z;
-        }
-
-        public bool Equals(BoxelCoord other)
-        {
-            if (other == null) return false;
-            if (Object.ReferenceEquals(this, other)) return true;
-
-            if (other.x == x && other.y == y && other.z == z)
-            {
-                return base.Equals((BoxelCoord)other);
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-
-        public int ToBoxelIndex()
-        {
-            return x + 128 * y + (int)Math.Pow(128, 2) * z;
-        }
-    }
 
     public static class Util
     {
