@@ -33,14 +33,24 @@ namespace EDRouteOptimizer
             return axisDistances.Sum();
         }
 
-        //public EDSector GetNeighboringSectors(string direction)
-        //{
-
-
-
-        //}
-
         
+        
+
+
+        public EDSector? Shift(int[] offsets)
+        {
+            if (offsets.Length != 3)
+            {
+                throw new IndexOutOfRangeException(nameof(offsets));
+            }
+            int[] idArray = Sector.IDArray();
+            int[] IDOffsets = Enumerable.Zip(idArray, offsets, (x, y) => x + y).ToArray();
+
+            return EDSector.GetSectorFromIDs(IDOffsets);
+
+
+        }
+
 
 
 
@@ -48,6 +58,20 @@ namespace EDRouteOptimizer
 
         // TODO: Method for determining orthogonal neighbors (and orth. + diag. neighbors?)
 
+        // Coordinate Estimation
 
+        public GalacticCoordinates GetSubsectorCoordinateOfCentroid()
+        {
+            double massCodeBoxelEdgeLength = EDBoxel.GetBoxelEdgeLength(Boxel.MassCode);
+
+            int[] boxelCoordArray = Boxel.BoxelCoords.ToArray();
+
+            double[] boxelCentroid = boxelCoordArray.Select(x => massCodeBoxelEdgeLength * (x + 0.5)).ToArray();
+            double[] sectorMinCoords = Sector.GetMinimumCoordinates().ToArray();
+            double[] subsectorCentroid = Enumerable.Zip(boxelCentroid, sectorMinCoords, (x, y) => x + y).ToArray();
+
+
+            return new GalacticCoordinates(subsectorCentroid);
+        }
     }
 }
