@@ -18,9 +18,9 @@ namespace EDRouteOptimizer.Tests
         private static IEnumerable<object[]> ManhattanDistanceBetweenSectorsData =>
             new List<object[]>
             {
-                new object[] { new EDSector("Byeia Aerb"), new EDSector("Chroarsts"), 1},
-                new object[] { new EDSector("Byua Aerb"), new EDSector("Ruekaei"), 2},
-                new object[] { new EDSector("Byua Aerb"), new EDSector("Blau Ais"), 3}
+                new object[] { EDSector.GetSector("Byeia Aerb"), EDSector.GetSector("Chroarsts"), 1},
+                new object[] { EDSector.GetSector("Byua Aerb"), EDSector.GetSector("Ruekaei"), 2},
+                new object[] { EDSector.GetSector("Byua Aerb"), EDSector.GetSector("Blau Ais"), 3}
             };
 
     }
