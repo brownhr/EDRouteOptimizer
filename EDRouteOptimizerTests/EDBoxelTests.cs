@@ -228,9 +228,9 @@ namespace EDRouteOptimizer.Tests
             //Thread.Sleep(3000);
             EDBoxel box = new EDBoxel(boxelCode, massCode, massNum);
             BoxelCoord coord = new BoxelCoord(X: _x, Y: _y, Z: _z);
-            Assert.AreEqual(coord.x, box.Coordinates.x);
-            Assert.AreEqual(coord.y, box.Coordinates.y);
-            Assert.AreEqual(coord.z, box.Coordinates.z);
+            Assert.AreEqual(coord.x, box.BoxelCoords.x);
+            Assert.AreEqual(coord.y, box.BoxelCoords.y);
+            Assert.AreEqual(coord.z, box.BoxelCoords.z);
         }
 
 

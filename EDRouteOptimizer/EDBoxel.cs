@@ -30,7 +30,9 @@ namespace EDRouteOptimizer
         private readonly char[] BoxelChar;
 
 
-        public BoxelCoord Coordinates;
+        public BoxelCoord BoxelCoords;
+        public GalacticCoordinates GalacticCoords;
+
 
         public EDBoxel(string boxelCode, char massCode, int massNum)
         {
@@ -49,7 +51,7 @@ namespace EDRouteOptimizer
 
 
 
-            Coordinates = IndexToBoxelCoord(BoxelIndex);
+            BoxelCoords = IndexToBoxelCoord(BoxelIndex);
 
 
         }
@@ -99,9 +101,9 @@ namespace EDRouteOptimizer
             int maxCoordinateAlongAxis = (int)Math.Cbrt(numBoxelsInMassCode) - 1;
 
             bool coordinatesInValidRange =
-                Coordinates.x <= maxCoordinateAlongAxis &&
-                Coordinates.y <= maxCoordinateAlongAxis &&
-                Coordinates.z <= maxCoordinateAlongAxis;
+                BoxelCoords.x <= maxCoordinateAlongAxis &&
+                BoxelCoords.y <= maxCoordinateAlongAxis &&
+                BoxelCoords.z <= maxCoordinateAlongAxis;
 
             bool isValidChar = true;
 
@@ -191,7 +193,7 @@ namespace EDRouteOptimizer
                  from y in dY
                  from z in dZ
                  select new int[] { x, y, z });
-            int[] coordArray = Coordinates.ToArray();
+            int[] coordArray = BoxelCoords.ToArray();
 
             int[][] children = new int[8][];
             int[][] prod = cartesianProduct.ToArray();
@@ -221,13 +223,11 @@ namespace EDRouteOptimizer
 
             char parentMassCode = (char)(MassCode + 1);
 
-            int[] coordArray = Coordinates.ToArray();
+            int[] coordArray = BoxelCoords.ToArray();
 
             int[] parentArray = coordArray.Select(c => c / 2).ToArray();
 
             return GetBoxelFromCoordinates(new BoxelCoord(parentArray[0], parentArray[1], parentArray[2]), parentMassCode);
-
-
         }
 
 
