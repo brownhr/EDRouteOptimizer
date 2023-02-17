@@ -121,7 +121,7 @@ namespace EDRouteOptimizer.Tests
 
         public void GetChildBoxelsTest(string parentBoxels, List<string>? expectedChildBoxelStrings)
         {
-            EDBoxel parentBoxel = EDBoxel.ParseBoxelFromString(parentBoxels);
+            EDBoxel parentBoxel = EDBoxel.GetBoxel(parentBoxels);
             List<EDBoxel>? actualChildBoxels = parentBoxel.GetChildBoxels();
 
             List<EDBoxel>? expectedChildren = new List<EDBoxel>();
@@ -133,7 +133,7 @@ namespace EDRouteOptimizer.Tests
             {
                 foreach (string s in expectedChildBoxelStrings)
                 {
-                    expectedChildren.Add(EDBoxel.ParseBoxelFromString(s));
+                    expectedChildren.Add(EDBoxel.GetBoxel(s));
                 }
 
 
@@ -170,9 +170,9 @@ namespace EDRouteOptimizer.Tests
         private static IEnumerable<object[]> GetParentBoxelData =>
             new List<object[]>
             {
-                new object[] {EDBoxel.ParseBoxelFromString("CL-Y g0"), EDBoxel.ParseBoxelFromString("AA-A h0")},
-                new object[] {EDBoxel.ParseBoxelFromString("AA-A h0"), null},
-                new object[] {EDBoxel.ParseBoxelFromString("GX-L d7"), EDBoxel.ParseBoxelFromString("QY-S e3")}
+                new object[] {EDBoxel.GetBoxel("CL-Y g0"), EDBoxel.GetBoxel("AA-A h0")},
+                new object[] {EDBoxel.GetBoxel("AA-A h0"), null},
+                new object[] {EDBoxel.GetBoxel("GX-L d7"), EDBoxel.GetBoxel("QY-S e3")}
             };
     }
 
@@ -241,7 +241,7 @@ namespace EDRouteOptimizer.Tests
         public void ParseBoxelFromStringTest(string input, string boxelCode, char massCode, int massNum)
         {
             EDBoxel expectedBoxel = new EDBoxel(boxelCode, massCode, massNum);
-            EDBoxel actualBoxel = EDBoxel.ParseBoxelFromString(input);
+            EDBoxel actualBoxel = EDBoxel.GetBoxel(input);
 
             Assert.AreEqual(expectedBoxel, actualBoxel);
         }
@@ -252,7 +252,7 @@ namespace EDRouteOptimizer.Tests
         [DataRow("Keltim")]
         public void ParseBoxelFromStringRegexFailureTest(string input)
         {
-            Assert.ThrowsException<ArgumentException>(() => EDBoxel.ParseBoxelFromString(input));
+            Assert.ThrowsException<ArgumentException>(() => EDBoxel.GetBoxel(input));
 
         }
 
@@ -279,7 +279,7 @@ namespace EDRouteOptimizer.Tests
 
         public void IsValidBoxelTest(string inputBoxelString, bool expectedOutput)
         {
-            EDBoxel testBoxel = EDBoxel.ParseBoxelFromString(inputBoxelString);
+            EDBoxel testBoxel = EDBoxel.GetBoxel(inputBoxelString);
             bool actualOutput = testBoxel.IsValidBoxel();
 
             Assert.AreEqual(expectedOutput, actualOutput);
@@ -295,8 +295,8 @@ namespace EDRouteOptimizer.Tests
         [DataRow("BA-A d1", "AA-A d1", false)]
         public void BoxelEqualsTest(string inputStringA, string inputStringB, bool expectedOutput)
         {
-            EDBoxel boxA = EDBoxel.ParseBoxelFromString(inputStringA);
-            EDBoxel boxB = EDBoxel.ParseBoxelFromString(inputStringB);
+            EDBoxel boxA = EDBoxel.GetBoxel(inputStringA);
+            EDBoxel boxB = EDBoxel.GetBoxel(inputStringB);
             bool actualOutput = boxA.Equals(boxB);
             Assert.AreEqual(actualOutput, expectedOutput);
             Assert.AreEqual(boxB.Equals(boxA), expectedOutput);
