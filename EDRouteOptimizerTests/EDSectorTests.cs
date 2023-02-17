@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using EDRouteOptimizer;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EDRouteOptimizer.Tests
 {
@@ -55,5 +56,21 @@ namespace EDRouteOptimizer.Tests
 
             };
 
+        [TestMethod()]
+        [DynamicData(nameof(GetSectorFromIDsData))]
+        public void GetSectorFromIDsTest(int idx, int idy, int idz, EDSector expectedSector)
+        {
+            EDSector actualSector = EDSector.GetSectorFromIDs(idx, idy, idz);
+
+            Assert.AreEqual(actualSector, expectedSector);
+
+        }
+
+        private static IEnumerable<object[]> GetSectorFromIDsData =>
+            new List<object[]>
+            {
+                new object[] {44, 33, 15, EDSector.GetSector("Aaekoa")}
+
+            };
     }
 }
