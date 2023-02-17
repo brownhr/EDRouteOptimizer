@@ -13,6 +13,24 @@
             z = Z;
         }
 
+        public BoxelCoord(int[] array)
+        {
+            if (array.Length != 3) throw new IndexOutOfRangeException(nameof(array));
+            x = array[0];
+            y = array[1];
+            z = array[2];
+        }
+
+        public static BoxelCoord operator +(BoxelCoord lhs, int[] rhs)
+        {
+            int[] bCoordArray = lhs.ToArray();
+            int[] result = new int[3];
+
+            result = Enumerable.Zip(bCoordArray, rhs, (x, y) => x + y).ToArray();
+            return new BoxelCoord(result);
+        }
+
+
         public bool Equals(BoxelCoord other)
         {
             if (other == null) return false;
