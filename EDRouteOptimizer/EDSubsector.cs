@@ -60,6 +60,10 @@ namespace EDRouteOptimizer
             return false;
 
         }
+
+        public override string ToString()
+        {
+            return $"{Sector} {Boxel}";
         }
 
 
