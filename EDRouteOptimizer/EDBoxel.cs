@@ -46,18 +46,12 @@ namespace EDRouteOptimizer
                 throw new ArgumentOutOfRangeException(nameof(MassCode), message: "Invalid Masscode");
             }
 
-
             BoxelChar = GetBoxelChar(BoxelCode);
             BoxelIndex = BoxelCharToIndex(BoxelChar) + massNum * MaxNum;
-
-
-
             BoxelCoords = IndexToBoxelCoord(BoxelIndex);
-
-
         }
 
-        public static EDBoxel ParseBoxelFromString(string boxelString)
+        public static EDBoxel GetBoxel(string boxelString)
         {
             Regex boxelRX = new Regex(boxelRegexPattern);
 
@@ -76,8 +70,6 @@ namespace EDRouteOptimizer
                 EDBoxel result = new EDBoxel(boxelCode, char.Parse(massCode), int.Parse(massNum));
                 return result;
             }
-
-
         }
 
 
@@ -274,16 +266,15 @@ namespace EDRouteOptimizer
 
         public override bool Equals(object? obj)
         {
-            return Equals(obj as EDBoxel);
-        }
+            if (obj is EDBoxel)
+            {
+                var that = obj as EDBoxel;
 
-        public bool Equals(EDBoxel? obj)
-        {
-            return obj != null &&
-                //obj.GetType() == GetType() &&
-                obj.BoxelCode == BoxelCode &&
-                obj.MassCode == MassCode &&
-                obj.MassNum == MassNum;
+                return this.BoxelCode.Equals(that.BoxelCode) &&
+                    this.MassCode.Equals(that.MassCode) &&
+                    this.MassNum.Equals(that.MassNum);
+            }
+            return false;
         }
 
         public override int GetHashCode()
