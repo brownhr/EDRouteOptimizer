@@ -38,15 +38,27 @@ namespace EDRouteOptimizer
 
 
         public EDSector? Shift(int[] offsets)
+        public static EDSubsector GetSubsector(string input)
         {
-            if (offsets.Length != 3)
-            {
-                throw new IndexOutOfRangeException(nameof(offsets));
-            }
-            int[] idArray = Sector.IDArray();
-            int[] IDOffsets = Enumerable.Zip(idArray, offsets, (x, y) => x + y).ToArray();
+            Regex sectorRegex = new Regex(@"(?<sector>[\w ]+(?= [A-Z]{2}))");
+            Regex boxelRegex = new Regex(@"(?<boxel>[A-Z]{2}-[A-Z] [a-h]\d+)");
 
-            return EDSector.GetSectorFromIDs(IDOffsets);
+            Match sectorMatch = sectorRegex.Match(input);
+            Match boxelMatch = boxelRegex.Match(input);
+
+            if (sectorMatch.Success && boxelMatch.Success)
+            {
+                EDSector sector = EDSector.GetSector(sectorMatch.Value);
+                EDBoxel boxel = EDBoxel.GetBoxel(boxelMatch.Value);
+
+                return new EDSubsector(sector, boxel);
+            }
+            else
+            {
+                throw new ArgumentException($"sectorMatch: {sectorMatch.Success}; boxelMatch: {boxelMatch.Success}");
+            }
+
+        }
 
 
         public override bool Equals(object? obj)
