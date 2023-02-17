@@ -116,7 +116,13 @@ namespace EDRouteOptimizer
             return $"{Sector} {Boxel}";
         }
 
-
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Sector.SectorName,
+                                    Boxel.BoxelCode,
+                                    Boxel.MassCode,
+                                    Boxel.MassNum);
+        }
 
 
         // TODO: Calculate Manhattan distance between subsectors
