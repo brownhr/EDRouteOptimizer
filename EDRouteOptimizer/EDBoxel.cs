@@ -17,7 +17,7 @@ namespace EDRouteOptimizer
 
 
         private static readonly int MaxNum = (int)Math.Pow(26, 3);
-        private static readonly int MaxIndex = int.MaxValue;
+        private static readonly int MaxIndex = Int32.MaxValue;
 
         public readonly string BoxelCode;
         public readonly char MassCode;
