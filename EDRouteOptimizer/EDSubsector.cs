@@ -33,14 +33,21 @@ namespace EDRouteOptimizer
             return axisDistances.Sum();
         }
 
+        //public EDSector GetNeighboringSectors(string direction)
+        //{
 
 
 
-
-            // TODO: Calculate Manhattan distance between subsectors
-
-            // TODO: Method for determining orthogonal neighbors (and orth. + diag. neighbors?)
+        //}
 
         
+
+
+
+        // TODO: Calculate Manhattan distance between subsectors
+
+        // TODO: Method for determining orthogonal neighbors (and orth. + diag. neighbors?)
+
+
     }
 }
