@@ -81,15 +81,21 @@ namespace EDRouteOptimizer
 
         public static EDSector? GetSectorFromIDs(int IDX, int IDY, int IDZ)
         {
-            EDSector? sector =
-                EDSectorDictionary.First(
-                    x =>
-                    x.Value.ID64X == IDX &&
-                    x.Value.ID64Y == IDY &&
-                    x.Value.ID64Z == IDZ
-                    ).Value;
-
-            return sector;
+            try
+            {
+                EDSector? sector =
+                    EDSectorDictionary.First(
+                        x =>
+                        x.Value.ID64X == IDX &&
+                        x.Value.ID64Y == IDY &&
+                        x.Value.ID64Z == IDZ
+                        ).Value;
+                return sector;
+            }
+            catch (InvalidOperationException e)
+            {
+                return null;
+            }
         }
 
         public static EDSector? GetSectorFromIDs(int[] IDArray)
