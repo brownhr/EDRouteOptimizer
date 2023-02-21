@@ -1,0 +1,8726 @@
+{
+  "RouteWaypoints": [
+      {
+      "SystemName": "Byeia Aerb HL-Y e0",
+      "ID64": null,
+      "Coords": {
+        "x": 813.5,
+        "y": 1547.09375,
+        "z": 13291.96875
+      },
+      "Notes": ""
+    },
+    {
+      "SystemName": "Byeia Aerb LA-P c6-3",
+      "ID64": 909963926842,
+      "Coords": {
+        "x": 872.5,
+        "y": 1541.40625,
+        "z": 13315.6875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb LA-P c6-2",
+      "ID64": 635086019898,
+      "Coords": {
+        "x": 871.03125,
+        "y": 1543.90625,
+        "z": 13311.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LA-P c6-1",
+      "ID64": 360208112954,
+      "Coords": {
+        "x": 878.1875,
+        "y": 1540.84375,
+        "z": 13307.84375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BH-C b14-0",
+      "ID64": 682770709113,
+      "Coords": {
+        "x": 878.1875,
+        "y": 1538.78125,
+        "z": 13315.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DC-C b14-0",
+      "ID64": 682770643577,
+      "Coords": {
+        "x": 878.5625,
+        "y": 1520.21875,
+        "z": 13320.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BR-D b13-0",
+      "ID64": 682770578033,
+      "Coords": {
+        "x": 881.40625,
+        "y": 1514.71875,
+        "z": 13306.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZV-D b13-0",
+      "ID64": 682770643569,
+      "Coords": {
+        "x": 879.6875,
+        "y": 1517.40625,
+        "z": 13295.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NV-O c6-3",
+      "ID64": 909963894074,
+      "Coords": {
+        "x": 889.15625,
+        "y": 1505.71875,
+        "z": 13296.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-14",
+      "ID64": 491698572955,
+      "Coords": {
+        "x": 884.125,
+        "y": 1500.125,
+        "z": 13291.6875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb LK-Q c5-3",
+      "ID64": 909963861298,
+      "Coords": {
+        "x": 883.59375,
+        "y": 1492.90625,
+        "z": 13293.3125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ZF-F b12-0",
+      "ID64": 682770512489,
+      "Coords": {
+        "x": 891.9375,
+        "y": 1487.78125,
+        "z": 13291.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LK-Q c5-4",
+      "ID64": 1184841768242,
+      "Coords": {
+        "x": 892.90625,
+        "y": 1481.71875,
+        "z": 13278.09375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-1",
+      "ID64": 45021957787,
+      "Coords": {
+        "x": 882.5,
+        "y": 1483.78125,
+        "z": 13278.71875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-16",
+      "ID64": 560418033307,
+      "Coords": {
+        "x": 881,
+        "y": 1476.53125,
+        "z": 13269.96875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-15",
+      "ID64": 526058294939,
+      "Coords": {
+        "x": 882.5,
+        "y": 1470.15625,
+        "z": 13275.15625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-7",
+      "ID64": 251180387995,
+      "Coords": {
+        "x": 886.21875,
+        "y": 1459.9375,
+        "z": 13281.3125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-0",
+      "ID64": 10662219419,
+      "Coords": {
+        "x": 892.4375,
+        "y": 1461.875,
+        "z": 13274.96875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb XU-G b11-0",
+      "ID64": 682770446945,
+      "Coords": {
+        "x": 894.59375,
+        "y": 1468.46875,
+        "z": 13270.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BB-F b12-0",
+      "ID64": 682770446953,
+      "Coords": {
+        "x": 887.6875,
+        "y": 1468.875,
+        "z": 13288.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FH-D b13-0",
+      "ID64": 682770446961,
+      "Coords": {
+        "x": 889.59375,
+        "y": 1462.40625,
+        "z": 13301.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FH-D b13-1",
+      "ID64": 2881793702513,
+      "Coords": {
+        "x": 884.5625,
+        "y": 1460.59375,
+        "z": 13306.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RL-O c6-5",
+      "ID64": 1459719642426,
+      "Coords": {
+        "x": 886.28125,
+        "y": 1454.53125,
+        "z": 13305.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RL-O c6-4",
+      "ID64": 1184841735482,
+      "Coords": {
+        "x": 882.15625,
+        "y": 1451.96875,
+        "z": 13303.78125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb RL-O c6-3",
+      "ID64": 909963828538,
+      "Coords": {
+        "x": 881.84375,
+        "y": 1450.96875,
+        "z": 13304.0625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb HC-D b13-1",
+      "ID64": 2881793636977,
+      "Coords": {
+        "x": 878.21875,
+        "y": 1445.625,
+        "z": 13310.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HC-D b13-0",
+      "ID64": 682770381425,
+      "Coords": {
+        "x": 880.75,
+        "y": 1448.3125,
+        "z": 13314.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LI-B b14-0",
+      "ID64": 682770381433,
+      "Coords": {
+        "x": 884.84375,
+        "y": 1445.40625,
+        "z": 13322.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RL-O c6-1",
+      "ID64": 360208014650,
+      "Coords": {
+        "x": 889.25,
+        "y": 1432.875,
+        "z": 13314.53125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JX-C b13-0",
+      "ID64": 682770315889,
+      "Coords": {
+        "x": 882.75,
+        "y": 1427.15625,
+        "z": 13304.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JX-C b13-1",
+      "ID64": 2881793571441,
+      "Coords": {
+        "x": 882.21875,
+        "y": 1425.0625,
+        "z": 13303
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb RL-O c6-0",
+      "ID64": 85330107706,
+      "Coords": {
+        "x": 894.1875,
+        "y": 1420.71875,
+        "z": 13300.96875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb FR-E b12-1",
+      "ID64": 2881793571433,
+      "Coords": {
+        "x": 893.71875,
+        "y": 1425.96875,
+        "z": 13289.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FR-E b12-0",
+      "ID64": 682770315881,
+      "Coords": {
+        "x": 880.5625,
+        "y": 1418.46875,
+        "z": 13276.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AL-G b11-1",
+      "ID64": 2881525135969,
+      "Coords": {
+        "x": 864.4375,
+        "y": 1424.03125,
+        "z": 13266.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NF-Q c5-2",
+      "ID64": 635085921586,
+      "Coords": {
+        "x": 861.21875,
+        "y": 1417.8125,
+        "z": 13260.625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb NF-Q c5-0",
+      "ID64": 85330107698,
+      "Coords": {
+        "x": 858.21875,
+        "y": 1418.90625,
+        "z": 13260.59375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb AL-G b11-0",
+      "ID64": 682501880417,
+      "Coords": {
+        "x": 857.15625,
+        "y": 1416.40625,
+        "z": 13260.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NF-Q c5-1",
+      "ID64": 360208014642,
+      "Coords": {
+        "x": 857.65625,
+        "y": 1418.40625,
+        "z": 13257.625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb WE-I b10-0",
+      "ID64": 682501880409,
+      "Coords": {
+        "x": 856.3125,
+        "y": 1416.09375,
+        "z": 13240.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VE-I b10-0",
+      "ID64": 682233444953,
+      "Coords": {
+        "x": 845.21875,
+        "y": 1421.4375,
+        "z": 13243.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZK-G b11-0",
+      "ID64": 682233444961,
+      "Coords": {
+        "x": 835.84375,
+        "y": 1417.53125,
+        "z": 13255.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZK-G b11-1",
+      "ID64": 2881256700513,
+      "Coords": {
+        "x": 840.0625,
+        "y": 1415.625,
+        "z": 13257.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-12",
+      "ID64": 422979079835,
+      "Coords": {
+        "x": 828.34375,
+        "y": 1419.46875,
+        "z": 13266.125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb YK-G b11-1",
+      "ID64": 2880988265057,
+      "Coords": {
+        "x": 824.34375,
+        "y": 1422.3125,
+        "z": 13258.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YK-G b11-0",
+      "ID64": 681965009505,
+      "Coords": {
+        "x": 819.21875,
+        "y": 1419.8125,
+        "z": 13258.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-13",
+      "ID64": 457338818203,
+      "Coords": {
+        "x": 816.28125,
+        "y": 1418.375,
+        "z": 13260.25
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-8",
+      "ID64": 285540126363,
+      "Coords": {
+        "x": 822.28125,
+        "y": 1429.9375,
+        "z": 13268.40625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-9",
+      "ID64": 319899864731,
+      "Coords": {
+        "x": 828.8125,
+        "y": 1428.5625,
+        "z": 13263.28125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-10",
+      "ID64": 354259603099,
+      "Coords": {
+        "x": 835.6875,
+        "y": 1436,
+        "z": 13256.53125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-11",
+      "ID64": 388619341467,
+      "Coords": {
+        "x": 842.28125,
+        "y": 1431.25,
+        "z": 13257
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb XP-G b11-0",
+      "ID64": 682233510497,
+      "Coords": {
+        "x": 854.5,
+        "y": 1440.40625,
+        "z": 13259.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-19",
+      "ID64": 663497248411,
+      "Coords": {
+        "x": 857.90625,
+        "y": 1434.46875,
+        "z": 13266.15625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-20",
+      "ID64": 697856986779,
+      "Coords": {
+        "x": 857.28125,
+        "y": 1428.71875,
+        "z": 13272.3125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-17",
+      "ID64": 594777771675,
+      "Coords": {
+        "x": 862.125,
+        "y": 1426.1875,
+        "z": 13275.625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb MF-Q c5-0",
+      "ID64": 85262998834,
+      "Coords": {
+        "x": 854.53125,
+        "y": 1420.28125,
+        "z": 13278.5
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb MF-Q c5-1",
+      "ID64": 360140905778,
+      "Coords": {
+        "x": 850.90625,
+        "y": 1419.21875,
+        "z": 13277.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-18",
+      "ID64": 629137510043,
+      "Coords": {
+        "x": 849.28125,
+        "y": 1423.78125,
+        "z": 13278.40625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb DR-E b12-0",
+      "ID64": 682233444969,
+      "Coords": {
+        "x": 838.875,
+        "y": 1420.34375,
+        "z": 13276.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DR-E b12-1",
+      "ID64": 2881256700521,
+      "Coords": {
+        "x": 835.09375,
+        "y": 1421.375,
+        "z": 13275.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MF-Q c5-2",
+      "ID64": 635018812722,
+      "Coords": {
+        "x": 834.4375,
+        "y": 1430.84375,
+        "z": 13279.46875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb MF-Q c5-4",
+      "ID64": 1184774626610,
+      "Coords": {
+        "x": 835.8125,
+        "y": 1435.15625,
+        "z": 13278.5
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb MF-Q c5-3",
+      "ID64": 909896719666,
+      "Coords": {
+        "x": 822.3125,
+        "y": 1442.1875,
+        "z": 13278.1875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AW-E b12-1",
+      "ID64": 2880988330601,
+      "Coords": {
+        "x": 819.53125,
+        "y": 1443.625,
+        "z": 13286.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-22",
+      "ID64": 766576463515,
+      "Coords": {
+        "x": 820.65625,
+        "y": 1446.28125,
+        "z": 13292.5
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb QL-O c6-0",
+      "ID64": 85262998842,
+      "Coords": {
+        "x": 818.15625,
+        "y": 1449.40625,
+        "z": 13298.09375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb QL-O c6-4",
+      "ID64": 1184774626618,
+      "Coords": {
+        "x": 815.8125,
+        "y": 1447.3125,
+        "z": 13298.34375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QL-O c6-3",
+      "ID64": 909896719674,
+      "Coords": {
+        "x": 815.59375,
+        "y": 1445.15625,
+        "z": 13298.65625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QL-O c6-1",
+      "ID64": 360140905786,
+      "Coords": {
+        "x": 818.21875,
+        "y": 1444.71875,
+        "z": 13300.53125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QL-O c6-2",
+      "ID64": 635018812730,
+      "Coords": {
+        "x": 816.46875,
+        "y": 1443.03125,
+        "z": 13304.9375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-21",
+      "ID64": 732216725147,
+      "Coords": {
+        "x": 815.09375,
+        "y": 1453.46875,
+        "z": 13300.21875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb CH-D b13-1",
+      "ID64": 2880988396145,
+      "Coords": {
+        "x": 819.875,
+        "y": 1457.71875,
+        "z": 13300.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-24",
+      "ID64": 835295940251,
+      "Coords": {
+        "x": 821.96875,
+        "y": 1458.53125,
+        "z": 13300.59375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb CH-D b13-0",
+      "ID64": 681965140593,
+      "Coords": {
+        "x": 817.03125,
+        "y": 1459.71875,
+        "z": 13296.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NQ-O c6-4",
+      "ID64": 1184707550522,
+      "Coords": {
+        "x": 810.53125,
+        "y": 1462.71875,
+        "z": 13302.28125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb NQ-O c6-3",
+      "ID64": 909829643578,
+      "Coords": {
+        "x": 809.59375,
+        "y": 1457.625,
+        "z": 13303.03125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BH-D b13-1",
+      "ID64": 2880719960689,
+      "Coords": {
+        "x": 801.8125,
+        "y": 1459.15625,
+        "z": 13303.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BH-D b13-0",
+      "ID64": 681696705137,
+      "Coords": {
+        "x": 797.65625,
+        "y": 1460.78125,
+        "z": 13300.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-11",
+      "ID64": 388602564251,
+      "Coords": {
+        "x": 795.53125,
+        "y": 1448.90625,
+        "z": 13298.3125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb YV-E b12-1",
+      "ID64": 2880451459689,
+      "Coords": {
+        "x": 793.71875,
+        "y": 1450.125,
+        "z": 13288.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-15",
+      "ID64": 526041517723,
+      "Coords": {
+        "x": 801.09375,
+        "y": 1444.9375,
+        "z": 13280.15625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb ZV-E b12-0",
+      "ID64": 681696639593,
+      "Coords": {
+        "x": 795.96875,
+        "y": 1440,
+        "z": 13278.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZV-E b12-1",
+      "ID64": 2880719895145,
+      "Coords": {
+        "x": 800.1875,
+        "y": 1439.5,
+        "z": 13275.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-14",
+      "ID64": 491681779355,
+      "Coords": {
+        "x": 801,
+        "y": 1439.15625,
+        "z": 13270
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb VP-G b11-0",
+      "ID64": 681696639585,
+      "Coords": {
+        "x": 799.9375,
+        "y": 1436.03125,
+        "z": 13259.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LF-Q c5-0",
+      "ID64": 85195889970,
+      "Coords": {
+        "x": 801.9375,
+        "y": 1424.8125,
+        "z": 13259.625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb XK-G b11-0",
+      "ID64": 681696574049,
+      "Coords": {
+        "x": 795,
+        "y": 1418.71875,
+        "z": 13255.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WK-G b11-0",
+      "ID64": 681428138593,
+      "Coords": {
+        "x": 780.625,
+        "y": 1420.3125,
+        "z": 13257.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LF-Q c5-3",
+      "ID64": 909829610802,
+      "Coords": {
+        "x": 779.6875,
+        "y": 1415.5625,
+        "z": 13264.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AR-E b12-0",
+      "ID64": 681428138601,
+      "Coords": {
+        "x": 777.84375,
+        "y": 1420.40625,
+        "z": 13277.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KF-Q c5-2",
+      "ID64": 634884594994,
+      "Coords": {
+        "x": 763.90625,
+        "y": 1423.1875,
+        "z": 13276.0625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb KF-Q c5-4",
+      "ID64": 1184640408882,
+      "Coords": {
+        "x": 762.78125,
+        "y": 1425.3125,
+        "z": 13276.6875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb KF-Q c5-3",
+      "ID64": 909762501938,
+      "Coords": {
+        "x": 762.28125,
+        "y": 1426.96875,
+        "z": 13274.4375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb VK-G b11-1",
+      "ID64": 2880182958689,
+      "Coords": {
+        "x": 763.09375,
+        "y": 1425.84375,
+        "z": 13267.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VK-G b11-0",
+      "ID64": 681159703137,
+      "Coords": {
+        "x": 759.4375,
+        "y": 1418.90625,
+        "z": 13257
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RE-I b10-0",
+      "ID64": 681159703129,
+      "Coords": {
+        "x": 765.03125,
+        "y": 1420.28125,
+        "z": 13254.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RE-I b10-1",
+      "ID64": 2880182958681,
+      "Coords": {
+        "x": 761.8125,
+        "y": 1430.375,
+        "z": 13248.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PJ-I b10-0",
+      "ID64": 681159768665,
+      "Coords": {
+        "x": 766.25,
+        "y": 1439.1875,
+        "z": 13254.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TP-G b11-1",
+      "ID64": 2880183024225,
+      "Coords": {
+        "x": 760.15625,
+        "y": 1438.625,
+        "z": 13260.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TP-G b11-0",
+      "ID64": 681159768673,
+      "Coords": {
+        "x": 756.5625,
+        "y": 1435.5,
+        "z": 13259.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SP-G b11-0",
+      "ID64": 680891333217,
+      "Coords": {
+        "x": 740.40625,
+        "y": 1439.125,
+        "z": 13255.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OJ-I b10-0",
+      "ID64": 680891333209,
+      "Coords": {
+        "x": 740.875,
+        "y": 1436.6875,
+        "z": 13240.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QE-I b10-0",
+      "ID64": 680891267673,
+      "Coords": {
+        "x": 738.375,
+        "y": 1420.71875,
+        "z": 13238.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MY-J b9-0",
+      "ID64": 680891267665,
+      "Coords": {
+        "x": 743.09375,
+        "y": 1416.9375,
+        "z": 13232.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MY-J b9-1",
+      "ID64": 2879914523217,
+      "Coords": {
+        "x": 746.28125,
+        "y": 1418.3125,
+        "z": 13234.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NY-J b9-0",
+      "ID64": 681159703121,
+      "Coords": {
+        "x": 755.46875,
+        "y": 1417.75,
+        "z": 13218.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LD-K b9-0",
+      "ID64": 681159768657,
+      "Coords": {
+        "x": 755.53125,
+        "y": 1435.09375,
+        "z": 13217.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GX-L b8-1",
+      "ID64": 2879914588745,
+      "Coords": {
+        "x": 749,
+        "y": 1446.65625,
+        "z": 13213.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KD-K b9-0",
+      "ID64": 680891333201,
+      "Coords": {
+        "x": 737.5,
+        "y": 1440.84375,
+        "z": 13216.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GX-L b8-0",
+      "ID64": 680891333193,
+      "Coords": {
+        "x": 741.75,
+        "y": 1448.53125,
+        "z": 13200.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EC-M b8-0",
+      "ID64": 680891398729,
+      "Coords": {
+        "x": 735.46875,
+        "y": 1455.59375,
+        "z": 13199.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AW-N b7-0",
+      "ID64": 680891398721,
+      "Coords": {
+        "x": 740.9375,
+        "y": 1455.65625,
+        "z": 13178.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BW-N b7-1",
+      "ID64": 2880183089729,
+      "Coords": {
+        "x": 757.28125,
+        "y": 1456.875,
+        "z": 13182.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BW-N b7-0",
+      "ID64": 681159834177,
+      "Coords": {
+        "x": 757.78125,
+        "y": 1458.3125,
+        "z": 13185.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-10",
+      "ID64": 354242825875,
+      "Coords": {
+        "x": 749.5625,
+        "y": 1474.8125,
+        "z": 13175.53125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb ZA-O b7-0",
+      "ID64": 681159899713,
+      "Coords": {
+        "x": 755.03125,
+        "y": 1478.90625,
+        "z": 13176.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YA-O b7-0",
+      "ID64": 680891464257,
+      "Coords": {
+        "x": 746.21875,
+        "y": 1489.40625,
+        "z": 13193.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-9",
+      "ID64": 319883087507,
+      "Coords": {
+        "x": 743.75,
+        "y": 1488.8125,
+        "z": 13193.25
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-8",
+      "ID64": 285523349139,
+      "Coords": {
+        "x": 747.78125,
+        "y": 1489.34375,
+        "z": 13195.625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-18",
+      "ID64": 629120732819,
+      "Coords": {
+        "x": 755.28125,
+        "y": 1492.21875,
+        "z": 13197.65625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb BM-M b8-0",
+      "ID64": 681159965257,
+      "Coords": {
+        "x": 755.0625,
+        "y": 1497.25,
+        "z": 13200.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BM-M b8-1",
+      "ID64": 2880183220809,
+      "Coords": {
+        "x": 760.125,
+        "y": 1497.5625,
+        "z": 13200.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DH-M b8-0",
+      "ID64": 681159899721,
+      "Coords": {
+        "x": 758.40625,
+        "y": 1486.875,
+        "z": 13202
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CH-M b8-0",
+      "ID64": 680891464265,
+      "Coords": {
+        "x": 745.9375,
+        "y": 1478.78125,
+        "z": 13209.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GN-K b9-0",
+      "ID64": 680891464273,
+      "Coords": {
+        "x": 739.6875,
+        "y": 1479.5,
+        "z": 13218
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HN-K b9-0",
+      "ID64": 681159899729,
+      "Coords": {
+        "x": 756.125,
+        "y": 1475.78125,
+        "z": 13217.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JI-K b9-0",
+      "ID64": 681159834193,
+      "Coords": {
+        "x": 768.71875,
+        "y": 1472,
+        "z": 13215.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FC-M b8-0",
+      "ID64": 681159834185,
+      "Coords": {
+        "x": 767.15625,
+        "y": 1470.46875,
+        "z": 13205.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GC-M b8-0",
+      "ID64": 681428269641,
+      "Coords": {
+        "x": 776.5625,
+        "y": 1459.4375,
+        "z": 13195.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GC-M b8-1",
+      "ID64": 2880451525193,
+      "Coords": {
+        "x": 780.15625,
+        "y": 1459.9375,
+        "z": 13195.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CW-N b7-1",
+      "ID64": 2880451525185,
+      "Coords": {
+        "x": 785.59375,
+        "y": 1464.78125,
+        "z": 13180.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CW-N b7-0",
+      "ID64": 681428269633,
+      "Coords": {
+        "x": 792.46875,
+        "y": 1465.1875,
+        "z": 13177.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DW-N b7-1",
+      "ID64": 2880719960641,
+      "Coords": {
+        "x": 799.71875,
+        "y": 1462.6875,
+        "z": 13185.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DW-N b7-0",
+      "ID64": 681696705089,
+      "Coords": {
+        "x": 807.875,
+        "y": 1464.53125,
+        "z": 13177.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EW-N b7-0",
+      "ID64": 681965140545,
+      "Coords": {
+        "x": 820.59375,
+        "y": 1458.15625,
+        "z": 13180.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-19",
+      "ID64": 663480471187,
+      "Coords": {
+        "x": 811.4375,
+        "y": 1448.59375,
+        "z": 13176.65625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb FR-N b7-0",
+      "ID64": 681696639553,
+      "Coords": {
+        "x": 800.15625,
+        "y": 1439.96875,
+        "z": 13179.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ER-N b7-0",
+      "ID64": 681428204097,
+      "Coords": {
+        "x": 792.4375,
+        "y": 1447.3125,
+        "z": 13178
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-20",
+      "ID64": 697840209555,
+      "Coords": {
+        "x": 795.4375,
+        "y": 1450.78125,
+        "z": 13175.8125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-15",
+      "ID64": 526041517715,
+      "Coords": {
+        "x": 795.59375,
+        "y": 1427.0625,
+        "z": 13180.375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb HM-N b7-0",
+      "ID64": 681696574017,
+      "Coords": {
+        "x": 798.8125,
+        "y": 1416.625,
+        "z": 13178.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GM-N b7-0",
+      "ID64": 681428138561,
+      "Coords": {
+        "x": 779.65625,
+        "y": 1420.4375,
+        "z": 13175.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-24",
+      "ID64": 835279163027,
+      "Coords": {
+        "x": 768.59375,
+        "y": 1424.59375,
+        "z": 13190.46875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-23",
+      "ID64": 800919424659,
+      "Coords": {
+        "x": 778.8125,
+        "y": 1430.84375,
+        "z": 13194.96875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb IX-L b8-0",
+      "ID64": 681428204105,
+      "Coords": {
+        "x": 775.78125,
+        "y": 1436.9375,
+        "z": 13199.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HX-L b8-1",
+      "ID64": 2880183024201,
+      "Coords": {
+        "x": 767.625,
+        "y": 1444.4375,
+        "z": 13208.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MD-K b9-0",
+      "ID64": 681428204113,
+      "Coords": {
+        "x": 779.1875,
+        "y": 1439.9375,
+        "z": 13218.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-22",
+      "ID64": 766559686291,
+      "Coords": {
+        "x": 783.4375,
+        "y": 1455.125,
+        "z": 13219.875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb KI-K b9-0",
+      "ID64": 681428269649,
+      "Coords": {
+        "x": 778.0625,
+        "y": 1459.15625,
+        "z": 13218.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-7",
+      "ID64": 251163610771,
+      "Coords": {
+        "x": 778.03125,
+        "y": 1459,
+        "z": 13227.9375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb OO-I b10-0",
+      "ID64": 681428269657,
+      "Coords": {
+        "x": 776.25,
+        "y": 1460.78125,
+        "z": 13239.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-6",
+      "ID64": 216803872403,
+      "Coords": {
+        "x": 789.875,
+        "y": 1460.28125,
+        "z": 13229.25
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb LI-K b9-0",
+      "ID64": 681696705105,
+      "Coords": {
+        "x": 795.15625,
+        "y": 1457.5625,
+        "z": 13218.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HL-Y e2",
+      "ID64": 9921701708,
+      "Coords": {
+        "x": 803.28125,
+        "y": 1449.75,
+        "z": 13210.53125
+      },
+      "Notes": "B"
+    },
+    {
+      "SystemName": "Byeia Aerb JX-L b8-0",
+      "ID64": 681696639561,
+      "Coords": {
+        "x": 797.78125,
+        "y": 1443,
+        "z": 13208.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ND-K b9-1",
+      "ID64": 2880719895121,
+      "Coords": {
+        "x": 796.59375,
+        "y": 1437.40625,
+        "z": 13218.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ND-K b9-0",
+      "ID64": 681696639569,
+      "Coords": {
+        "x": 798.40625,
+        "y": 1436.875,
+        "z": 13218.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RJ-I b10-0",
+      "ID64": 681696639577,
+      "Coords": {
+        "x": 800.40625,
+        "y": 1441.15625,
+        "z": 13237.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QJ-I b10-0",
+      "ID64": 681428204121,
+      "Coords": {
+        "x": 793.25,
+        "y": 1447.78125,
+        "z": 13244.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PO-I b10-0",
+      "ID64": 681696705113,
+      "Coords": {
+        "x": 796.75,
+        "y": 1458.15625,
+        "z": 13238.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-5",
+      "ID64": 182444134035,
+      "Coords": {
+        "x": 800.09375,
+        "y": 1466.75,
+        "z": 13244
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb NT-I b10-0",
+      "ID64": 681696770649,
+      "Coords": {
+        "x": 795.3125,
+        "y": 1477.875,
+        "z": 13236.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IN-K b9-0",
+      "ID64": 681428335185,
+      "Coords": {
+        "x": 790.84375,
+        "y": 1475.5,
+        "z": 13234.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MT-I b10-0",
+      "ID64": 681428335193,
+      "Coords": {
+        "x": 777.78125,
+        "y": 1479.03125,
+        "z": 13236.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KY-I b10-0",
+      "ID64": 681428400729,
+      "Coords": {
+        "x": 778.25,
+        "y": 1496.75,
+        "z": 13240.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GS-K b9-0",
+      "ID64": 681428400721,
+      "Coords": {
+        "x": 777.40625,
+        "y": 1501.9375,
+        "z": 13234.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DJ-S c4-0",
+      "ID64": 85195955498,
+      "Coords": {
+        "x": 775.21875,
+        "y": 1498.625,
+        "z": 13220.34375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-17",
+      "ID64": 594760994451,
+      "Coords": {
+        "x": 766.09375,
+        "y": 1492,
+        "z": 13218.5625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb FS-K b9-0",
+      "ID64": 681159965265,
+      "Coords": {
+        "x": 757.8125,
+        "y": 1499.5625,
+        "z": 13216.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ES-K b9-0",
+      "ID64": 680891529809,
+      "Coords": {
+        "x": 754.6875,
+        "y": 1509.75,
+        "z": 13229.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DX-K b9-0",
+      "ID64": 681160030801,
+      "Coords": {
+        "x": 758.40625,
+        "y": 1517.8125,
+        "z": 13215.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YC-U c3-1",
+      "ID64": 360006753570,
+      "Coords": {
+        "x": 742.6875,
+        "y": 1523.46875,
+        "z": 13210.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YC-U c3-2",
+      "ID64": 634884660514,
+      "Coords": {
+        "x": 738.9375,
+        "y": 1523.71875,
+        "z": 13206.53125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb YC-U c3-3",
+      "ID64": 909762567458,
+      "Coords": {
+        "x": 742.46875,
+        "y": 1527.84375,
+        "z": 13199.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb WV-M b8-0",
+      "ID64": 680891660873,
+      "Coords": {
+        "x": 736.8125,
+        "y": 1537.1875,
+        "z": 13197.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WH-U c3-2",
+      "ID64": 634884693282,
+      "Coords": {
+        "x": 738.53125,
+        "y": 1541.875,
+        "z": 13184.78125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SP-O b7-0",
+      "ID64": 680891660865,
+      "Coords": {
+        "x": 735.90625,
+        "y": 1545.75,
+        "z": 13184.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WH-U c3-1",
+      "ID64": 360006786338,
+      "Coords": {
+        "x": 735.46875,
+        "y": 1537.3125,
+        "z": 13181.4375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb WH-U c3-0",
+      "ID64": 85128879394,
+      "Coords": {
+        "x": 740.40625,
+        "y": 1540.84375,
+        "z": 13178
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YC-U c3-4",
+      "ID64": 1184640474402,
+      "Coords": {
+        "x": 744.84375,
+        "y": 1534.03125,
+        "z": 13184.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UK-O b7-0",
+      "ID64": 680891595329,
+      "Coords": {
+        "x": 738.53125,
+        "y": 1521.25,
+        "z": 13176
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YC-U c3-0",
+      "ID64": 85128846626,
+      "Coords": {
+        "x": 738.28125,
+        "y": 1500.4375,
+        "z": 13177.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WF-O b7-0",
+      "ID64": 680891529793,
+      "Coords": {
+        "x": 735.46875,
+        "y": 1499.09375,
+        "z": 13180.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-0",
+      "ID64": 10645458579,
+      "Coords": {
+        "x": 742.625,
+        "y": 1500.25,
+        "z": 13182.03125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb XF-O b7-0",
+      "ID64": 681159965249,
+      "Coords": {
+        "x": 757.9375,
+        "y": 1506.375,
+        "z": 13182.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YF-O b7-0",
+      "ID64": 681428400705,
+      "Coords": {
+        "x": 777.96875,
+        "y": 1498.8125,
+        "z": 13180.3125
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb ZC-U c3-0",
+      "ID64": 85195955490,
+      "Coords": {
+        "x": 779.25,
+        "y": 1496.59375,
+        "z": 13176.75
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb YF-O b7-1",
+      "ID64": 2880451656257,
+      "Coords": {
+        "x": 786.71875,
+        "y": 1502.96875,
+        "z": 13184.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZC-U c3-1",
+      "ID64": 360073862434,
+      "Coords": {
+        "x": 791.9375,
+        "y": 1498.90625,
+        "z": 13175.34375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ZC-U c3-2",
+      "ID64": 634951769378,
+      "Coords": {
+        "x": 796.78125,
+        "y": 1497.21875,
+        "z": 13187.875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ZF-O b7-0",
+      "ID64": 681696836161,
+      "Coords": {
+        "x": 809.875,
+        "y": 1505.09375,
+        "z": 13191.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-13",
+      "ID64": 457322057363,
+      "Coords": {
+        "x": 814.8125,
+        "y": 1509.59375,
+        "z": 13197.84375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb CR-M b8-0",
+      "ID64": 681965337161,
+      "Coords": {
+        "x": 817.125,
+        "y": 1515.6875,
+        "z": 13200.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DM-M b8-0",
+      "ID64": 681696836169,
+      "Coords": {
+        "x": 810.65625,
+        "y": 1511.4375,
+        "z": 13207.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZC-U c3-3",
+      "ID64": 909829676322,
+      "Coords": {
+        "x": 798.15625,
+        "y": 1518.78125,
+        "z": 13206
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BR-M b8-0",
+      "ID64": 681696901705,
+      "Coords": {
+        "x": 797.78125,
+        "y": 1518.65625,
+        "z": 13199.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AR-M b8-0",
+      "ID64": 681428466249,
+      "Coords": {
+        "x": 792.46875,
+        "y": 1532.03125,
+        "z": 13199.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZV-M b8-0",
+      "ID64": 681696967241,
+      "Coords": {
+        "x": 796,
+        "y": 1540.75,
+        "z": 13200.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YV-M b8-0",
+      "ID64": 681428531785,
+      "Coords": {
+        "x": 792.1875,
+        "y": 1539.46875,
+        "z": 13212.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-5",
+      "ID64": 182444150419,
+      "Coords": {
+        "x": 791.0625,
+        "y": 1544.03125,
+        "z": 13213.65625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-4",
+      "ID64": 148084412051,
+      "Coords": {
+        "x": 790.875,
+        "y": 1546.78125,
+        "z": 13213.46875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-15",
+      "ID64": 526041534099,
+      "Coords": {
+        "x": 796.625,
+        "y": 1536.40625,
+        "z": 13216.03125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb DC-L b9-0",
+      "ID64": 681696967249,
+      "Coords": {
+        "x": 798.90625,
+        "y": 1537.375,
+        "z": 13217
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-14",
+      "ID64": 491681795731,
+      "Coords": {
+        "x": 809.6875,
+        "y": 1529.84375,
+        "z": 13211.71875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-18",
+      "ID64": 629137526419,
+      "Coords": {
+        "x": 818.84375,
+        "y": 1525.96875,
+        "z": 13204.03125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-19",
+      "ID64": 663497264787,
+      "Coords": {
+        "x": 826.09375,
+        "y": 1535.125,
+        "z": 13213.9375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb AW-M b8-0",
+      "ID64": 681965402697,
+      "Coords": {
+        "x": 822.46875,
+        "y": 1541.6875,
+        "z": 13211.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EC-L b9-0",
+      "ID64": 681965402705,
+      "Coords": {
+        "x": 817.5625,
+        "y": 1540.46875,
+        "z": 13215.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb II-J b10-0",
+      "ID64": 681965402713,
+      "Coords": {
+        "x": 815.40625,
+        "y": 1538.34375,
+        "z": 13235.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HI-J b10-0",
+      "ID64": 681696967257,
+      "Coords": {
+        "x": 813.625,
+        "y": 1551.34375,
+        "z": 13238.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CH-L b9-0",
+      "ID64": 681965468241,
+      "Coords": {
+        "x": 819.78125,
+        "y": 1560.125,
+        "z": 13220.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CO-S c4-0",
+      "ID64": 85263097130,
+      "Coords": {
+        "x": 815.03125,
+        "y": 1573,
+        "z": 13225.28125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb BH-L b9-0",
+      "ID64": 681697032785,
+      "Coords": {
+        "x": 807.4375,
+        "y": 1570.96875,
+        "z": 13230.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FN-J b10-0",
+      "ID64": 681697032793,
+      "Coords": {
+        "x": 814.21875,
+        "y": 1573.28125,
+        "z": 13248.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-6",
+      "ID64": 216803888795,
+      "Coords": {
+        "x": 806.1875,
+        "y": 1570.9375,
+        "z": 13255.46875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-7",
+      "ID64": 251163627163,
+      "Coords": {
+        "x": 809.53125,
+        "y": 1564.25,
+        "z": 13259.21875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb KT-H b11-0",
+      "ID64": 681965468257,
+      "Coords": {
+        "x": 816.53125,
+        "y": 1555.8125,
+        "z": 13259.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MO-H b11-0",
+      "ID64": 681965402721,
+      "Coords": {
+        "x": 815.5625,
+        "y": 1539.90625,
+        "z": 13258
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GU-Q c5-0",
+      "ID64": 85263097138,
+      "Coords": {
+        "x": 819.4375,
+        "y": 1538.59375,
+        "z": 13257.5
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb CO-S c4-3",
+      "ID64": 909896817962,
+      "Coords": {
+        "x": 833.75,
+        "y": 1548.0625,
+        "z": 13253.28125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb CO-S c4-2",
+      "ID64": 635018911018,
+      "Coords": {
+        "x": 832.1875,
+        "y": 1551.21875,
+        "z": 13253.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb CO-S c4-1",
+      "ID64": 360141004074,
+      "Coords": {
+        "x": 837.28125,
+        "y": 1547.75,
+        "z": 13249.96875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JI-J b10-0",
+      "ID64": 682233838169,
+      "Coords": {
+        "x": 839.3125,
+        "y": 1540.21875,
+        "z": 13251.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NO-H b11-0",
+      "ID64": 682233838177,
+      "Coords": {
+        "x": 838.71875,
+        "y": 1539.40625,
+        "z": 13256.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GU-Q c5-2",
+      "ID64": 635018911026,
+      "Coords": {
+        "x": 840.65625,
+        "y": 1548.15625,
+        "z": 13264.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-4",
+      "ID64": 148101189275,
+      "Coords": {
+        "x": 844.78125,
+        "y": 1548.4375,
+        "z": 13265.46875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb GU-Q c5-1",
+      "ID64": 360141004082,
+      "Coords": {
+        "x": 837.53125,
+        "y": 1536.25,
+        "z": 13269.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RU-F b12-0",
+      "ID64": 682233838185,
+      "Coords": {
+        "x": 840.03125,
+        "y": 1538.28125,
+        "z": 13275.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PJ-H b11-0",
+      "ID64": 682233772641,
+      "Coords": {
+        "x": 842.21875,
+        "y": 1532.5625,
+        "z": 13265.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OJ-H b11-0",
+      "ID64": 681965337185,
+      "Coords": {
+        "x": 832.53125,
+        "y": 1522.125,
+        "z": 13268.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SP-F b12-0",
+      "ID64": 681965337193,
+      "Coords": {
+        "x": 831.53125,
+        "y": 1521.1875,
+        "z": 13283.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VK-F b12-0",
+      "ID64": 682233707113,
+      "Coords": {
+        "x": 844.78125,
+        "y": 1513.9375,
+        "z": 13285.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IP-Q c5-1",
+      "ID64": 360140971314,
+      "Coords": {
+        "x": 852.46875,
+        "y": 1499.8125,
+        "z": 13291.5
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb IP-Q c5-0",
+      "ID64": 85263064370,
+      "Coords": {
+        "x": 853.15625,
+        "y": 1497.375,
+        "z": 13291.5625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb CM-D b13-1",
+      "ID64": 2881525332593,
+      "Coords": {
+        "x": 856.8125,
+        "y": 1494.09375,
+        "z": 13295.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AR-D b13-0",
+      "ID64": 682502142577,
+      "Coords": {
+        "x": 857.5,
+        "y": 1496.46875,
+        "z": 13298.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-19",
+      "ID64": 663497264795,
+      "Coords": {
+        "x": 869.46875,
+        "y": 1503.5,
+        "z": 13298.71875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb AR-D b13-1",
+      "ID64": 2881525398129,
+      "Coords": {
+        "x": 867.96875,
+        "y": 1505.40625,
+        "z": 13296.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YF-F b12-0",
+      "ID64": 682502077033,
+      "Coords": {
+        "x": 869.71875,
+        "y": 1489.53125,
+        "z": 13285.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UZ-G b11-0",
+      "ID64": 682502077025,
+      "Coords": {
+        "x": 871.1875,
+        "y": 1492.875,
+        "z": 13274.375
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb WK-F b12-0",
+      "ID64": 682502142569,
+      "Coords": {
+        "x": 856.84375,
+        "y": 1495.96875,
+        "z": 13280.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KK-Q c5-2",
+      "ID64": 635018845490,
+      "Coords": {
+        "x": 851.8125,
+        "y": 1493.5,
+        "z": 13273.6875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb KK-Q c5-3",
+      "ID64": 909896752434,
+      "Coords": {
+        "x": 851.8125,
+        "y": 1487.59375,
+        "z": 13269.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb TZ-G b11-0",
+      "ID64": 682233641569,
+      "Coords": {
+        "x": 843.90625,
+        "y": 1478.15625,
+        "z": 13267.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XF-F b12-0",
+      "ID64": 682233641577,
+      "Coords": {
+        "x": 839.71875,
+        "y": 1480.96875,
+        "z": 13277.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-5",
+      "ID64": 182460911259,
+      "Coords": {
+        "x": 832.53125,
+        "y": 1485.9375,
+        "z": 13293.53125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-6",
+      "ID64": 216820649627,
+      "Coords": {
+        "x": 829.3125,
+        "y": 1484.75,
+        "z": 13297.09375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb BM-D b13-0",
+      "ID64": 682233641585,
+      "Coords": {
+        "x": 838.3125,
+        "y": 1478.15625,
+        "z": 13300.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BM-D b13-1",
+      "ID64": 2881256897137,
+      "Coords": {
+        "x": 842.84375,
+        "y": 1482.15625,
+        "z": 13303.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DH-D b13-0",
+      "ID64": 682233576049,
+      "Coords": {
+        "x": 851.875,
+        "y": 1470.21875,
+        "z": 13300.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-3",
+      "ID64": 113741434523,
+      "Coords": {
+        "x": 857.21875,
+        "y": 1475.53125,
+        "z": 13297.125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb CM-D b13-0",
+      "ID64": 682502077041,
+      "Coords": {
+        "x": 858.25,
+        "y": 1477.96875,
+        "z": 13300.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EH-D b13-0",
+      "ID64": 682502011505,
+      "Coords": {
+        "x": 864.71875,
+        "y": 1474.34375,
+        "z": 13311.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GS-B b14-0",
+      "ID64": 682502077049,
+      "Coords": {
+        "x": 856.9375,
+        "y": 1479.4375,
+        "z": 13317.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FS-B b14-0",
+      "ID64": 682233641593,
+      "Coords": {
+        "x": 837.8125,
+        "y": 1475.34375,
+        "z": 13319.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OQ-O c6-0",
+      "ID64": 85263031610,
+      "Coords": {
+        "x": 828.71875,
+        "y": 1481.46875,
+        "z": 13325.71875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OQ-O c6-2",
+      "ID64": 635018845498,
+      "Coords": {
+        "x": 829.4375,
+        "y": 1487.375,
+        "z": 13329.5
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OQ-O c6-1",
+      "ID64": 360140938554,
+      "Coords": {
+        "x": 833.28125,
+        "y": 1491.5625,
+        "z": 13327.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ES-B b14-0",
+      "ID64": 681965206137,
+      "Coords": {
+        "x": 832.84375,
+        "y": 1489.71875,
+        "z": 13320.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DX-B b14-0",
+      "ID64": 682233707129,
+      "Coords": {
+        "x": 837.5,
+        "y": 1497.4375,
+        "z": 13318.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AM-D b13-1",
+      "ID64": 2880988461681,
+      "Coords": {
+        "x": 826.40625,
+        "y": 1489.65625,
+        "z": 13311.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-18",
+      "ID64": 629137526427,
+      "Coords": {
+        "x": 828.15625,
+        "y": 1495.4375,
+        "z": 13303.1875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb YQ-D b13-1",
+      "ID64": 2880988527217,
+      "Coords": {
+        "x": 829.59375,
+        "y": 1497.6875,
+        "z": 13304.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-3",
+      "ID64": 113741450907,
+      "Coords": {
+        "x": 833.1875,
+        "y": 1502.59375,
+        "z": 13299.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ZQ-D b13-0",
+      "ID64": 682233707121,
+      "Coords": {
+        "x": 839.875,
+        "y": 1496.34375,
+        "z": 13297.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZA-F b12-0",
+      "ID64": 682233576041,
+      "Coords": {
+        "x": 848.15625,
+        "y": 1472.15625,
+        "z": 13292.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZA-F b12-1",
+      "ID64": 2881256831593,
+      "Coords": {
+        "x": 852.125,
+        "y": 1467.3125,
+        "z": 13290.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PQ-O c6-3",
+      "ID64": 909963861306,
+      "Coords": {
+        "x": 860.53125,
+        "y": 1459.09375,
+        "z": 13295.625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb PQ-O c6-4",
+      "ID64": 1184841768250,
+      "Coords": {
+        "x": 861.1875,
+        "y": 1459.1875,
+        "z": 13300.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-2",
+      "ID64": 79381696155,
+      "Coords": {
+        "x": 866.3125,
+        "y": 1465.53125,
+        "z": 13289.21875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb AB-F b12-0",
+      "ID64": 682502011497,
+      "Coords": {
+        "x": 872.09375,
+        "y": 1461.65625,
+        "z": 13281.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HL-Y e3",
+      "ID64": 14216669004,
+      "Coords": {
+        "x": 878.90625,
+        "y": 1473.90625,
+        "z": 13300.6875
+      },
+      "Notes": "B"
+    },
+    {
+      "SystemName": "Byeia Aerb DM-D b13-0",
+      "ID64": 682770512497,
+      "Coords": {
+        "x": 875.21875,
+        "y": 1478.40625,
+        "z": 13299.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DM-D b13-1",
+      "ID64": 2881793768049,
+      "Coords": {
+        "x": 877.6875,
+        "y": 1481.75,
+        "z": 13298.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HS-B b14-0",
+      "ID64": 682770512505,
+      "Coords": {
+        "x": 877.09375,
+        "y": 1480.5,
+        "z": 13316.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PQ-O c6-1",
+      "ID64": 360208047418,
+      "Coords": {
+        "x": 880.875,
+        "y": 1479.3125,
+        "z": 13320.3125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb PQ-O c6-2",
+      "ID64": 635085954362,
+      "Coords": {
+        "x": 881.71875,
+        "y": 1478.125,
+        "z": 13322.75
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb PQ-O c6-0",
+      "ID64": 85330140474,
+      "Coords": {
+        "x": 884.40625,
+        "y": 1484.75,
+        "z": 13326.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb FX-B b14-0",
+      "ID64": 682770578041,
+      "Coords": {
+        "x": 875.84375,
+        "y": 1495.875,
+        "z": 13318.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EX-B b14-0",
+      "ID64": 682502142585,
+      "Coords": {
+        "x": 857.90625,
+        "y": 1499.65625,
+        "z": 13320.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-1",
+      "ID64": 45021974171,
+      "Coords": {
+        "x": 858.25,
+        "y": 1517.09375,
+        "z": 13316.1875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb CC-C b14-0",
+      "ID64": 682502208121,
+      "Coords": {
+        "x": 860.3125,
+        "y": 1518.875,
+        "z": 13320.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CC-C b14-1",
+      "ID64": 2881525463673,
+      "Coords": {
+        "x": 862.09375,
+        "y": 1531.1875,
+        "z": 13326.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AH-C b14-0",
+      "ID64": 682502273657,
+      "Coords": {
+        "x": 856.0625,
+        "y": 1537.71875,
+        "z": 13329.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BC-C b14-0",
+      "ID64": 682233772665,
+      "Coords": {
+        "x": 847.125,
+        "y": 1529.875,
+        "z": 13329.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DX-B b14-1",
+      "ID64": 2881256962681,
+      "Coords": {
+        "x": 848.1875,
+        "y": 1511.25,
+        "z": 13330.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AC-C b14-0",
+      "ID64": 681965337209,
+      "Coords": {
+        "x": 820.125,
+        "y": 1516.34375,
+        "z": 13320.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LV-O c6-1",
+      "ID64": 360073862458,
+      "Coords": {
+        "x": 805.625,
+        "y": 1510.96875,
+        "z": 13311.125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ZB-C b14-0",
+      "ID64": 681696901753,
+      "Coords": {
+        "x": 800.65625,
+        "y": 1518.03125,
+        "z": 13315.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UV-D b13-0",
+      "ID64": 681428466289,
+      "Coords": {
+        "x": 788.40625,
+        "y": 1515.75,
+        "z": 13310.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LV-O c6-0",
+      "ID64": 85195955514,
+      "Coords": {
+        "x": 787.53125,
+        "y": 1521.625,
+        "z": 13327.625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-4",
+      "ID64": 148084412059,
+      "Coords": {
+        "x": 795.71875,
+        "y": 1521.40625,
+        "z": 13331.1875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb XG-C b14-0",
+      "ID64": 681696967289,
+      "Coords": {
+        "x": 797.875,
+        "y": 1535.875,
+        "z": 13330.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WG-C b14-0",
+      "ID64": 681428531833,
+      "Coords": {
+        "x": 779.4375,
+        "y": 1536.375,
+        "z": 13320.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YB-C b14-0",
+      "ID64": 681428466297,
+      "Coords": {
+        "x": 776.8125,
+        "y": 1525.75,
+        "z": 13323.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LV-O c6-3",
+      "ID64": 909829676346,
+      "Coords": {
+        "x": 779.90625,
+        "y": 1534.875,
+        "z": 13308.71875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb SA-E b13-0",
+      "ID64": 681428531825,
+      "Coords": {
+        "x": 778.46875,
+        "y": 1536.9375,
+        "z": 13297.84375
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb OU-F b12-0",
+      "ID64": 681428531817,
+      "Coords": {
+        "x": 782.34375,
+        "y": 1542,
+        "z": 13291.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TA-E b13-0",
+      "ID64": 681696967281,
+      "Coords": {
+        "x": 796.0625,
+        "y": 1539.65625,
+        "z": 13295.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JA-P c6-3",
+      "ID64": 909829709114,
+      "Coords": {
+        "x": 791.15625,
+        "y": 1554.375,
+        "z": 13295.40625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JA-P c6-2",
+      "ID64": 634951802170,
+      "Coords": {
+        "x": 795.125,
+        "y": 1555.625,
+        "z": 13298.40625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JA-P c6-1",
+      "ID64": 360073895226,
+      "Coords": {
+        "x": 800.46875,
+        "y": 1555.71875,
+        "z": 13295.46875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JA-P c6-0",
+      "ID64": 85195988282,
+      "Coords": {
+        "x": 805.59375,
+        "y": 1558.03125,
+        "z": 13295.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb RF-E b13-0",
+      "ID64": 681697032817,
+      "Coords": {
+        "x": 811.28125,
+        "y": 1559.28125,
+        "z": 13303.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WL-C b14-0",
+      "ID64": 681965468281,
+      "Coords": {
+        "x": 816.8125,
+        "y": 1557.875,
+        "z": 13319.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-5",
+      "ID64": 182444150427,
+      "Coords": {
+        "x": 813.9375,
+        "y": 1559.84375,
+        "z": 13324.21875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb VL-C b14-0",
+      "ID64": 681697032825,
+      "Coords": {
+        "x": 804.53125,
+        "y": 1567.65625,
+        "z": 13324.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QF-E b13-0",
+      "ID64": 681428597361,
+      "Coords": {
+        "x": 793.46875,
+        "y": 1565.875,
+        "z": 13307.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UL-C b14-0",
+      "ID64": 681428597369,
+      "Coords": {
+        "x": 780.90625,
+        "y": 1556.09375,
+        "z": 13320.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TL-C b14-0",
+      "ID64": 681160161913,
+      "Coords": {
+        "x": 773.0625,
+        "y": 1572.46875,
+        "z": 13324.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SL-C b14-0",
+      "ID64": 680891726457,
+      "Coords": {
+        "x": 753.5,
+        "y": 1571.875,
+        "z": 13323.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IA-P c6-3",
+      "ID64": 909762600250,
+      "Coords": {
+        "x": 740.40625,
+        "y": 1558.40625,
+        "z": 13320.84375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OF-E b13-0",
+      "ID64": 680891726449,
+      "Coords": {
+        "x": 751.875,
+        "y": 1561.8125,
+        "z": 13304.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PF-E b13-0",
+      "ID64": 681160161905,
+      "Coords": {
+        "x": 760.625,
+        "y": 1555,
+        "z": 13297.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RA-E b13-0",
+      "ID64": 681160096369,
+      "Coords": {
+        "x": 759.5625,
+        "y": 1538.96875,
+        "z": 13298.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SV-D b13-0",
+      "ID64": 680891595377,
+      "Coords": {
+        "x": 746.6875,
+        "y": 1528.65625,
+        "z": 13298.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IA-P c6-0",
+      "ID64": 85128879418,
+      "Coords": {
+        "x": 739.46875,
+        "y": 1537.5625,
+        "z": 13300.5
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb IA-P c6-2",
+      "ID64": 634884693306,
+      "Coords": {
+        "x": 741.9375,
+        "y": 1540.6875,
+        "z": 13301.65625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb IA-P c6-1",
+      "ID64": 360006786362,
+      "Coords": {
+        "x": 739.96875,
+        "y": 1542.3125,
+        "z": 13301.9375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QA-E b13-0",
+      "ID64": 680891660913,
+      "Coords": {
+        "x": 735.53125,
+        "y": 1538.625,
+        "z": 13298.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-20",
+      "ID64": 697840225947,
+      "Coords": {
+        "x": 737.8125,
+        "y": 1547.21875,
+        "z": 13288.0625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-18",
+      "ID64": 629120749211,
+      "Coords": {
+        "x": 742.5,
+        "y": 1551.78125,
+        "z": 13288.96875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-19",
+      "ID64": 663480487579,
+      "Coords": {
+        "x": 738.25,
+        "y": 1547.03125,
+        "z": 13280.6875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb EU-Q c5-2",
+      "ID64": 634884693298,
+      "Coords": {
+        "x": 741.3125,
+        "y": 1545.78125,
+        "z": 13273.53125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb EU-Q c5-1",
+      "ID64": 360006786354,
+      "Coords": {
+        "x": 737.40625,
+        "y": 1551.96875,
+        "z": 13270.125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb EU-Q c5-0",
+      "ID64": 85128879410,
+      "Coords": {
+        "x": 739.46875,
+        "y": 1553.09375,
+        "z": 13270.28125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-3",
+      "ID64": 113724673691,
+      "Coords": {
+        "x": 748.6875,
+        "y": 1558.59375,
+        "z": 13278.25
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb KZ-F b12-0",
+      "ID64": 680891726441,
+      "Coords": {
+        "x": 742.28125,
+        "y": 1572.75,
+        "z": 13278.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GT-H b11-0",
+      "ID64": 680891726433,
+      "Coords": {
+        "x": 749.375,
+        "y": 1573.71875,
+        "z": 13260.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EU-Q c5-3",
+      "ID64": 909762600242,
+      "Coords": {
+        "x": 744.65625,
+        "y": 1564.34375,
+        "z": 13258.3125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-9",
+      "ID64": 319883103891,
+      "Coords": {
+        "x": 751.125,
+        "y": 1559.28125,
+        "z": 13249.9375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb CN-J b10-0",
+      "ID64": 680891726425,
+      "Coords": {
+        "x": 751.25,
+        "y": 1565.6875,
+        "z": 13239.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YG-L b9-0",
+      "ID64": 680891726417,
+      "Coords": {
+        "x": 754.84375,
+        "y": 1567.21875,
+        "z": 13227.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZG-L b9-0",
+      "ID64": 681160161873,
+      "Coords": {
+        "x": 759.90625,
+        "y": 1559.28125,
+        "z": 13230.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-6",
+      "ID64": 216803888787,
+      "Coords": {
+        "x": 744.34375,
+        "y": 1556.28125,
+        "z": 13228.34375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb AO-S c4-3",
+      "ID64": 909762600234,
+      "Coords": {
+        "x": 739.90625,
+        "y": 1552.40625,
+        "z": 13222.125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-7",
+      "ID64": 251163627155,
+      "Coords": {
+        "x": 735.3125,
+        "y": 1559.90625,
+        "z": 13229.75
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb EI-J b10-0",
+      "ID64": 680891660889,
+      "Coords": {
+        "x": 739.71875,
+        "y": 1540.625,
+        "z": 13236.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GD-J b10-0",
+      "ID64": 680891595353,
+      "Coords": {
+        "x": 741.53125,
+        "y": 1533.15625,
+        "z": 13241.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-11",
+      "ID64": 388602580627,
+      "Coords": {
+        "x": 737.875,
+        "y": 1527.03125,
+        "z": 13247.0625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb CJ-S c4-2",
+      "ID64": 634884660522,
+      "Coords": {
+        "x": 749.125,
+        "y": 1527.625,
+        "z": 13254.40625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb CJ-S c4-1",
+      "ID64": 360006753578,
+      "Coords": {
+        "x": 749.15625,
+        "y": 1534.15625,
+        "z": 13253.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IO-H b11-0",
+      "ID64": 680891660897,
+      "Coords": {
+        "x": 754.15625,
+        "y": 1543.15625,
+        "z": 13260.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JO-H b11-0",
+      "ID64": 681160096353,
+      "Coords": {
+        "x": 768.125,
+        "y": 1538.78125,
+        "z": 13259
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FU-Q c5-1",
+      "ID64": 360073895218,
+      "Coords": {
+        "x": 775.90625,
+        "y": 1538.53125,
+        "z": 13260.46875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb KO-H b11-0",
+      "ID64": 681428531809,
+      "Coords": {
+        "x": 777.65625,
+        "y": 1538.375,
+        "z": 13260
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FU-Q c5-0",
+      "ID64": 85195988274,
+      "Coords": {
+        "x": 776.65625,
+        "y": 1540.1875,
+        "z": 13260.71875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb LJ-H b11-0",
+      "ID64": 681160030817,
+      "Coords": {
+        "x": 762.5,
+        "y": 1533.25,
+        "z": 13267.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GP-Q c5-2",
+      "ID64": 634884660530,
+      "Coords": {
+        "x": 767.59375,
+        "y": 1524.40625,
+        "z": 13265.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MJ-H b11-0",
+      "ID64": 681428466273,
+      "Coords": {
+        "x": 780.40625,
+        "y": 1517.1875,
+        "z": 13255
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HD-J b10-0",
+      "ID64": 681160030809,
+      "Coords": {
+        "x": 772.71875,
+        "y": 1522.75,
+        "z": 13239.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DJ-S c4-2",
+      "ID64": 634951769386,
+      "Coords": {
+        "x": 775.875,
+        "y": 1528.28125,
+        "z": 13240.34375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb DJ-S c4-1",
+      "ID64": 360073862442,
+      "Coords": {
+        "x": 779,
+        "y": 1531.90625,
+        "z": 13235.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GI-J b10-0",
+      "ID64": 681428531801,
+      "Coords": {
+        "x": 776.96875,
+        "y": 1539.5,
+        "z": 13238
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CC-L b9-0",
+      "ID64": 681428531793,
+      "Coords": {
+        "x": 783.53125,
+        "y": 1540.1875,
+        "z": 13231.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EX-K b9-0",
+      "ID64": 681428466257,
+      "Coords": {
+        "x": 786.125,
+        "y": 1534.1875,
+        "z": 13231.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-16",
+      "ID64": 560401272467,
+      "Coords": {
+        "x": 780.875,
+        "y": 1532.84375,
+        "z": 13219.6875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb BO-S c4-0",
+      "ID64": 85195988266,
+      "Coords": {
+        "x": 775.9375,
+        "y": 1536,
+        "z": 13220.75
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BC-L b9-0",
+      "ID64": 681160096337,
+      "Coords": {
+        "x": 761.1875,
+        "y": 1537.8125,
+        "z": 13229.40625
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb FI-J b10-0",
+      "ID64": 681160096345,
+      "Coords": {
+        "x": 755.84375,
+        "y": 1537.875,
+        "z": 13237.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-10",
+      "ID64": 354242842259,
+      "Coords": {
+        "x": 753.5625,
+        "y": 1543.15625,
+        "z": 13237.1875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-8",
+      "ID64": 285523365523,
+      "Coords": {
+        "x": 767.125,
+        "y": 1547.5,
+        "z": 13247.5
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb EN-J b10-0",
+      "ID64": 681428597337,
+      "Coords": {
+        "x": 777.4375,
+        "y": 1556.03125,
+        "z": 13240.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BO-S c4-1",
+      "ID64": 360073895210,
+      "Coords": {
+        "x": 789.53125,
+        "y": 1561.09375,
+        "z": 13238.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BO-S c4-2",
+      "ID64": 634951802154,
+      "Coords": {
+        "x": 789.3125,
+        "y": 1564.375,
+        "z": 13242.84375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BO-S c4-3",
+      "ID64": 909829709098,
+      "Coords": {
+        "x": 790.3125,
+        "y": 1557.71875,
+        "z": 13243.5
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AH-L b9-0",
+      "ID64": 681428597329,
+      "Coords": {
+        "x": 788.75,
+        "y": 1560.125,
+        "z": 13231.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-1",
+      "ID64": 45005196947,
+      "Coords": {
+        "x": 794.09375,
+        "y": 1566.28125,
+        "z": 13206.78125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb XA-N b8-0",
+      "ID64": 681697032777,
+      "Coords": {
+        "x": 797.8125,
+        "y": 1556.84375,
+        "z": 13196.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TU-O b7-0",
+      "ID64": 681697032769,
+      "Coords": {
+        "x": 798.1875,
+        "y": 1561.84375,
+        "z": 13189.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XH-U c3-3",
+      "ID64": 909829709090,
+      "Coords": {
+        "x": 796.09375,
+        "y": 1564.03125,
+        "z": 13182.75
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb XH-U c3-2",
+      "ID64": 634951802146,
+      "Coords": {
+        "x": 797.65625,
+        "y": 1563.1875,
+        "z": 13179.40625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-2",
+      "ID64": 79364935315,
+      "Coords": {
+        "x": 799.09375,
+        "y": 1567.78125,
+        "z": 13193.25
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-3",
+      "ID64": 113724673683,
+      "Coords": {
+        "x": 806.3125,
+        "y": 1557.84375,
+        "z": 13190.21875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb YA-N b8-0",
+      "ID64": 681965468233,
+      "Coords": {
+        "x": 819.5,
+        "y": 1557.375,
+        "z": 13195.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UU-O b7-0",
+      "ID64": 681965468225,
+      "Coords": {
+        "x": 824.25,
+        "y": 1566.5625,
+        "z": 13184.875
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb YH-U c3-3",
+      "ID64": 909896817954,
+      "Coords": {
+        "x": 827.40625,
+        "y": 1572.40625,
+        "z": 13201.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZA-N b8-0",
+      "ID64": 682233903689,
+      "Coords": {
+        "x": 835.875,
+        "y": 1557.5,
+        "z": 13195.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VU-O b7-0",
+      "ID64": 682233903681,
+      "Coords": {
+        "x": 846.6875,
+        "y": 1564.6875,
+        "z": 13192.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YH-U c3-2",
+      "ID64": 635018911010,
+      "Coords": {
+        "x": 841.625,
+        "y": 1560.28125,
+        "z": 13209.15625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb FC-L b9-0",
+      "ID64": 682233838161,
+      "Coords": {
+        "x": 835.9375,
+        "y": 1554.65625,
+        "z": 13215.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DH-L b9-0",
+      "ID64": 682233903697,
+      "Coords": {
+        "x": 837.625,
+        "y": 1558.25,
+        "z": 13226.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HN-J b10-0",
+      "ID64": 682233903705,
+      "Coords": {
+        "x": 837.71875,
+        "y": 1557.125,
+        "z": 13239.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GN-J b10-0",
+      "ID64": 681965468249,
+      "Coords": {
+        "x": 834.3125,
+        "y": 1561.0625,
+        "z": 13240.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-7",
+      "ID64": 251180404371,
+      "Coords": {
+        "x": 839.15625,
+        "y": 1565.34375,
+        "z": 13247.4375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb LT-H b11-0",
+      "ID64": 682233903713,
+      "Coords": {
+        "x": 836.6875,
+        "y": 1559.15625,
+        "z": 13258.09375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb PZ-F b12-0",
+      "ID64": 682233903721,
+      "Coords": {
+        "x": 846.53125,
+        "y": 1564.75,
+        "z": 13275.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-7",
+      "ID64": 251180404379,
+      "Coords": {
+        "x": 838.28125,
+        "y": 1564.84375,
+        "z": 13282.34375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb QZ-F b12-0",
+      "ID64": 682502339177,
+      "Coords": {
+        "x": 856.875,
+        "y": 1558.0625,
+        "z": 13275.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MT-H b11-0",
+      "ID64": 682502339169,
+      "Coords": {
+        "x": 857.8125,
+        "y": 1560.5,
+        "z": 13260.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IN-J b10-0",
+      "ID64": 682502339161,
+      "Coords": {
+        "x": 859.09375,
+        "y": 1574.65625,
+        "z": 13252.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LI-J b10-0",
+      "ID64": 682770709081,
+      "Coords": {
+        "x": 880.6875,
+        "y": 1536.375,
+        "z": 13237.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-9",
+      "ID64": 319899881107,
+      "Coords": {
+        "x": 875.96875,
+        "y": 1527.78125,
+        "z": 13239.21875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb FJ-S c4-4",
+      "ID64": 1184841801002,
+      "Coords": {
+        "x": 878.0625,
+        "y": 1521.6875,
+        "z": 13247.09375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ND-J b10-0",
+      "ID64": 682770643545,
+      "Coords": {
+        "x": 885.375,
+        "y": 1523.40625,
+        "z": 13252.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QJ-H b11-1",
+      "ID64": 2881525463649,
+      "Coords": {
+        "x": 873.21875,
+        "y": 1520.8125,
+        "z": 13257.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QJ-H b11-0",
+      "ID64": 682502208097,
+      "Coords": {
+        "x": 867.4375,
+        "y": 1522.09375,
+        "z": 13267.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XK-F b12-0",
+      "ID64": 682770578025,
+      "Coords": {
+        "x": 877.125,
+        "y": 1514.21875,
+        "z": 13279.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RH-V d2-8",
+      "ID64": 285540142747,
+      "Coords": {
+        "x": 882.71875,
+        "y": 1516.25,
+        "z": 13275.4375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb JP-Q c5-3",
+      "ID64": 909963894066,
+      "Coords": {
+        "x": 884.21875,
+        "y": 1519,
+        "z": 13268.125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb TE-H b11-1",
+      "ID64": 2881793833569,
+      "Coords": {
+        "x": 890.125,
+        "y": 1502.90625,
+        "z": 13272.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TE-H b11-0",
+      "ID64": 682770578017,
+      "Coords": {
+        "x": 875.65625,
+        "y": 1495.25,
+        "z": 13257.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JP-Q c5-1",
+      "ID64": 360208080178,
+      "Coords": {
+        "x": 864.78125,
+        "y": 1499.46875,
+        "z": 13256.40625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SE-H b11-0",
+      "ID64": 682502142561,
+      "Coords": {
+        "x": 860.90625,
+        "y": 1498.40625,
+        "z": 13257.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JP-Q c5-0",
+      "ID64": 85330173234,
+      "Coords": {
+        "x": 860.375,
+        "y": 1496.3125,
+        "z": 13260.90625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SE-H b11-1",
+      "ID64": 2881525398113,
+      "Coords": {
+        "x": 863.3125,
+        "y": 1495.125,
+        "z": 13258.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VZ-G b11-0",
+      "ID64": 682770512481,
+      "Coords": {
+        "x": 875.6875,
+        "y": 1477.03125,
+        "z": 13259.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LK-Q c5-1",
+      "ID64": 360208047410,
+      "Coords": {
+        "x": 862.75,
+        "y": 1463.28125,
+        "z": 13255.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb WU-G b11-0",
+      "ID64": 682502011489,
+      "Coords": {
+        "x": 860.75,
+        "y": 1458.65625,
+        "z": 13255.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LK-Q c5-0",
+      "ID64": 85330140466,
+      "Coords": {
+        "x": 860.6875,
+        "y": 1460.28125,
+        "z": 13259.1875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb LK-Q c5-2",
+      "ID64": 635085954354,
+      "Coords": {
+        "x": 857.78125,
+        "y": 1465.21875,
+        "z": 13256.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SO-I b10-0",
+      "ID64": 682502011481,
+      "Coords": {
+        "x": 855.40625,
+        "y": 1467.03125,
+        "z": 13247.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-17",
+      "ID64": 594777771667,
+      "Coords": {
+        "x": 846.34375,
+        "y": 1462.3125,
+        "z": 13246.03125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-11",
+      "ID64": 388619341459,
+      "Coords": {
+        "x": 852.625,
+        "y": 1452.71875,
+        "z": 13249.28125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-16",
+      "ID64": 560418033299,
+      "Coords": {
+        "x": 858.125,
+        "y": 1453.84375,
+        "z": 13239.875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb OI-K b9-0",
+      "ID64": 682502011473,
+      "Coords": {
+        "x": 863.4375,
+        "y": 1455.28125,
+        "z": 13227.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HE-S c4-0",
+      "ID64": 85330140458,
+      "Coords": {
+        "x": 858.46875,
+        "y": 1459.53125,
+        "z": 13218.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb HE-S c4-1",
+      "ID64": 360208047402,
+      "Coords": {
+        "x": 862.65625,
+        "y": 1461.375,
+        "z": 13215.96875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb HE-S c4-2",
+      "ID64": 635085954346,
+      "Coords": {
+        "x": 857.84375,
+        "y": 1466.78125,
+        "z": 13215.875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-24",
+      "ID64": 835295940243,
+      "Coords": {
+        "x": 873.03125,
+        "y": 1461.3125,
+        "z": 13205.46875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb LC-M b8-0",
+      "ID64": 682770446921,
+      "Coords": {
+        "x": 876,
+        "y": 1471.4375,
+        "z": 13201.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JH-M b8-0",
+      "ID64": 682770512457,
+      "Coords": {
+        "x": 880.15625,
+        "y": 1478.375,
+        "z": 13195.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-18",
+      "ID64": 629137510035,
+      "Coords": {
+        "x": 865.15625,
+        "y": 1484.15625,
+        "z": 13199.125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb IH-M b8-0",
+      "ID64": 682502077001,
+      "Coords": {
+        "x": 857.40625,
+        "y": 1476.8125,
+        "z": 13198.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-23",
+      "ID64": 800936201875,
+      "Coords": {
+        "x": 859.03125,
+        "y": 1483.53125,
+        "z": 13189
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-20",
+      "ID64": 697856986771,
+      "Coords": {
+        "x": 858.21875,
+        "y": 1490.84375,
+        "z": 13186.53125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-21",
+      "ID64": 732216725139,
+      "Coords": {
+        "x": 852.0625,
+        "y": 1491.96875,
+        "z": 13185.8125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-22",
+      "ID64": 766576463507,
+      "Coords": {
+        "x": 848.21875,
+        "y": 1491.125,
+        "z": 13182.15625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb DB-O b7-1",
+      "ID64": 2881256897089,
+      "Coords": {
+        "x": 844.21875,
+        "y": 1480.34375,
+        "z": 13178.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DB-O b7-0",
+      "ID64": 682233641537,
+      "Coords": {
+        "x": 839.71875,
+        "y": 1478.3125,
+        "z": 13176.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EB-O b7-0",
+      "ID64": 682502076993,
+      "Coords": {
+        "x": 855.15625,
+        "y": 1480.8125,
+        "z": 13180.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FW-N b7-0",
+      "ID64": 682233576001,
+      "Coords": {
+        "x": 853.15625,
+        "y": 1467,
+        "z": 13181.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GW-N b7-0",
+      "ID64": 682502011457,
+      "Coords": {
+        "x": 857.375,
+        "y": 1461.84375,
+        "z": 13188.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KC-M b8-0",
+      "ID64": 682502011465,
+      "Coords": {
+        "x": 858.1875,
+        "y": 1456.46875,
+        "z": 13195.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HR-N b7-0",
+      "ID64": 682233510465,
+      "Coords": {
+        "x": 853.46875,
+        "y": 1454.625,
+        "z": 13184.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HR-N b7-1",
+      "ID64": 2881256766017,
+      "Coords": {
+        "x": 846.71875,
+        "y": 1447.125,
+        "z": 13183.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IR-N b7-0",
+      "ID64": 682501945921,
+      "Coords": {
+        "x": 859.0625,
+        "y": 1436.96875,
+        "z": 13177.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KM-N b7-0",
+      "ID64": 682501880385,
+      "Coords": {
+        "x": 861.75,
+        "y": 1430.71875,
+        "z": 13193.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OS-L b8-0",
+      "ID64": 682501880393,
+      "Coords": {
+        "x": 856.90625,
+        "y": 1432.25,
+        "z": 13206.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MX-L b8-0",
+      "ID64": 682501945929,
+      "Coords": {
+        "x": 859.6875,
+        "y": 1435.25,
+        "z": 13212.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LX-L b8-1",
+      "ID64": 2881256766025,
+      "Coords": {
+        "x": 854.15625,
+        "y": 1438.96875,
+        "z": 13208.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LX-L b8-0",
+      "ID64": 682233510473,
+      "Coords": {
+        "x": 842.6875,
+        "y": 1440.875,
+        "z": 13211.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-10",
+      "ID64": 354259603091,
+      "Coords": {
+        "x": 837.8125,
+        "y": 1444.75,
+        "z": 13201.125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb KX-L b8-0",
+      "ID64": 681965075017,
+      "Coords": {
+        "x": 829.0625,
+        "y": 1443.40625,
+        "z": 13201.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-9",
+      "ID64": 319899864723,
+      "Coords": {
+        "x": 829.28125,
+        "y": 1450.125,
+        "z": 13191.34375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb IC-M b8-0",
+      "ID64": 681965140553,
+      "Coords": {
+        "x": 819.125,
+        "y": 1456.5,
+        "z": 13196.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-7",
+      "ID64": 251180387987,
+      "Coords": {
+        "x": 817.90625,
+        "y": 1455.125,
+        "z": 13206.25
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-6",
+      "ID64": 216820649619,
+      "Coords": {
+        "x": 828.1875,
+        "y": 1457.65625,
+        "z": 13210.21875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb NI-K b9-0",
+      "ID64": 682233576017,
+      "Coords": {
+        "x": 838,
+        "y": 1460.21875,
+        "z": 13217.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JC-M b8-0",
+      "ID64": 682233576009,
+      "Coords": {
+        "x": 839.15625,
+        "y": 1456.84375,
+        "z": 13200.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-5",
+      "ID64": 182460911251,
+      "Coords": {
+        "x": 818.28125,
+        "y": 1472.40625,
+        "z": 13209.03125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb GH-M b8-0",
+      "ID64": 681965206089,
+      "Coords": {
+        "x": 815.21875,
+        "y": 1475.3125,
+        "z": 13200.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-8",
+      "ID64": 285540126355,
+      "Coords": {
+        "x": 816.375,
+        "y": 1486.59375,
+        "z": 13200.0625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb EM-M b8-0",
+      "ID64": 681965271625,
+      "Coords": {
+        "x": 817.09375,
+        "y": 1499.15625,
+        "z": 13199.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IS-K b9-0",
+      "ID64": 681965271633,
+      "Coords": {
+        "x": 820.34375,
+        "y": 1495.1875,
+        "z": 13215.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-25",
+      "ID64": 869655678611,
+      "Coords": {
+        "x": 828.59375,
+        "y": 1491.75,
+        "z": 13212.71875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb LN-K b9-0",
+      "ID64": 682233641553,
+      "Coords": {
+        "x": 835.71875,
+        "y": 1480.25,
+        "z": 13216.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KN-K b9-0",
+      "ID64": 681965206097,
+      "Coords": {
+        "x": 818.125,
+        "y": 1479.65625,
+        "z": 13220.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-11",
+      "ID64": 388602564243,
+      "Coords": {
+        "x": 812.4375,
+        "y": 1488.8125,
+        "z": 13223.3125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb JN-K b9-0",
+      "ID64": 681696770641,
+      "Coords": {
+        "x": 805.03125,
+        "y": 1479.78125,
+        "z": 13231.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-3",
+      "ID64": 113724657299,
+      "Coords": {
+        "x": 812.3125,
+        "y": 1476.84375,
+        "z": 13245.28125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb OT-I b10-0",
+      "ID64": 681965206105,
+      "Coords": {
+        "x": 818.6875,
+        "y": 1476.46875,
+        "z": 13240.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QO-I b10-1",
+      "ID64": 2880988396121,
+      "Coords": {
+        "x": 815.625,
+        "y": 1460.78125,
+        "z": 13238.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QO-I b10-0",
+      "ID64": 681965140569,
+      "Coords": {
+        "x": 816.90625,
+        "y": 1459,
+        "z": 13235.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-0",
+      "ID64": 10645442195,
+      "Coords": {
+        "x": 806.9375,
+        "y": 1460.6875,
+        "z": 13228.34375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb MI-K b9-0",
+      "ID64": 681965140561,
+      "Coords": {
+        "x": 820.53125,
+        "y": 1459.9375,
+        "z": 13223.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OD-K b9-0",
+      "ID64": 681965075025,
+      "Coords": {
+        "x": 819.71875,
+        "y": 1439.96875,
+        "z": 13217.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QY-J b9-0",
+      "ID64": 681965009489,
+      "Coords": {
+        "x": 823.125,
+        "y": 1430.28125,
+        "z": 13223.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QY-J b9-1",
+      "ID64": 2880988265041,
+      "Coords": {
+        "x": 829.4375,
+        "y": 1429.65625,
+        "z": 13225.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RY-J b9-0",
+      "ID64": 682233444945,
+      "Coords": {
+        "x": 839.09375,
+        "y": 1421.28125,
+        "z": 13219.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RY-J b9-1",
+      "ID64": 2881256700497,
+      "Coords": {
+        "x": 847.59375,
+        "y": 1425.34375,
+        "z": 13219.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SY-J b9-0",
+      "ID64": 682501880401,
+      "Coords": {
+        "x": 856.3125,
+        "y": 1418.25,
+        "z": 13215.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QD-K b9-0",
+      "ID64": 682501945937,
+      "Coords": {
+        "x": 860.875,
+        "y": 1436.34375,
+        "z": 13220.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RD-K b9-0",
+      "ID64": 682770381393,
+      "Coords": {
+        "x": 876.1875,
+        "y": 1439.46875,
+        "z": 13218.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RD-K b9-1",
+      "ID64": 2881793636945,
+      "Coords": {
+        "x": 876.21875,
+        "y": 1449.9375,
+        "z": 13224.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VJ-I b10-0",
+      "ID64": 682770381401,
+      "Coords": {
+        "x": 878.59375,
+        "y": 1437.15625,
+        "z": 13237.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VJ-I b10-1",
+      "ID64": 2881793636953,
+      "Coords": {
+        "x": 881.8125,
+        "y": 1442.625,
+        "z": 13242.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-19",
+      "ID64": 663497248403,
+      "Coords": {
+        "x": 873,
+        "y": 1447.5625,
+        "z": 13245.6875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-12",
+      "ID64": 422979079827,
+      "Coords": {
+        "x": 862.40625,
+        "y": 1453.09375,
+        "z": 13254.90625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb UJ-I b10-0",
+      "ID64": 682501945945,
+      "Coords": {
+        "x": 856.5625,
+        "y": 1439.6875,
+        "z": 13237.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PD-K b9-0",
+      "ID64": 682233510481,
+      "Coords": {
+        "x": 853.75,
+        "y": 1440.875,
+        "z": 13234.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TJ-I b10-0",
+      "ID64": 682233510489,
+      "Coords": {
+        "x": 837.25,
+        "y": 1436.125,
+        "z": 13238.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb UE-I b10-1",
+      "ID64": 2880988265049,
+      "Coords": {
+        "x": 829.71875,
+        "y": 1432.28125,
+        "z": 13239.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SJ-I b10-0",
+      "ID64": 681965075033,
+      "Coords": {
+        "x": 817.375,
+        "y": 1436.625,
+        "z": 13236.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PY-J b9-0",
+      "ID64": 681696574033,
+      "Coords": {
+        "x": 812.71875,
+        "y": 1422.90625,
+        "z": 13233.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UE-I b10-0",
+      "ID64": 681965009497,
+      "Coords": {
+        "x": 820.875,
+        "y": 1417.3125,
+        "z": 13239.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TE-I b10-0",
+      "ID64": 681696574041,
+      "Coords": {
+        "x": 795.5625,
+        "y": 1420.40625,
+        "z": 13236.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OY-J b9-0",
+      "ID64": 681428138577,
+      "Coords": {
+        "x": 791.6875,
+        "y": 1416.1875,
+        "z": 13230.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PY-J b9-1",
+      "ID64": 2880719829585,
+      "Coords": {
+        "x": 799.90625,
+        "y": 1415.53125,
+        "z": 13224.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OY-J b9-1",
+      "ID64": 2880451394129,
+      "Coords": {
+        "x": 785.40625,
+        "y": 1422.6875,
+        "z": 13219.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KS-L b8-0",
+      "ID64": 681428138569,
+      "Coords": {
+        "x": 780.96875,
+        "y": 1416.9375,
+        "z": 13199.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JS-L b8-0",
+      "ID64": 681159703113,
+      "Coords": {
+        "x": 758.53125,
+        "y": 1416.625,
+        "z": 13196.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FM-N b7-0",
+      "ID64": 681159703105,
+      "Coords": {
+        "x": 758.3125,
+        "y": 1415.8125,
+        "z": 13179.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EM-N b7-0",
+      "ID64": 680891267649,
+      "Coords": {
+        "x": 739.53125,
+        "y": 1418.40625,
+        "z": 13175.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EM-N b7-1",
+      "ID64": 2879914523201,
+      "Coords": {
+        "x": 743.65625,
+        "y": 1431.15625,
+        "z": 13176.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CR-N b7-1",
+      "ID64": 2879914588737,
+      "Coords": {
+        "x": 750.5,
+        "y": 1438.75,
+        "z": 13187.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CR-N b7-0",
+      "ID64": 680891333185,
+      "Coords": {
+        "x": 750.0625,
+        "y": 1436.75,
+        "z": 13189.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HX-L b8-0",
+      "ID64": 681159768649,
+      "Coords": {
+        "x": 758.46875,
+        "y": 1436.125,
+        "z": 13197.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DR-N b7-0",
+      "ID64": 681159768641,
+      "Coords": {
+        "x": 759.84375,
+        "y": 1437.6875,
+        "z": 13180.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IS-L b8-0",
+      "ID64": 680891267657,
+      "Coords": {
+        "x": 739.71875,
+        "y": 1431.71875,
+        "z": 13198.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb II-K b9-0",
+      "ID64": 680891398737,
+      "Coords": {
+        "x": 737.9375,
+        "y": 1459.03125,
+        "z": 13220.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MO-I b10-0",
+      "ID64": 680891398745,
+      "Coords": {
+        "x": 736.09375,
+        "y": 1456.40625,
+        "z": 13240.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IK-Q c5-0",
+      "ID64": 85128813874,
+      "Coords": {
+        "x": 739.40625,
+        "y": 1457.59375,
+        "z": 13256.5
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb QU-G b11-0",
+      "ID64": 680891398753,
+      "Coords": {
+        "x": 740.75,
+        "y": 1456.84375,
+        "z": 13260.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IK-Q c5-1",
+      "ID64": 360006720818,
+      "Coords": {
+        "x": 735.40625,
+        "y": 1457.9375,
+        "z": 13257.96875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-13",
+      "ID64": 457322040987,
+      "Coords": {
+        "x": 737.5,
+        "y": 1462.25,
+        "z": 13275.3125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb UA-F b12-0",
+      "ID64": 680891398761,
+      "Coords": {
+        "x": 735.40625,
+        "y": 1455.46875,
+        "z": 13280.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WV-E b12-1",
+      "ID64": 2879914588777,
+      "Coords": {
+        "x": 746.03125,
+        "y": 1448.84375,
+        "z": 13284.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WV-E b12-0",
+      "ID64": 680891333225,
+      "Coords": {
+        "x": 749.6875,
+        "y": 1449.125,
+        "z": 13290.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZG-D b13-1",
+      "ID64": 2880183089777,
+      "Coords": {
+        "x": 757.6875,
+        "y": 1456.125,
+        "z": 13296.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZG-D b13-0",
+      "ID64": 681159834225,
+      "Coords": {
+        "x": 760.875,
+        "y": 1457.09375,
+        "z": 13300.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-7",
+      "ID64": 251163610779,
+      "Coords": {
+        "x": 753.71875,
+        "y": 1458.78125,
+        "z": 13297.53125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb VA-F b12-0",
+      "ID64": 681159834217,
+      "Coords": {
+        "x": 758.125,
+        "y": 1459.75,
+        "z": 13286.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VA-F b12-1",
+      "ID64": 2880183089769,
+      "Coords": {
+        "x": 759.53125,
+        "y": 1460.53125,
+        "z": 13279.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IK-Q c5-2",
+      "ID64": 634884627762,
+      "Coords": {
+        "x": 756.8125,
+        "y": 1468.65625,
+        "z": 13286.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb RU-G b11-0",
+      "ID64": 681159834209,
+      "Coords": {
+        "x": 762.6875,
+        "y": 1469.5,
+        "z": 13272.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PZ-G b11-0",
+      "ID64": 681159899745,
+      "Coords": {
+        "x": 758.34375,
+        "y": 1476.5,
+        "z": 13258.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OZ-G b11-1",
+      "ID64": 2879914719841,
+      "Coords": {
+        "x": 751.21875,
+        "y": 1483,
+        "z": 13263.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OZ-G b11-0",
+      "ID64": 680891464289,
+      "Coords": {
+        "x": 744.4375,
+        "y": 1483.46875,
+        "z": 13264
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ME-H b11-0",
+      "ID64": 680891529825,
+      "Coords": {
+        "x": 740.03125,
+        "y": 1495.1875,
+        "z": 13258.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GP-Q c5-0",
+      "ID64": 85128846642,
+      "Coords": {
+        "x": 736.71875,
+        "y": 1495.96875,
+        "z": 13257.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb GP-Q c5-1",
+      "ID64": 360006753586,
+      "Coords": {
+        "x": 739,
+        "y": 1497.9375,
+        "z": 13262.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HL-Y e4",
+      "ID64": 18511636300,
+      "Coords": {
+        "x": 741.0625,
+        "y": 1503.0625,
+        "z": 13252.9375
+      },
+      "Notes": "B"
+    },
+    {
+      "SystemName": "Byeia Aerb HL-Y e4",
+      "ID64": 18511636300,
+      "Coords": {
+        "x": 741.0625,
+        "y": 1503.0625,
+        "z": 13252.9375
+      },
+      "Notes": "B"
+    },
+    {
+      "SystemName": "Byeia Aerb IY-I b10-0",
+      "ID64": 680891529817,
+      "Coords": {
+        "x": 748.09375,
+        "y": 1498.21875,
+        "z": 13251.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JY-I b10-0",
+      "ID64": 681159965273,
+      "Coords": {
+        "x": 756.53125,
+        "y": 1495.46875,
+        "z": 13254.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NE-H b11-0",
+      "ID64": 681159965281,
+      "Coords": {
+        "x": 757.09375,
+        "y": 1497.84375,
+        "z": 13255.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-17",
+      "ID64": 594761010835,
+      "Coords": {
+        "x": 762.125,
+        "y": 1497.71875,
+        "z": 13245.6875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb LT-I b10-0",
+      "ID64": 681159899737,
+      "Coords": {
+        "x": 757.1875,
+        "y": 1480.625,
+        "z": 13239.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KT-I b10-0",
+      "ID64": 680891464281,
+      "Coords": {
+        "x": 740.46875,
+        "y": 1480.59375,
+        "z": 13240.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CJ-S c4-0",
+      "ID64": 85128846634,
+      "Coords": {
+        "x": 737.46875,
+        "y": 1496.8125,
+        "z": 13220.3125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AM-M b8-0",
+      "ID64": 680891529801,
+      "Coords": {
+        "x": 739.625,
+        "y": 1502.78125,
+        "z": 13212.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CX-K b9-0",
+      "ID64": 680891595345,
+      "Coords": {
+        "x": 739.34375,
+        "y": 1516.46875,
+        "z": 13219.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YQ-M b8-0",
+      "ID64": 680891595337,
+      "Coords": {
+        "x": 744.84375,
+        "y": 1530,
+        "z": 13212.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AC-L b9-0",
+      "ID64": 680891660881,
+      "Coords": {
+        "x": 737.3125,
+        "y": 1535.46875,
+        "z": 13219.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AO-S c4-2",
+      "ID64": 634884693290,
+      "Coords": {
+        "x": 738.90625,
+        "y": 1538.3125,
+        "z": 13218.3125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb AO-S c4-1",
+      "ID64": 360006786346,
+      "Coords": {
+        "x": 737.40625,
+        "y": 1540.1875,
+        "z": 13217.78125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AO-S c4-0",
+      "ID64": 85128879402,
+      "Coords": {
+        "x": 738.375,
+        "y": 1539.625,
+        "z": 13215.03125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb UA-N b8-0",
+      "ID64": 680891726409,
+      "Coords": {
+        "x": 752.34375,
+        "y": 1555.46875,
+        "z": 13213.875
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb XV-M b8-0",
+      "ID64": 681160096329,
+      "Coords": {
+        "x": 771.59375,
+        "y": 1550.40625,
+        "z": 13204.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WA-N b8-0",
+      "ID64": 681428597321,
+      "Coords": {
+        "x": 777.3125,
+        "y": 1555.90625,
+        "z": 13195.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XH-U c3-1",
+      "ID64": 360073895202,
+      "Coords": {
+        "x": 775.09375,
+        "y": 1563.0625,
+        "z": 13204.90625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb VA-N b8-0",
+      "ID64": 681160161865,
+      "Coords": {
+        "x": 773.90625,
+        "y": 1566.75,
+        "z": 13203.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SU-O b7-0",
+      "ID64": 681428597313,
+      "Coords": {
+        "x": 775.03125,
+        "y": 1557.5,
+        "z": 13180.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RU-O b7-0",
+      "ID64": 681160161857,
+      "Coords": {
+        "x": 768.25,
+        "y": 1559.375,
+        "z": 13179.125
+      },
+      "Notes": "L"
+    },
+    {
+      "SystemName": "Byeia Aerb WH-U c3-3",
+      "ID64": 909762600226,
+      "Coords": {
+        "x": 763.4375,
+        "y": 1561.4375,
+        "z": 13181.0625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb QU-O b7-0",
+      "ID64": 680891726401,
+      "Coords": {
+        "x": 739.46875,
+        "y": 1560.6875,
+        "z": 13178.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TP-O b7-0",
+      "ID64": 681160096321,
+      "Coords": {
+        "x": 767.03125,
+        "y": 1536.125,
+        "z": 13176.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VK-O b7-0",
+      "ID64": 681160030785,
+      "Coords": {
+        "x": 769.6875,
+        "y": 1534.25,
+        "z": 13187.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UP-O b7-0",
+      "ID64": 681428531777,
+      "Coords": {
+        "x": 777.65625,
+        "y": 1537.21875,
+        "z": 13180.96875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb WK-O b7-0",
+      "ID64": 681428466241,
+      "Coords": {
+        "x": 781.09375,
+        "y": 1533.875,
+        "z": 13182.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VP-O b7-0",
+      "ID64": 681696967233,
+      "Coords": {
+        "x": 797.90625,
+        "y": 1538.21875,
+        "z": 13176.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XK-O b7-0",
+      "ID64": 681696901697,
+      "Coords": {
+        "x": 807.03125,
+        "y": 1531.6875,
+        "z": 13182.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YH-U c3-0",
+      "ID64": 85263097122,
+      "Coords": {
+        "x": 818.875,
+        "y": 1536.65625,
+        "z": 13178.6875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb WP-O b7-0",
+      "ID64": 681965402689,
+      "Coords": {
+        "x": 819.1875,
+        "y": 1538.90625,
+        "z": 13179.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YH-U c3-1",
+      "ID64": 360141004066,
+      "Coords": {
+        "x": 820.96875,
+        "y": 1540.9375,
+        "z": 13178.09375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb XH-U c3-0",
+      "ID64": 85195988258,
+      "Coords": {
+        "x": 814.875,
+        "y": 1552.0625,
+        "z": 13176.53125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb XP-O b7-0",
+      "ID64": 682233838145,
+      "Coords": {
+        "x": 835.15625,
+        "y": 1542.09375,
+        "z": 13178.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BW-M b8-0",
+      "ID64": 682233838153,
+      "Coords": {
+        "x": 836.96875,
+        "y": 1539.28125,
+        "z": 13196.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZK-O b7-0",
+      "ID64": 682233772609,
+      "Coords": {
+        "x": 845.53125,
+        "y": 1527.5625,
+        "z": 13185.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AD-U c3-2",
+      "ID64": 635018878242,
+      "Coords": {
+        "x": 846.75,
+        "y": 1524.53125,
+        "z": 13191.375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AD-U c3-1",
+      "ID64": 360140971298,
+      "Coords": {
+        "x": 851.1875,
+        "y": 1532.03125,
+        "z": 13183.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb YP-O b7-0",
+      "ID64": 682502273601,
+      "Coords": {
+        "x": 858.5,
+        "y": 1536.46875,
+        "z": 13178.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZH-U c3-0",
+      "ID64": 85330205986,
+      "Coords": {
+        "x": 855,
+        "y": 1538.71875,
+        "z": 13177.28125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb BD-U c3-3",
+      "ID64": 909963894050,
+      "Coords": {
+        "x": 861.6875,
+        "y": 1530.78125,
+        "z": 13175.375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AL-O b7-0",
+      "ID64": 682502208065,
+      "Coords": {
+        "x": 858.34375,
+        "y": 1517.40625,
+        "z": 13180.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ER-M b8-0",
+      "ID64": 682502208073,
+      "Coords": {
+        "x": 859.1875,
+        "y": 1517.46875,
+        "z": 13195.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CG-O b7-0",
+      "ID64": 682502142529,
+      "Coords": {
+        "x": 866.53125,
+        "y": 1514.03125,
+        "z": 13194.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GM-M b8-0",
+      "ID64": 682502142537,
+      "Coords": {
+        "x": 857.3125,
+        "y": 1514.9375,
+        "z": 13210.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-12",
+      "ID64": 422979096211,
+      "Coords": {
+        "x": 855.65625,
+        "y": 1512.15625,
+        "z": 13216.40625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb FM-M b8-0",
+      "ID64": 682233707081,
+      "Coords": {
+        "x": 851.40625,
+        "y": 1501.40625,
+        "z": 13213.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HH-M b8-0",
+      "ID64": 682233641545,
+      "Coords": {
+        "x": 850.59375,
+        "y": 1493.21875,
+        "z": 13198.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BG-O b7-1",
+      "ID64": 2881256962625,
+      "Coords": {
+        "x": 840.625,
+        "y": 1500.84375,
+        "z": 13179.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BG-O b7-0",
+      "ID64": 682233707073,
+      "Coords": {
+        "x": 835.96875,
+        "y": 1499.15625,
+        "z": 13178.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AD-U c3-0",
+      "ID64": 85263064354,
+      "Coords": {
+        "x": 819.34375,
+        "y": 1496.6875,
+        "z": 13177.03125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AG-O b7-0",
+      "ID64": 681965271617,
+      "Coords": {
+        "x": 818.125,
+        "y": 1496.8125,
+        "z": 13178.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CB-O b7-1",
+      "ID64": 2880988461633,
+      "Coords": {
+        "x": 823.0625,
+        "y": 1480.34375,
+        "z": 13177
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CB-O b7-0",
+      "ID64": 681965206081,
+      "Coords": {
+        "x": 816.6875,
+        "y": 1476.96875,
+        "z": 13180.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BB-O b7-0",
+      "ID64": 681696770625,
+      "Coords": {
+        "x": 799.53125,
+        "y": 1476.6875,
+        "z": 13178.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AB-O b7-1",
+      "ID64": 2880451590721,
+      "Coords": {
+        "x": 781.59375,
+        "y": 1475.71875,
+        "z": 13177.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AB-O b7-0",
+      "ID64": 681428335169,
+      "Coords": {
+        "x": 779.78125,
+        "y": 1475.71875,
+        "z": 13177.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EH-M b8-0",
+      "ID64": 681428335177,
+      "Coords": {
+        "x": 786.5625,
+        "y": 1486.6875,
+        "z": 13203.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-16",
+      "ID64": 560401256083,
+      "Coords": {
+        "x": 782.53125,
+        "y": 1491.1875,
+        "z": 13212.75
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb CM-M b8-1",
+      "ID64": 2880451656265,
+      "Coords": {
+        "x": 777.5,
+        "y": 1502.875,
+        "z": 13204.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CM-M b8-0",
+      "ID64": 681428400713,
+      "Coords": {
+        "x": 775.78125,
+        "y": 1499.3125,
+        "z": 13199.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-18",
+      "ID64": 629120749203,
+      "Coords": {
+        "x": 789.875,
+        "y": 1517,
+        "z": 13183.40625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb AD-U c3-4",
+      "ID64": 1184774692130,
+      "Coords": {
+        "x": 817.3125,
+        "y": 1516.9375,
+        "z": 13178.5
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb YK-O b7-0",
+      "ID64": 681965337153,
+      "Coords": {
+        "x": 818.4375,
+        "y": 1523.625,
+        "z": 13176.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AD-U c3-3",
+      "ID64": 909896785186,
+      "Coords": {
+        "x": 836.09375,
+        "y": 1512.0625,
+        "z": 13209.84375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb HX-K b9-0",
+      "ID64": 682233772625,
+      "Coords": {
+        "x": 835.96875,
+        "y": 1520.4375,
+        "z": 13216.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EJ-S c4-1",
+      "ID64": 360140971306,
+      "Coords": {
+        "x": 833.75,
+        "y": 1522.40625,
+        "z": 13215.90625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb EJ-S c4-0",
+      "ID64": 85263064362,
+      "Coords": {
+        "x": 835.96875,
+        "y": 1517.46875,
+        "z": 13221.09375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb GX-K b9-0",
+      "ID64": 681965337169,
+      "Coords": {
+        "x": 822.96875,
+        "y": 1518.28125,
+        "z": 13226.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KD-J b10-0",
+      "ID64": 681965337177,
+      "Coords": {
+        "x": 817.625,
+        "y": 1520.8125,
+        "z": 13239.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EJ-S c4-2",
+      "ID64": 635018878250,
+      "Coords": {
+        "x": 828.53125,
+        "y": 1523.5625,
+        "z": 13239.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb EJ-S c4-3",
+      "ID64": 909896785194,
+      "Coords": {
+        "x": 831.3125,
+        "y": 1524.28125,
+        "z": 13237.28125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JS-K b9-0",
+      "ID64": 682233707089,
+      "Coords": {
+        "x": 846.28125,
+        "y": 1508.8125,
+        "z": 13232.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KS-K b9-0",
+      "ID64": 682502142545,
+      "Coords": {
+        "x": 857.71875,
+        "y": 1503.625,
+        "z": 13233.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OY-I b10-0",
+      "ID64": 682502142553,
+      "Coords": {
+        "x": 855.5625,
+        "y": 1498.75,
+        "z": 13237.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-11",
+      "ID64": 388619357843,
+      "Coords": {
+        "x": 866.3125,
+        "y": 1508.46875,
+        "z": 13229.875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb IX-K b9-0",
+      "ID64": 682502208081,
+      "Coords": {
+        "x": 868.25,
+        "y": 1518.21875,
+        "z": 13231.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-10",
+      "ID64": 354259619475,
+      "Coords": {
+        "x": 862.78125,
+        "y": 1521,
+        "z": 13238.09375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb MD-J b10-0",
+      "ID64": 682502208089,
+      "Coords": {
+        "x": 858.1875,
+        "y": 1516.28125,
+        "z": 13238.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FJ-S c4-0",
+      "ID64": 85330173226,
+      "Coords": {
+        "x": 876.625,
+        "y": 1496.53125,
+        "z": 13238.78125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb FJ-S c4-2",
+      "ID64": 635085987114,
+      "Coords": {
+        "x": 878.9375,
+        "y": 1495.78125,
+        "z": 13239.28125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb PY-I b10-0",
+      "ID64": 682770578009,
+      "Coords": {
+        "x": 878.0625,
+        "y": 1497.59375,
+        "z": 13240.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FJ-S c4-3",
+      "ID64": 909963894058,
+      "Coords": {
+        "x": 881.625,
+        "y": 1498.8125,
+        "z": 13243.3125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb FJ-S c4-1",
+      "ID64": 360208080170,
+      "Coords": {
+        "x": 876.71875,
+        "y": 1495.59375,
+        "z": 13235.21875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb LS-K b9-0",
+      "ID64": 682770578001,
+      "Coords": {
+        "x": 887.15625,
+        "y": 1504.34375,
+        "z": 13229.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-2",
+      "ID64": 79381712531,
+      "Coords": {
+        "x": 885.53125,
+        "y": 1523.96875,
+        "z": 13228.15625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb MN-K b9-1",
+      "ID64": 2881525332561,
+      "Coords": {
+        "x": 873.1875,
+        "y": 1491.78125,
+        "z": 13218.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MN-K b9-0",
+      "ID64": 682502077009,
+      "Coords": {
+        "x": 872,
+        "y": 1492,
+        "z": 13218.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DG-O b7-0",
+      "ID64": 682770577985,
+      "Coords": {
+        "x": 880.65625,
+        "y": 1499.65625,
+        "z": 13180.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BL-O b7-0",
+      "ID64": 682770643521,
+      "Coords": {
+        "x": 877.40625,
+        "y": 1515,
+        "z": 13177.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-6",
+      "ID64": 216820666003,
+      "Coords": {
+        "x": 886.8125,
+        "y": 1529.40625,
+        "z": 13178.875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-5",
+      "ID64": 182460927635,
+      "Coords": {
+        "x": 883.21875,
+        "y": 1535.3125,
+        "z": 13181.65625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb ZP-O b7-0",
+      "ID64": 682770709057,
+      "Coords": {
+        "x": 878.40625,
+        "y": 1538.75,
+        "z": 13179.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NB-X d1-4",
+      "ID64": 148101189267,
+      "Coords": {
+        "x": 885.4375,
+        "y": 1553.90625,
+        "z": 13190.09375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb XU-O b7-0",
+      "ID64": 682770774593,
+      "Coords": {
+        "x": 880.0625,
+        "y": 1560.3125,
+        "z": 13178.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WU-O b7-0",
+      "ID64": 682502339137,
+      "Coords": {
+        "x": 861.875,
+        "y": 1571.5625,
+        "z": 13176.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DR-M b8-0",
+      "ID64": 682233772617,
+      "Coords": {
+        "x": 843.6875,
+        "y": 1529.5,
+        "z": 13211.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NY-I b10-0",
+      "ID64": 682233707097,
+      "Coords": {
+        "x": 835.3125,
+        "y": 1498.96875,
+        "z": 13237.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MY-I b10-0",
+      "ID64": 681965271641,
+      "Coords": {
+        "x": 815,
+        "y": 1495.71875,
+        "z": 13238.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LY-I b10-0",
+      "ID64": 681696836185,
+      "Coords": {
+        "x": 799.65625,
+        "y": 1499.4375,
+        "z": 13238.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DJ-S c4-4",
+      "ID64": 1184707583274,
+      "Coords": {
+        "x": 801.9375,
+        "y": 1509.34375,
+        "z": 13235.3125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb DJ-S c4-3",
+      "ID64": 909829676330,
+      "Coords": {
+        "x": 800.875,
+        "y": 1516.9375,
+        "z": 13237.3125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JD-J b10-0",
+      "ID64": 681696901721,
+      "Coords": {
+        "x": 802.78125,
+        "y": 1519.34375,
+        "z": 13238.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FX-K b9-0",
+      "ID64": 681696901713,
+      "Coords": {
+        "x": 798.65625,
+        "y": 1517.34375,
+        "z": 13219.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HS-K b9-0",
+      "ID64": 681696836177,
+      "Coords": {
+        "x": 800.46875,
+        "y": 1497.125,
+        "z": 13216.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FH-M b8-0",
+      "ID64": 681696770633,
+      "Coords": {
+        "x": 799.1875,
+        "y": 1477.28125,
+        "z": 13198.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-21",
+      "ID64": 732199947923,
+      "Coords": {
+        "x": 789.09375,
+        "y": 1472.59375,
+        "z": 13205.0625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-1",
+      "ID64": 45005180563,
+      "Coords": {
+        "x": 802.53125,
+        "y": 1469.53125,
+        "z": 13213.03125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb HC-M b8-0",
+      "ID64": 681696705097,
+      "Coords": {
+        "x": 800,
+        "y": 1456.75,
+        "z": 13198.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-2",
+      "ID64": 79364918931,
+      "Coords": {
+        "x": 796.09375,
+        "y": 1453.1875,
+        "z": 13201.3125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb LS-L b8-0",
+      "ID64": 681696574025,
+      "Coords": {
+        "x": 814.1875,
+        "y": 1429.90625,
+        "z": 13202.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-13",
+      "ID64": 457322040979,
+      "Coords": {
+        "x": 810.40625,
+        "y": 1419,
+        "z": 13203.59375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-12",
+      "ID64": 422962302611,
+      "Coords": {
+        "x": 806.25,
+        "y": 1421.375,
+        "z": 13199.78125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-14",
+      "ID64": 491681779347,
+      "Coords": {
+        "x": 813.46875,
+        "y": 1418.125,
+        "z": 13195
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb IM-N b7-1",
+      "ID64": 2880988265025,
+      "Coords": {
+        "x": 825.1875,
+        "y": 1418.5,
+        "z": 13185.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IM-N b7-0",
+      "ID64": 681965009473,
+      "Coords": {
+        "x": 818.25,
+        "y": 1420.21875,
+        "z": 13180.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GR-N b7-0",
+      "ID64": 681965075009,
+      "Coords": {
+        "x": 818.0625,
+        "y": 1435,
+        "z": 13180.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MS-L b8-1",
+      "ID64": 2880988265033,
+      "Coords": {
+        "x": 826.03125,
+        "y": 1429.09375,
+        "z": 13199.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JM-N b7-0",
+      "ID64": 682233444929,
+      "Coords": {
+        "x": 835.03125,
+        "y": 1428.03125,
+        "z": 13193.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JM-N b7-1",
+      "ID64": 2881256700481,
+      "Coords": {
+        "x": 836.8125,
+        "y": 1430.40625,
+        "z": 13191.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NS-L b8-1",
+      "ID64": 2881256700489,
+      "Coords": {
+        "x": 837.3125,
+        "y": 1424.09375,
+        "z": 13201.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NS-L b8-0",
+      "ID64": 682233444937,
+      "Coords": {
+        "x": 835.25,
+        "y": 1420.40625,
+        "z": 13198
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MS-L b8-0",
+      "ID64": 681965009481,
+      "Coords": {
+        "x": 832.84375,
+        "y": 1420.59375,
+        "z": 13206.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MX-L b8-1",
+      "ID64": 2881525201481,
+      "Coords": {
+        "x": 871.34375,
+        "y": 1447.09375,
+        "z": 13202
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NX-L b8-0",
+      "ID64": 682770381385,
+      "Coords": {
+        "x": 876.1875,
+        "y": 1444.84375,
+        "z": 13195.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NX-L b8-1",
+      "ID64": 2881793636937,
+      "Coords": {
+        "x": 880.75,
+        "y": 1439.25,
+        "z": 13198.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-15",
+      "ID64": 526058294931,
+      "Coords": {
+        "x": 883.40625,
+        "y": 1442,
+        "z": 13193.4375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-4",
+      "ID64": 148101172883,
+      "Coords": {
+        "x": 883.875,
+        "y": 1449,
+        "z": 13188.65625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-3",
+      "ID64": 113741434515,
+      "Coords": {
+        "x": 889.8125,
+        "y": 1447.53125,
+        "z": 13185.09375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb JR-N b7-0",
+      "ID64": 682770381377,
+      "Coords": {
+        "x": 893.71875,
+        "y": 1439.15625,
+        "z": 13189.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-2",
+      "ID64": 79381696147,
+      "Coords": {
+        "x": 893.375,
+        "y": 1435.34375,
+        "z": 13181.90625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-14",
+      "ID64": 491698556563,
+      "Coords": {
+        "x": 886.34375,
+        "y": 1444.84375,
+        "z": 13201.03125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb PW-W d1-13",
+      "ID64": 457338818195,
+      "Coords": {
+        "x": 893.75,
+        "y": 1430.875,
+        "z": 13206.78125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb PS-L b8-1",
+      "ID64": 2881793571401,
+      "Coords": {
+        "x": 883.84375,
+        "y": 1424.25,
+        "z": 13201.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PS-L b8-0",
+      "ID64": 682770315849,
+      "Coords": {
+        "x": 880.84375,
+        "y": 1420.875,
+        "z": 13197.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LM-N b7-0",
+      "ID64": 682770315841,
+      "Coords": {
+        "x": 880.15625,
+        "y": 1416.34375,
+        "z": 13178.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TY-J b9-0",
+      "ID64": 682770315857,
+      "Coords": {
+        "x": 879.125,
+        "y": 1420.46875,
+        "z": 13230.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TY-J b9-1",
+      "ID64": 2881793571409,
+      "Coords": {
+        "x": 877.4375,
+        "y": 1424.78125,
+        "z": 13232.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XE-I b10-0",
+      "ID64": 682770315865,
+      "Coords": {
+        "x": 877.0625,
+        "y": 1419.75,
+        "z": 13236.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XE-I b10-1",
+      "ID64": 2881793571417,
+      "Coords": {
+        "x": 882.0625,
+        "y": 1423.3125,
+        "z": 13237.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RO-I b10-0",
+      "ID64": 682233576025,
+      "Coords": {
+        "x": 836.1875,
+        "y": 1455.75,
+        "z": 13240.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WP-G b11-0",
+      "ID64": 681965075041,
+      "Coords": {
+        "x": 831.3125,
+        "y": 1450.71875,
+        "z": 13267.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YA-F b12-1",
+      "ID64": 2880988396137,
+      "Coords": {
+        "x": 818.6875,
+        "y": 1461.40625,
+        "z": 13275.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YA-F b12-0",
+      "ID64": 681965140585,
+      "Coords": {
+        "x": 816,
+        "y": 1457.625,
+        "z": 13275.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XA-F b12-0",
+      "ID64": 681696705129,
+      "Coords": {
+        "x": 811.15625,
+        "y": 1458.375,
+        "z": 13280.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AW-E b12-0",
+      "ID64": 681965075049,
+      "Coords": {
+        "x": 816.34375,
+        "y": 1449.96875,
+        "z": 13282.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LF-Q c5-4",
+      "ID64": 1184707517746,
+      "Coords": {
+        "x": 813.65625,
+        "y": 1444.53125,
+        "z": 13278.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb LF-Q c5-2",
+      "ID64": 634951703858,
+      "Coords": {
+        "x": 814.21875,
+        "y": 1422.9375,
+        "z": 13288.125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb LF-Q c5-1",
+      "ID64": 360073796914,
+      "Coords": {
+        "x": 810.53125,
+        "y": 1417.5,
+        "z": 13293.6875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb FX-C b13-0",
+      "ID64": 681696574065,
+      "Coords": {
+        "x": 800.0625,
+        "y": 1415.46875,
+        "z": 13300.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FX-C b13-1",
+      "ID64": 2880719829617,
+      "Coords": {
+        "x": 808.3125,
+        "y": 1424.21875,
+        "z": 13313.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JD-B b14-0",
+      "ID64": 681696574073,
+      "Coords": {
+        "x": 805.59375,
+        "y": 1427.4375,
+        "z": 13327.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JD-B b14-1",
+      "ID64": 2880719829625,
+      "Coords": {
+        "x": 801.875,
+        "y": 1427.0625,
+        "z": 13331.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PL-O c6-4",
+      "ID64": 1184707517754,
+      "Coords": {
+        "x": 800.375,
+        "y": 1432.71875,
+        "z": 13327.4375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb HI-B b14-1",
+      "ID64": 2880719895161,
+      "Coords": {
+        "x": 801.28125,
+        "y": 1437.875,
+        "z": 13325.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PL-O c6-3",
+      "ID64": 909829610810,
+      "Coords": {
+        "x": 796.5,
+        "y": 1437.46875,
+        "z": 13324.3125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-6",
+      "ID64": 216803872411,
+      "Coords": {
+        "x": 797.90625,
+        "y": 1444.125,
+        "z": 13317.65625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb DC-D b13-0",
+      "ID64": 681696639601,
+      "Coords": {
+        "x": 804.1875,
+        "y": 1445.71875,
+        "z": 13308.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-23",
+      "ID64": 800919424667,
+      "Coords": {
+        "x": 810.28125,
+        "y": 1442.1875,
+        "z": 13319
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb HI-B b14-0",
+      "ID64": 681696639609,
+      "Coords": {
+        "x": 813.9375,
+        "y": 1452.71875,
+        "z": 13322.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TC-V d2-14",
+      "ID64": 491698556571,
+      "Coords": {
+        "x": 824.3125,
+        "y": 1448.875,
+        "z": 13318.3125
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb II-B b14-0",
+      "ID64": 681965075065,
+      "Coords": {
+        "x": 827.96875,
+        "y": 1454.59375,
+        "z": 13325
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HN-B b14-1",
+      "ID64": 2881256831609,
+      "Coords": {
+        "x": 838.375,
+        "y": 1455.53125,
+        "z": 13327.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HN-B b14-0",
+      "ID64": 682233576057,
+      "Coords": {
+        "x": 840.59375,
+        "y": 1458.59375,
+        "z": 13320.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IN-B b14-0",
+      "ID64": 682502011513,
+      "Coords": {
+        "x": 857.71875,
+        "y": 1459.40625,
+        "z": 13318.84375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JN-B b14-0",
+      "ID64": 682770446969,
+      "Coords": {
+        "x": 876.21875,
+        "y": 1466.65625,
+        "z": 13317.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JN-B b14-1",
+      "ID64": 2881793702521,
+      "Coords": {
+        "x": 880.46875,
+        "y": 1466.75,
+        "z": 13319.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RL-O c6-2",
+      "ID64": 635085921594,
+      "Coords": {
+        "x": 861.71875,
+        "y": 1442.71875,
+        "z": 13304.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GC-D b13-0",
+      "ID64": 682501945969,
+      "Coords": {
+        "x": 858.4375,
+        "y": 1436.9375,
+        "z": 13299.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ER-E b12-0",
+      "ID64": 682501880425,
+      "Coords": {
+        "x": 857.71875,
+        "y": 1430.3125,
+        "z": 13293.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IX-C b13-0",
+      "ID64": 682501880433,
+      "Coords": {
+        "x": 856.46875,
+        "y": 1419.8125,
+        "z": 13297.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IX-C b13-1",
+      "ID64": 2881525135985,
+      "Coords": {
+        "x": 857.65625,
+        "y": 1417.9375,
+        "z": 13295.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HX-C b13-0",
+      "ID64": 682233444977,
+      "Coords": {
+        "x": 839.25,
+        "y": 1415.15625,
+        "z": 13300.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GX-C b13-1",
+      "ID64": 2880988265073,
+      "Coords": {
+        "x": 829.6875,
+        "y": 1418.375,
+        "z": 13304.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GX-C b13-0",
+      "ID64": 681965009521,
+      "Coords": {
+        "x": 831.53125,
+        "y": 1422.9375,
+        "z": 13307.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EC-D b13-0",
+      "ID64": 681965075057,
+      "Coords": {
+        "x": 832.5625,
+        "y": 1437.78125,
+        "z": 13313.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JI-B b14-1",
+      "ID64": 2881256766073,
+      "Coords": {
+        "x": 837.53125,
+        "y": 1436.40625,
+        "z": 13317.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JI-B b14-0",
+      "ID64": 682233510521,
+      "Coords": {
+        "x": 836.53125,
+        "y": 1436.09375,
+        "z": 13319.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LD-B b14-1",
+      "ID64": 2881256700537,
+      "Coords": {
+        "x": 835.46875,
+        "y": 1428.09375,
+        "z": 13324.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LD-B b14-0",
+      "ID64": 682233444985,
+      "Coords": {
+        "x": 835.90625,
+        "y": 1426.96875,
+        "z": 13323.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KD-B b14-0",
+      "ID64": 681965009529,
+      "Coords": {
+        "x": 824.4375,
+        "y": 1431.125,
+        "z": 13334.6875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-5",
+      "ID64": 182444134043,
+      "Coords": {
+        "x": 807.46875,
+        "y": 1447.8125,
+        "z": 13334.375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb GN-B b14-0",
+      "ID64": 681965140601,
+      "Coords": {
+        "x": 820.0625,
+        "y": 1458.125,
+        "z": 13331.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GN-B b14-1",
+      "ID64": 2880988396153,
+      "Coords": {
+        "x": 819.53125,
+        "y": 1460.375,
+        "z": 13331.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DS-B b14-0",
+      "ID64": 681696770681,
+      "Coords": {
+        "x": 813.71875,
+        "y": 1475.34375,
+        "z": 13333.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DS-B b14-1",
+      "ID64": 2880720026233,
+      "Coords": {
+        "x": 811.59375,
+        "y": 1476.84375,
+        "z": 13328.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AM-D b13-0",
+      "ID64": 681965206129,
+      "Coords": {
+        "x": 827.15625,
+        "y": 1477.1875,
+        "z": 13311.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VF-F b12-0",
+      "ID64": 681696770665,
+      "Coords": {
+        "x": 813.46875,
+        "y": 1489.25,
+        "z": 13287.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VF-F b12-1",
+      "ID64": 2880720026217,
+      "Coords": {
+        "x": 811.84375,
+        "y": 1484.90625,
+        "z": 13282.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HP-Q c5-3",
+      "ID64": 909829676338,
+      "Coords": {
+        "x": 810.09375,
+        "y": 1495.53125,
+        "z": 13279.40625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb TK-F b12-1",
+      "ID64": 2880720091753,
+      "Coords": {
+        "x": 796.25,
+        "y": 1497.875,
+        "z": 13276.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PE-H b11-1",
+      "ID64": 2880720091745,
+      "Coords": {
+        "x": 805.59375,
+        "y": 1507.71875,
+        "z": 13267.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PE-H b11-0",
+      "ID64": 681696836193,
+      "Coords": {
+        "x": 798.84375,
+        "y": 1498.40625,
+        "z": 13259.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OW-W d1-4",
+      "ID64": 148084395667,
+      "Coords": {
+        "x": 805.9375,
+        "y": 1484.375,
+        "z": 13251
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb RZ-G b11-0",
+      "ID64": 681696770657,
+      "Coords": {
+        "x": 797.96875,
+        "y": 1476.15625,
+        "z": 13257
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TU-G b11-1",
+      "ID64": 2880719960673,
+      "Coords": {
+        "x": 795.5625,
+        "y": 1473.46875,
+        "z": 13256.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SU-G b11-1",
+      "ID64": 2880451525217,
+      "Coords": {
+        "x": 791.8125,
+        "y": 1459.34375,
+        "z": 13259.28125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TU-G b11-0",
+      "ID64": 681696705121,
+      "Coords": {
+        "x": 797.34375,
+        "y": 1456.65625,
+        "z": 13260.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-24",
+      "ID64": 835279163035,
+      "Coords": {
+        "x": 805.65625,
+        "y": 1466.25,
+        "z": 13266.71875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb SZ-G b11-0",
+      "ID64": 681965206113,
+      "Coords": {
+        "x": 816.4375,
+        "y": 1477.40625,
+        "z": 13260.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WF-F b12-0",
+      "ID64": 681965206121,
+      "Coords": {
+        "x": 816.46875,
+        "y": 1475.125,
+        "z": 13277.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JK-Q c5-2",
+      "ID64": 634951736626,
+      "Coords": {
+        "x": 786.21875,
+        "y": 1465.8125,
+        "z": 13268.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JK-Q c5-3",
+      "ID64": 909829643570,
+      "Coords": {
+        "x": 782.9375,
+        "y": 1468.25,
+        "z": 13271.4375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JK-Q c5-4",
+      "ID64": 1184707550514,
+      "Coords": {
+        "x": 782.40625,
+        "y": 1463.15625,
+        "z": 13276.71875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb JK-Q c5-1",
+      "ID64": 360073829682,
+      "Coords": {
+        "x": 786.625,
+        "y": 1461.96875,
+        "z": 13272.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb JK-Q c5-0",
+      "ID64": 85195922738,
+      "Coords": {
+        "x": 782.0625,
+        "y": 1457.4375,
+        "z": 13271.375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb UP-G b11-1",
+      "ID64": 2880451459681,
+      "Coords": {
+        "x": 776.53125,
+        "y": 1453.125,
+        "z": 13270.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WA-F b12-0",
+      "ID64": 681428269673,
+      "Coords": {
+        "x": 775.84375,
+        "y": 1457.875,
+        "z": 13279.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AH-D b13-0",
+      "ID64": 681428269681,
+      "Coords": {
+        "x": 778.1875,
+        "y": 1457.84375,
+        "z": 13295.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NQ-O c6-0",
+      "ID64": 85195922746,
+      "Coords": {
+        "x": 775.53125,
+        "y": 1457.125,
+        "z": 13295.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NQ-O c6-1",
+      "ID64": 360073829690,
+      "Coords": {
+        "x": 776.5,
+        "y": 1459.78125,
+        "z": 13297.09375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb AH-D b13-1",
+      "ID64": 2880451525233,
+      "Coords": {
+        "x": 779.90625,
+        "y": 1461.40625,
+        "z": 13297.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YL-D b13-0",
+      "ID64": 681428335217,
+      "Coords": {
+        "x": 775.96875,
+        "y": 1479.1875,
+        "z": 13298.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XL-D b13-0",
+      "ID64": 681159899761,
+      "Coords": {
+        "x": 760.5,
+        "y": 1481.96875,
+        "z": 13302.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MQ-O c6-1",
+      "ID64": 360006720826,
+      "Coords": {
+        "x": 762.8125,
+        "y": 1483.53125,
+        "z": 13310.8125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb BS-B b14-1",
+      "ID64": 2880183155321,
+      "Coords": {
+        "x": 763.65625,
+        "y": 1486.84375,
+        "z": 13321
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BS-B b14-0",
+      "ID64": 681159899769,
+      "Coords": {
+        "x": 771.96875,
+        "y": 1491,
+        "z": 13325.78125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NQ-O c6-2",
+      "ID64": 634951736634,
+      "Coords": {
+        "x": 777.15625,
+        "y": 1488.03125,
+        "z": 13319.375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb ZW-B b14-0",
+      "ID64": 681159965305,
+      "Coords": {
+        "x": 764.4375,
+        "y": 1495.875,
+        "z": 13331.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MQ-O c6-3",
+      "ID64": 909762534714,
+      "Coords": {
+        "x": 754.40625,
+        "y": 1488.5,
+        "z": 13330.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MQ-O c6-2",
+      "ID64": 634884627770,
+      "Coords": {
+        "x": 740.3125,
+        "y": 1491.78125,
+        "z": 13328.6875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb YW-B b14-0",
+      "ID64": 680891529849,
+      "Coords": {
+        "x": 740.1875,
+        "y": 1497.125,
+        "z": 13320.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-9",
+      "ID64": 319883103899,
+      "Coords": {
+        "x": 746.15625,
+        "y": 1498.25,
+        "z": 13313.09375
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb KV-O c6-2",
+      "ID64": 634884660538,
+      "Coords": {
+        "x": 750.25,
+        "y": 1503.625,
+        "z": 13312.25
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb KV-O c6-3",
+      "ID64": 909762567482,
+      "Coords": {
+        "x": 752.96875,
+        "y": 1502.59375,
+        "z": 13314.4375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb UQ-D b13-0",
+      "ID64": 680891529841,
+      "Coords": {
+        "x": 753.1875,
+        "y": 1510.15625,
+        "z": 13308
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-0",
+      "ID64": 10645458587,
+      "Coords": {
+        "x": 747.59375,
+        "y": 1507.84375,
+        "z": 13301.75
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-11",
+      "ID64": 388602580635,
+      "Coords": {
+        "x": 749.84375,
+        "y": 1503.3125,
+        "z": 13303.625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-10",
+      "ID64": 354242842267,
+      "Coords": {
+        "x": 758.0625,
+        "y": 1500.84375,
+        "z": 13300.03125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb VQ-D b13-0",
+      "ID64": 681159965297,
+      "Coords": {
+        "x": 772.1875,
+        "y": 1503.5,
+        "z": 13307.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XB-C b14-0",
+      "ID64": 681160030841,
+      "Coords": {
+        "x": 757.03125,
+        "y": 1519.4375,
+        "z": 13317.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KV-O c6-1",
+      "ID64": 360006753594,
+      "Coords": {
+        "x": 749.03125,
+        "y": 1510.9375,
+        "z": 13318.4375
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb KV-O c6-0",
+      "ID64": 85128846650,
+      "Coords": {
+        "x": 746.40625,
+        "y": 1511.09375,
+        "z": 13323.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WB-C b14-0",
+      "ID64": 680891595385,
+      "Coords": {
+        "x": 752.875,
+        "y": 1530.21875,
+        "z": 13322.15625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VG-C b14-0",
+      "ID64": 681160096377,
+      "Coords": {
+        "x": 758.75,
+        "y": 1539.59375,
+        "z": 13318.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UG-C b14-0",
+      "ID64": 680891660921,
+      "Coords": {
+        "x": 738.21875,
+        "y": 1537.96875,
+        "z": 13320.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TV-D b13-0",
+      "ID64": 681160030833,
+      "Coords": {
+        "x": 755.71875,
+        "y": 1520.875,
+        "z": 13296.5625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QK-F b12-0",
+      "ID64": 680891529833,
+      "Coords": {
+        "x": 749.90625,
+        "y": 1514.3125,
+        "z": 13292.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GP-Q c5-4",
+      "ID64": 1184640474418,
+      "Coords": {
+        "x": 742.25,
+        "y": 1512.8125,
+        "z": 13271.40625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb GP-Q c5-3",
+      "ID64": 909762567474,
+      "Coords": {
+        "x": 737.375,
+        "y": 1512.0625,
+        "z": 13268.46875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb KJ-H b11-0",
+      "ID64": 680891595361,
+      "Coords": {
+        "x": 735.34375,
+        "y": 1517.375,
+        "z": 13258.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MU-F b12-0",
+      "ID64": 680891660905,
+      "Coords": {
+        "x": 737.15625,
+        "y": 1536.375,
+        "z": 13277.84375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OP-F b12-0",
+      "ID64": 680891595369,
+      "Coords": {
+        "x": 737.59375,
+        "y": 1534.9375,
+        "z": 13279.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb NU-F b12-0",
+      "ID64": 681160096361,
+      "Coords": {
+        "x": 756.65625,
+        "y": 1538.78125,
+        "z": 13277.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-2",
+      "ID64": 79364935323,
+      "Coords": {
+        "x": 760.625,
+        "y": 1548.53125,
+        "z": 13273.90625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb HT-H b11-0",
+      "ID64": 681160161889,
+      "Coords": {
+        "x": 763.5,
+        "y": 1557.03125,
+        "z": 13269.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MZ-F b12-0",
+      "ID64": 681428597353,
+      "Coords": {
+        "x": 775.71875,
+        "y": 1559.125,
+        "z": 13277.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LZ-F b12-0",
+      "ID64": 681160161897,
+      "Coords": {
+        "x": 774.4375,
+        "y": 1563.40625,
+        "z": 13277.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IT-H b11-0",
+      "ID64": 681428597345,
+      "Coords": {
+        "x": 778.78125,
+        "y": 1557.78125,
+        "z": 13258.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QH-V d2-8",
+      "ID64": 285523365531,
+      "Coords": {
+        "x": 796.53125,
+        "y": 1564.21875,
+        "z": 13263.46875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb JT-H b11-0",
+      "ID64": 681697032801,
+      "Coords": {
+        "x": 799.625,
+        "y": 1557.03125,
+        "z": 13258.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LO-H b11-0",
+      "ID64": 681696967265,
+      "Coords": {
+        "x": 799,
+        "y": 1549.625,
+        "z": 13255.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ID-J b10-0",
+      "ID64": 681428466265,
+      "Coords": {
+        "x": 777.53125,
+        "y": 1519.75,
+        "z": 13236.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CJ-S c4-4",
+      "ID64": 1184640474410,
+      "Coords": {
+        "x": 763.5,
+        "y": 1523.21875,
+        "z": 13241.75
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb CJ-S c4-3",
+      "ID64": 909762567466,
+      "Coords": {
+        "x": 762.0625,
+        "y": 1527.34375,
+        "z": 13238.5625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OE-H b11-0",
+      "ID64": 681428400737,
+      "Coords": {
+        "x": 778.28125,
+        "y": 1497.03125,
+        "z": 13257.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb QZ-G b11-0",
+      "ID64": 681428335201,
+      "Coords": {
+        "x": 777.90625,
+        "y": 1477.5,
+        "z": 13259.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SU-G b11-0",
+      "ID64": 681428269665,
+      "Coords": {
+        "x": 777.5625,
+        "y": 1459.71875,
+        "z": 13256.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb IK-Q c5-3",
+      "ID64": 909762534706,
+      "Coords": {
+        "x": 764.875,
+        "y": 1459.90625,
+        "z": 13257.3125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb NO-I b10-0",
+      "ID64": 681159834201,
+      "Coords": {
+        "x": 758.03125,
+        "y": 1458.25,
+        "z": 13239.8125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XV-E b12-1",
+      "ID64": 2880183024233,
+      "Coords": {
+        "x": 761.21875,
+        "y": 1441.375,
+        "z": 13275.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb XV-E b12-0",
+      "ID64": 681159768681,
+      "Coords": {
+        "x": 760.84375,
+        "y": 1437.59375,
+        "z": 13278.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KF-Q c5-0",
+      "ID64": 85128781106,
+      "Coords": {
+        "x": 763.9375,
+        "y": 1445.3125,
+        "z": 13283.65625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb YV-E b12-0",
+      "ID64": 681428204137,
+      "Coords": {
+        "x": 777.09375,
+        "y": 1438.28125,
+        "z": 13285.0625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CC-D b13-0",
+      "ID64": 681428204145,
+      "Coords": {
+        "x": 778.8125,
+        "y": 1439.0625,
+        "z": 13295.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OL-O c6-3",
+      "ID64": 909762501946,
+      "Coords": {
+        "x": 773.875,
+        "y": 1437.375,
+        "z": 13302.9375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OL-O c6-2",
+      "ID64": 634884595002,
+      "Coords": {
+        "x": 769.6875,
+        "y": 1440,
+        "z": 13308.09375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb GI-B b14-0",
+      "ID64": 681428204153,
+      "Coords": {
+        "x": 775.59375,
+        "y": 1439.8125,
+        "z": 13316.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb FI-B b14-0",
+      "ID64": 681159768697,
+      "Coords": {
+        "x": 767.65625,
+        "y": 1439.96875,
+        "z": 13323.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PL-O c6-5",
+      "ID64": 1459585424698,
+      "Coords": {
+        "x": 776.90625,
+        "y": 1434.03125,
+        "z": 13327.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb ID-B b14-0",
+      "ID64": 681428138617,
+      "Coords": {
+        "x": 775.65625,
+        "y": 1430.84375,
+        "z": 13330.34375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ID-B b14-1",
+      "ID64": 2880451394169,
+      "Coords": {
+        "x": 777.1875,
+        "y": 1430.71875,
+        "z": 13332.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PL-O c6-2",
+      "ID64": 634951703866,
+      "Coords": {
+        "x": 791.3125,
+        "y": 1422.21875,
+        "z": 13330.53125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb OL-O c6-1",
+      "ID64": 360006688058,
+      "Coords": {
+        "x": 764.40625,
+        "y": 1425.59375,
+        "z": 13313.8125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb HD-B b14-1",
+      "ID64": 2880182958713,
+      "Coords": {
+        "x": 762.3125,
+        "y": 1418.25,
+        "z": 13315.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HD-B b14-0",
+      "ID64": 681159703161,
+      "Coords": {
+        "x": 757.3125,
+        "y": 1415.78125,
+        "z": 13315.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OL-O c6-0",
+      "ID64": 85128781114,
+      "Coords": {
+        "x": 756.25,
+        "y": 1415.125,
+        "z": 13322.5625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb GD-B b14-1",
+      "ID64": 2879914523257,
+      "Coords": {
+        "x": 741.5,
+        "y": 1415.78125,
+        "z": 13316.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb GD-B b14-0",
+      "ID64": 680891267705,
+      "Coords": {
+        "x": 738.4375,
+        "y": 1415.21875,
+        "z": 13319.59375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CX-C b13-0",
+      "ID64": 680891267697,
+      "Coords": {
+        "x": 745.84375,
+        "y": 1429.40625,
+        "z": 13309.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-10",
+      "ID64": 354242825883,
+      "Coords": {
+        "x": 749.3125,
+        "y": 1428.6875,
+        "z": 13305.21875
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-22",
+      "ID64": 766559686299,
+      "Coords": {
+        "x": 749.96875,
+        "y": 1439.71875,
+        "z": 13307.90625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb BC-D b13-1",
+      "ID64": 2880183024241,
+      "Coords": {
+        "x": 760.75,
+        "y": 1437.40625,
+        "z": 13302.9375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BC-D b13-0",
+      "ID64": 681159768689,
+      "Coords": {
+        "x": 760.875,
+        "y": 1440.59375,
+        "z": 13299.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-8",
+      "ID64": 285523349147,
+      "Coords": {
+        "x": 769.875,
+        "y": 1433.6875,
+        "z": 13296.75
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb DX-C b13-0",
+      "ID64": 681159703153,
+      "Coords": {
+        "x": 768.8125,
+        "y": 1424.375,
+        "z": 13299
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-9",
+      "ID64": 319883087515,
+      "Coords": {
+        "x": 760.625,
+        "y": 1426.6875,
+        "z": 13299.53125
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb KF-Q c5-1",
+      "ID64": 360006688050,
+      "Coords": {
+        "x": 758.625,
+        "y": 1422.75,
+        "z": 13292.59375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-19",
+      "ID64": 663480471195,
+      "Coords": {
+        "x": 757.875,
+        "y": 1420.53125,
+        "z": 13289.40625
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb YQ-E b12-1",
+      "ID64": 2879914523241,
+      "Coords": {
+        "x": 747.59375,
+        "y": 1421.9375,
+        "z": 13286.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-16",
+      "ID64": 560401256091,
+      "Coords": {
+        "x": 746.21875,
+        "y": 1424.46875,
+        "z": 13288.125
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb YQ-E b12-0",
+      "ID64": 680891267689,
+      "Coords": {
+        "x": 737.34375,
+        "y": 1420.96875,
+        "z": 13280.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UK-G b11-0",
+      "ID64": 680891267681,
+      "Coords": {
+        "x": 736.59375,
+        "y": 1426.84375,
+        "z": 13271.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UK-G b11-1",
+      "ID64": 2879914523233,
+      "Coords": {
+        "x": 738.4375,
+        "y": 1424.625,
+        "z": 13270.21875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-0",
+      "ID64": 10645442203,
+      "Coords": {
+        "x": 744.28125,
+        "y": 1422.15625,
+        "z": 13261.90625
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-1",
+      "ID64": 45005180571,
+      "Coords": {
+        "x": 738.8125,
+        "y": 1422.09375,
+        "z": 13258.96875
+      },
+      "Notes": "G"
+    },
+    {
+      "SystemName": "Byeia Aerb ZQ-E b12-0",
+      "ID64": 681159703145,
+      "Coords": {
+        "x": 759.09375,
+        "y": 1417.8125,
+        "z": 13278.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CX-C b13-1",
+      "ID64": 2879914523249,
+      "Coords": {
+        "x": 754.125,
+        "y": 1415.0625,
+        "z": 13303.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PL-O c6-1",
+      "ID64": 360073796922,
+      "Coords": {
+        "x": 776.53125,
+        "y": 1415.90625,
+        "z": 13299.03125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb PL-O c6-0",
+      "ID64": 85195889978,
+      "Coords": {
+        "x": 778.40625,
+        "y": 1416.1875,
+        "z": 13300.125
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb EX-C b13-0",
+      "ID64": 681428138609,
+      "Coords": {
+        "x": 778.40625,
+        "y": 1418.5,
+        "z": 13297
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UP-G b11-0",
+      "ID64": 681428204129,
+      "Coords": {
+        "x": 784.78125,
+        "y": 1440.84375,
+        "z": 13271.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb BR-E b12-0",
+      "ID64": 681696574057,
+      "Coords": {
+        "x": 809.59375,
+        "y": 1417.25,
+        "z": 13280.6875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CR-E b12-0",
+      "ID64": 681965009513,
+      "Coords": {
+        "x": 817.1875,
+        "y": 1420.75,
+        "z": 13275.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb CR-E b12-1",
+      "ID64": 2880988265065,
+      "Coords": {
+        "x": 822.65625,
+        "y": 1419.78125,
+        "z": 13278.875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MD-B b14-0",
+      "ID64": 682501880441,
+      "Coords": {
+        "x": 860.6875,
+        "y": 1419.34375,
+        "z": 13315.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ND-B b14-1",
+      "ID64": 2881793571449,
+      "Coords": {
+        "x": 876.09375,
+        "y": 1418.84375,
+        "z": 13320.40625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ND-B b14-0",
+      "ID64": 682770315897,
+      "Coords": {
+        "x": 891.15625,
+        "y": 1418.375,
+        "z": 13323.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KI-B b14-1",
+      "ID64": 2881525201529,
+      "Coords": {
+        "x": 857.4375,
+        "y": 1439.78125,
+        "z": 13315.3125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb KI-B b14-0",
+      "ID64": 682501945977,
+      "Coords": {
+        "x": 855.1875,
+        "y": 1439.5625,
+        "z": 13315.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb EN-B b14-0",
+      "ID64": 681428269689,
+      "Coords": {
+        "x": 779.53125,
+        "y": 1456.90625,
+        "z": 13320.1875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DN-B b14-0",
+      "ID64": 681159834233,
+      "Coords": {
+        "x": 758.21875,
+        "y": 1455.6875,
+        "z": 13319.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-20",
+      "ID64": 697840209563,
+      "Coords": {
+        "x": 758.03125,
+        "y": 1461.5,
+        "z": 13313.59375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb CN-B b14-1",
+      "ID64": 2879914654329,
+      "Coords": {
+        "x": 748.46875,
+        "y": 1463.6875,
+        "z": 13316.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb YG-D b13-1",
+      "ID64": 2879914654321,
+      "Coords": {
+        "x": 744.5625,
+        "y": 1468.5625,
+        "z": 13312.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AS-B b14-0",
+      "ID64": 680891464313,
+      "Coords": {
+        "x": 735.8125,
+        "y": 1475.53125,
+        "z": 13315.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MQ-O c6-4",
+      "ID64": 1184640441658,
+      "Coords": {
+        "x": 742.625,
+        "y": 1481.125,
+        "z": 13319.375
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-3",
+      "ID64": 113724657307,
+      "Coords": {
+        "x": 746.03125,
+        "y": 1470.3125,
+        "z": 13325.34375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb CN-B b14-0",
+      "ID64": 680891398777,
+      "Coords": {
+        "x": 754.4375,
+        "y": 1468.53125,
+        "z": 13321.5
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-4",
+      "ID64": 148084395675,
+      "Coords": {
+        "x": 737.6875,
+        "y": 1464.28125,
+        "z": 13329.34375
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb EI-B b14-0",
+      "ID64": 680891333241,
+      "Coords": {
+        "x": 737.15625,
+        "y": 1452.75,
+        "z": 13321.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MQ-O c6-0",
+      "ID64": 85128813882,
+      "Coords": {
+        "x": 739.28125,
+        "y": 1455.96875,
+        "z": 13300.5625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb YG-D b13-0",
+      "ID64": 680891398769,
+      "Coords": {
+        "x": 735.71875,
+        "y": 1458.6875,
+        "z": 13297.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-12",
+      "ID64": 422962302619,
+      "Coords": {
+        "x": 736.65625,
+        "y": 1465.3125,
+        "z": 13292.65625
+      },
+      "Notes": "A"
+    },
+    {
+      "SystemName": "Byeia Aerb AC-D b13-1",
+      "ID64": 2879914588785,
+      "Coords": {
+        "x": 735.34375,
+        "y": 1450.71875,
+        "z": 13300.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb AC-D b13-0",
+      "ID64": 680891333233,
+      "Coords": {
+        "x": 737.28125,
+        "y": 1437.625,
+        "z": 13300.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb OL-O c6-4",
+      "ID64": 1184640408890,
+      "Coords": {
+        "x": 751.5625,
+        "y": 1432.78125,
+        "z": 13321.15625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb WL-D b13-0",
+      "ID64": 680891464305,
+      "Coords": {
+        "x": 735.21875,
+        "y": 1477.84375,
+        "z": 13304.46875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SF-F b12-0",
+      "ID64": 680891464297,
+      "Coords": {
+        "x": 748.78125,
+        "y": 1488.25,
+        "z": 13286.125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RK-F b12-0",
+      "ID64": 681159965289,
+      "Coords": {
+        "x": 760.90625,
+        "y": 1500,
+        "z": 13275.96875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TF-F b12-0",
+      "ID64": 681159899753,
+      "Coords": {
+        "x": 767.71875,
+        "y": 1485.0625,
+        "z": 13278.90625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb TF-F b12-1",
+      "ID64": 2880183155305,
+      "Coords": {
+        "x": 768.625,
+        "y": 1485.09375,
+        "z": 13279.03125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb UF-F b12-0",
+      "ID64": 681428335209,
+      "Coords": {
+        "x": 776.90625,
+        "y": 1478.625,
+        "z": 13278.25
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb PP-F b12-0",
+      "ID64": 681160030825,
+      "Coords": {
+        "x": 769.03125,
+        "y": 1531.78125,
+        "z": 13282.75
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb VV-D b13-0",
+      "ID64": 681696901745,
+      "Coords": {
+        "x": 811.09375,
+        "y": 1520.0625,
+        "z": 13304.53125
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb WV-D b13-0",
+      "ID64": 681965337201,
+      "Coords": {
+        "x": 820.3125,
+        "y": 1520.8125,
+        "z": 13300.71875
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZL-C b14-0",
+      "ID64": 682770774649,
+      "Coords": {
+        "x": 882.96875,
+        "y": 1559.96875,
+        "z": 13322.09375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb LA-P c6-0",
+      "ID64": 85330206010,
+      "Coords": {
+        "x": 892.78125,
+        "y": 1560.3125,
+        "z": 13327.15625
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb LA-P c6-4",
+      "ID64": 1184841833786,
+      "Coords": {
+        "x": 888.4375,
+        "y": 1557.875,
+        "z": 13302.96875
+      },
+      "Notes": "K"
+    },
+    {
+      "SystemName": "Byeia Aerb VF-E b13-0",
+      "ID64": 682770774641,
+      "Coords": {
+        "x": 894.8125,
+        "y": 1558.625,
+        "z": 13299.4375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb RZ-F b12-0",
+      "ID64": 682770774633,
+      "Coords": {
+        "x": 886.28125,
+        "y": 1572.875,
+        "z": 13292.625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb DN-J b10-0",
+      "ID64": 681160161881,
+      "Coords": {
+        "x": 759.65625,
+        "y": 1572.5625,
+        "z": 13251.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb ZQ-M b8-0",
+      "ID64": 681160030793,
+      "Coords": {
+        "x": 767.59375,
+        "y": 1526.6875,
+        "z": 13197.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb MB-X d1-12",
+      "ID64": 422962318995,
+      "Coords": {
+        "x": 737.53125,
+        "y": 1511.34375,
+        "z": 13197.96875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb SE-I b10-0",
+      "ID64": 681428138585,
+      "Coords": {
+        "x": 776.0625,
+        "y": 1416.34375,
+        "z": 13239.65625
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb SC-V d2-2",
+      "ID64": 79364918939,
+      "Coords": {
+        "x": 735.1875,
+        "y": 1483.03125,
+        "z": 13332.96875
+      },
+      "Notes": "F"
+    },
+    {
+      "SystemName": "Byeia Aerb FB-O b7-0",
+      "ID64": 682770512449,
+      "Coords": {
+        "x": 876.625,
+        "y": 1480.875,
+        "z": 13179.375
+      },
+      "Notes": "M"
+    },
+    {
+      "SystemName": "Byeia Aerb HW-N b7-0",
+      "ID64": 682770446913,
+      "Coords": {
+        "x": 893.71875,
+        "y": 1465.15625,
+        "z": 13191.28125
+      },
+      "Notes": "M"
+    }
+  ],
+  "CurrentDestination": 38,
+  "AutoSetNextDestination": true
+}
