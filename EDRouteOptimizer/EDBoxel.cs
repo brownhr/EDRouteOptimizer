@@ -27,12 +27,15 @@ namespace EDRouteOptimizer
         public readonly int MassNum2;
 
 
-        private readonly int BoxelIndex;
+        private readonly int BoxelCubeNumber;
         private readonly char[] BoxelChar;
 
 
         public BoxelCoord BoxelCoords;
         public GalacticCoordinates GalacticCoords;
+
+        // TODO: Implement binary boxel tree ID
+        private Int32 BoxelID;
 
 
         public EDBoxel(string boxelCode, char massCode, int massNum)
@@ -47,8 +50,8 @@ namespace EDRouteOptimizer
             }
 
             BoxelChar = GetBoxelChar(BoxelCode);
-            BoxelIndex = BoxelCharToIndex(BoxelChar) + massNum * MaxNum;
-            BoxelCoords = IndexToBoxelCoord(BoxelIndex);
+            BoxelCubeNumber = BoxelCharToIndex(BoxelChar) + massNum * MaxNum;
+            BoxelCoords = IndexToBoxelCoord(BoxelCubeNumber);
         }
 
         public static EDBoxel GetBoxel(string boxelString)
@@ -88,7 +91,7 @@ namespace EDRouteOptimizer
 
         public bool IsValidBoxel()
         {
-            bool indexInValidRange = BoxelIndex <= MaxIndex;
+            bool indexInValidRange = BoxelCubeNumber <= MaxIndex;
 
             int numBoxelsInMassCode = GetNumBoxelsInMasscode(MassCode);
             int maxCoordinateAlongAxis = (int)Math.Cbrt(numBoxelsInMassCode) - 1;
