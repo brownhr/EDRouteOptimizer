@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace EDRouteOptimizer
 {
-    public partial class DistanceMatrix
+    public partial class NearestNeighbor
     {
+        // TODO: Refactor to multidimensional array
         public double[][] DistanceMat { get; set; }
         public int Count;
         public int[] RouteIndex;
@@ -16,7 +17,7 @@ namespace EDRouteOptimizer
         public int[] DefaultSort;
 
 
-        public DistanceMatrix(EDRoute route)
+        public NearestNeighbor(EDRoute route)
         {
             Count = route.RouteWaypoints.Count;
             DistanceMat = new double[Count][];
@@ -39,7 +40,21 @@ namespace EDRouteOptimizer
             RouteIndex[0] = 0;
         }
 
-        public void NearestNeighbor()
+        public NearestNeighbor(double[][] jaggedDistanceMatrix)
+        {
+            Count = jaggedDistanceMatrix.Length;
+            DistanceMat = jaggedDistanceMatrix;
+
+            DefaultSort = Enumerable.Range(0, Count).ToArray();
+
+            IsVisited = new bool[Count];
+            IsVisited[0] = true;
+
+            RouteIndex = new int[Count];
+            RouteIndex[0] = 0;
+        }
+
+        public void FindNearestNeighbors()
         {
             int targetIndex = 0;
 
