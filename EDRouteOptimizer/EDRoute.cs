@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
@@ -80,8 +82,18 @@ namespace EDRouteOptimizer
 
         }
 
+        private static Random rng = new Random();
+        public void ShuffleSansFirst()
+        {
+            var shuffledWaypoints = RouteWaypoints.Skip(1).OrderBy(a => rng.Next()).ToList();
+            shuffledWaypoints.Insert(0, RouteWaypoints[0]);
+            RouteWaypoints = shuffledWaypoints;
+        }
 
-
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(RouteWaypoints);
+        }
 
     }
 
