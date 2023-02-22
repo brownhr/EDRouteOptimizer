@@ -37,6 +37,11 @@ namespace EDRouteOptimizer
             return SystemName;
         }
 
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(SystemName);
+        }
+
     }
 
     [JsonObject(MemberSerialization.OptIn)]
