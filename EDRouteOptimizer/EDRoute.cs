@@ -44,6 +44,25 @@ namespace EDRouteOptimizer
 
         }
 
+        public double[, ] GenerateDistanceMatrix()
+        {
+            int length = RouteWaypoints.Count;
+            double[, ] distanceMatrix = new double[length, length];
+
+            for (int i = 0; i < length; i++)
+            {
+                for (int j = 0; j < length; j++)
+                {
+                    distanceMatrix[i, j] = CalculateEuclideanDistance(RouteWaypoints[i].Coords, RouteWaypoints[j].Coords);
+                }
+            }
+            return distanceMatrix;
+        }
+
+        public static double CalculateEuclideanDistance(RouteJsonCoords a, RouteJsonCoords b)
+        {
+            return Math.Sqrt(Math.Pow(a.x - b.x, 2) + Math.Pow(a.y - b.y, 2) + Math.Pow(a.z - b.z, 2));
+        }
 
         public void SortByArray(int[] sequence)
         {
