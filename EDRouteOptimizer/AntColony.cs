@@ -1,52 +1,72 @@
-﻿using System;
+﻿using ShellProgressBar;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EDRouteOptimizer
 {
-    internal class AntColony
+    public class AntColony
     {
         //double[][] distanceMatrix { get; set; }
-        private double initialTrail = 1.0;
+        public double initialTrail = 1.0;
 
-        private double pheromoneImportanceAlpha = 1.25;
-        private double distancePriorityBeta = 5.0;
+        public double pheromoneImportanceAlpha = 1.25;
+        public double distancePriorityBeta = -2.5;
+        public int numBestTrailsFound = 0;
 
-        private double pheromoneEvaporationPercent = 0.75;
-        private double pheromoneDepositionAmount = 100;
+        public double pheromoneEvaporationPercent = 0.75;
+        public double pheromoneDepositionAmount = 1e5;
 
-        private double antContriubution = 0.8;
-        private double randomContribution = 0.01;
 
-        private static Random random = new Random();
+        public double maxiumumPreferredDistance = 45;
 
-        private int maxIterations = 1000;
+        public double antCountMultiplier = 0.6;
+        public int? numberAnts = null;
+        public double randomContribution = 0.125;
+        private static int? DEBUG_SEED = null;
+        private static Random random = InitRandom();
+
+        private static Random InitRandom()
+        {
+            if (DEBUG_SEED != null)
+            {
+                return new Random(DEBUG_SEED.Value);
+            }
+            else
+            {
+                return new Random();
+            }
+        }
+        public int maxIterations = 4096;
 
         public int numPoints;
-        public int numAnts;
+        private int numAnts;
 
         public double[,] distanceMatrix;
-        public double[,] trails;
+        public double[,] pheromoneMatrix;
 
-        private List<Ant> ants = new List<Ant>();
-        private double[] pheromones;
+        public List<Ant> ants = new List<Ant>();
+        public double[] pheromones;
 
-        private int currentIndex;
+        public int currentIndex;
 
         public int[] bestTrailOrder;
         public double bestTrailLength;
+        public double[] trailDistances;
 
+        public ProgressBarOptions options = new ProgressBarOptions { ProgressBarOnBottom = true, ProgressCharacter = '#' };
 
         // Initialize Ant Colony
         public AntColony(double[,] distMat)
         {
             distanceMatrix = distMat;
             numPoints = distanceMatrix.GetLength(0);
-            numAnts = (int)(numPoints * antContriubution);
+            numAnts = numberAnts == null ? (int)(numPoints * antCountMultiplier) : numberAnts.Value;
 
-            trails = new double[numPoints, numPoints];
+            pheromoneMatrix = new double[numPoints, numPoints];
 
             pheromones = new double[numPoints];
 
@@ -57,7 +77,8 @@ namespace EDRouteOptimizer
         }
 
 
-        private static double[,] GenerateInitialSolution(int m, int n)
+
+        public static double[,] GenerateInitialSolution(int m, int n)
         {
             double[,] array = new double[m, n];
 
@@ -74,47 +95,62 @@ namespace EDRouteOptimizer
         public int[] GenerateTrailSolution()
         {
             InitializeAnts();
-            ClearTrails();
-            for (int i = 0; i < maxIterations; i++)
+            ClearPheromoneMatrix();
+            using (ProgressBar pbar = new ProgressBar(maxIterations, "Iterating ants: ", options))
             {
-                MoveAnts();
-                UpdateTrails();
-                UpdateBest();
+                for (int i = 0; i < maxIterations; i++)
+                {
+                    MoveAnts();
+                    UpdateTrails();
+                    UpdateBest();
+                    pbar.Tick();
+                }
             }
             Console.WriteLine("Best trail length: " + bestTrailLength.ToString("F3"));
             return (int[])bestTrailOrder.Clone();
         }
 
-        private void InitializeAnts()
+        public void InitializeAnts()
         {
             foreach (Ant ant in ants)
             {
                 ant.ClearTrail();
-                ant.VisitPoint(-1, random.Next(numPoints));
+                ant.trail[0] = 0;
+                ant.isVisited[0] = true;
+                //ant.isVisited[^1] = true;
+
+                //ant.VisitPoint(0, random.Next(numPoints));
+                //ant.isVisited[0] = true;
             }
             currentIndex = 0;
         }
 
-        private void MoveAnts()
+        public void MoveAnts()
         {
             for (int i = currentIndex; i < numPoints - 1; i++)
             {
                 foreach (Ant ant in ants)
                 {
                     ant.VisitPoint(currentIndex, SelectNextPoint(ant));
-                    currentIndex++;
                 }
+                currentIndex++;
+
             }
         }
 
-        private int SelectNextPoint(Ant ant)
+        public int SelectNextPoint(Ant ant)
         {
+
+
+            // Select next point randomly
             int t = random.Next(numPoints - currentIndex);
-            if (random.NextDouble() < randomContribution)
+            double randomMoveProbability = random.NextDouble();
+            if (randomMoveProbability < randomContribution)
             {
                 int? pointIndex = Enumerable.Range(0, numPoints)
-                    .Where(x => x == t && !ant.IsVisited(x))
-                    .First();
+                    .Where(x => x == t && !ant.isVisited[x])
+                    .Cast<int?>()
+                    .FirstOrDefault();
 
                 if (pointIndex != null)
                 {
@@ -123,16 +159,23 @@ namespace EDRouteOptimizer
             }
 
             CalculateProbabilities(ant);
-            double r = random.NextDouble();
-            double total = 0;
-            for (int i = 0; i < numPoints; i++)
-            {
-                total += pheromones[i];
-                if (total >= r)
-                {
-                    return i;
-                }
-            }
+            int weightedIndex = Enumerable.Range(0, numPoints).Where(x => !ant.isVisited[x]).RandomElementByWeight(e => pheromones[e]);
+            return weightedIndex;
+
+
+
+
+            // select next point based on pheromone weight
+
+
+            //for (int i = 0; i < numPoints; i++)
+            //{
+            //    total += pheromones[i];
+            //    if (total >= r)
+            //    {
+            //        return i;
+            //    }
+            //}
             throw new IndexOutOfRangeException("No valid remaining points");
         }
 
@@ -144,20 +187,22 @@ namespace EDRouteOptimizer
 
             for (int k = 0; k < numPoints; ++k)
             {
-                if (ant.IsVisited(k)) { continue; }
-                pheromone +=
-                    Math.Pow(trails[i, k], pheromoneImportanceAlpha) *
-                    Math.Pow(1.0 / distanceMatrix[i, k], distancePriorityBeta);
+                if (ant.isVisited[k]) { continue; }
+                double alpha = Math.Pow(pheromoneMatrix[i, k], pheromoneImportanceAlpha);
+                double beta = Math.Pow(distanceMatrix[i, k] / maxiumumPreferredDistance, distancePriorityBeta);
+                pheromone += alpha * beta;
             }
+
+
 
             for (int j = 0; j < numPoints; ++j)
             {
                 if (ant.isVisited[j]) { pheromones[j] = 0.0; }
                 else
                 {
-                    double numerator =
-                        Math.Pow(trails[i, j], pheromoneImportanceAlpha) *
-                        Math.Pow(1.0 / distanceMatrix[i, j], distancePriorityBeta);
+                    double alpha = Math.Pow(pheromoneMatrix[i, j], pheromoneImportanceAlpha);
+                    double beta = Math.Pow(distanceMatrix[i, j] / maxiumumPreferredDistance, distancePriorityBeta);
+                    double numerator = alpha * beta;
                     pheromones[j] = numerator / pheromone;
                 }
             }
@@ -175,7 +220,7 @@ namespace EDRouteOptimizer
             {
                 for (int j = 0; j < numPoints; j++)
                 {
-                    trails[i, j] *= pheromoneEvaporationPercent;
+                    pheromoneMatrix[i, j] *= pheromoneEvaporationPercent;
                 }
             }
         }
@@ -187,13 +232,23 @@ namespace EDRouteOptimizer
                 double contribution = pheromoneDepositionAmount / ant.TrailLength(distanceMatrix);
                 for (int i = 0; i < numPoints - 1; i++)
                 {
-                    trails[ant.trail[i], ant.trail[i + 1]] += contribution;
+                    pheromoneMatrix[ant.trail[i], ant.trail[i + 1]] += contribution;
                 }
-                trails[ant.trail[numPoints - 1], ant.trail[0]] += contribution;
+                pheromoneMatrix[ant.trail[numPoints - 1], ant.trail[0]] += contribution;
             }
         }
 
-        private void UpdateBest()
+        public double[] TrailDistances(double[,] distanceMatrix)
+        {
+            double[] dists = new double[bestTrailOrder.Length];
+            for (int i = 0; i < bestTrailOrder.Length - 1; i++)
+            {
+                dists[i] = distanceMatrix[i, i + 1];
+            }
+            return dists;
+        }
+
+        public void UpdateBest()
         {
             if (bestTrailOrder == null)
             {
@@ -202,19 +257,26 @@ namespace EDRouteOptimizer
             }
             foreach (Ant ant in ants)
             {
-                if (ant.TrailLength(distanceMatrix) > bestTrailLength) { continue; }
-                bestTrailLength = ant.TrailLength(distanceMatrix);
-                bestTrailOrder = (int[])ant.trail.Clone();
+                double dist = ant.TrailLength(distanceMatrix);
+                if (dist < bestTrailLength)
+                {
+
+                    numBestTrailsFound++;
+                    bestTrailLength = dist;
+                    trailDistances = TrailDistances(distanceMatrix);
+                    ant.trail.CopyTo(bestTrailOrder, 0);
+                    Console.WriteLine($"New best trail of distance {bestTrailLength:F1} found!");
+                }
             }
         }
 
-        private void ClearTrails()
+        public void ClearPheromoneMatrix()
         {
             for (int i = 0; i < numPoints; i++)
             {
                 for (int j = 0; j < numPoints; j++)
                 {
-                    trails[i, j] = initialTrail;
+                    pheromoneMatrix[i, j] = initialTrail;
                 }
             }
         }
@@ -244,21 +306,17 @@ namespace EDRouteOptimizer
             trail[currentIndex + 1] = point;
             isVisited[point] = true;
         }
-
-        public bool IsVisited(int point)
-        {
-            return isVisited[point];
-        }
-
         public double TrailLength(double[,] distanceMatrix)
         {
-            double length = 0;
-            for (int i = 0; i < trailSize - 1; i++)
+            double total = 0;
+            for (int i = 0; i < trail.Length - 1; i++)
             {
-                length += distanceMatrix[i, i + 1];
+                total += distanceMatrix[trail[i], trail[i + 1]];
             }
-            return length;
+            return total;
         }
+
+
 
         public void ClearTrail()
         {
@@ -269,5 +327,30 @@ namespace EDRouteOptimizer
         }
 
 
+    }
+
+    public static class IEnumerableExtensions
+    {
+
+        private static Random random = new Random();
+        public static T RandomElementByWeight<T>(this IEnumerable<T> sequence, Func<T, double> weightSelector)
+        {
+            double totalWeight = sequence.Sum(weightSelector);
+            double itemWeightIndex = random.NextDouble() * totalWeight;
+
+            double currentWeightIndex = 0;
+
+            foreach (var item in from weightedItem in sequence select new { Value = weightedItem, Weight = weightSelector(weightedItem) })
+            {
+                currentWeightIndex += itemWeightIndex;
+
+                if (currentWeightIndex > itemWeightIndex)
+                {
+                    return item.Value;
+                }
+            }
+            return default(T);
+
+        }
     }
 }
