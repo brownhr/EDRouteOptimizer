@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
 using System.Linq.Expressions;
 using System.Security;
 using System.Text;
@@ -26,8 +27,17 @@ namespace EDRouteOptimizer
         public static int[] optimizedSequence;
         public static double[] distances;
 
+        public static JournalParser journalParser;
+        public static List<FSSEvent> mappedSystems;
+
         public static void Main()
         {
+            DateTime cutoffDate = DateTime.ParseExact(s:"2023-01-01", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            journalParser = new JournalParser(cutoff: cutoffDate);
+            journalParser.ParseJournals();
+
+            mappedSystems = journalParser.FSSMappedSystems;
+
             SetupRoute();
             double[,] distanceMatrix = route.GenerateDistanceMatrix();
 
@@ -41,9 +51,9 @@ namespace EDRouteOptimizer
             route.VerifyRoute(optimizedSequence);
 
 
-            ReportDistances(distances, count: 10, reverse: true, message: "Largest distances:") ;
+            ReportDistances(distances, count: 10, reverse: true, message: "Largest distances:");
             ReportDistances(distances, count: 10, reverse: false, message: "Shortest distances:");
-            
+
             ReportDistances(distances, count: 10, reverse: false, sort: false, message: "Final route distances:");
 
 
@@ -128,6 +138,17 @@ namespace EDRouteOptimizer
             Console.WriteLine(countRemainingSystems + " systems remaining.");
 
         }
+        public static void SetupRoute()
+        {
+            route = EDRoute.ParseJson(inputFilePath);
+
+            CreateSystemDict();
+            homeSystem = SystemDict.TryGetValue(currentSystem, out EDSystem value) == true ? value : homeSystem;
+
+            
+
+            FilterMappedSystems(route, mappedSystems);
+
 
             route.RouteWaypoints.Insert(0, homeSystem);
             route.ShuffleSansFirst();
