@@ -28,7 +28,7 @@ namespace EDRouteOptimizer
         public static double[] distances;
 
         public static JournalParser journalParser;
-        public static List<FSSEvent> mappedSystems;
+        public static List<FSSAllBodiesFoundEvent> mappedSystems;
 
         public static void Main()
         {
@@ -108,12 +108,12 @@ namespace EDRouteOptimizer
         }
 
 
-        public static void FilterMappedSystems(EDRoute route, List<FSSEvent> events)
+        public static void FilterMappedSystems(EDRoute route, List<FSSAllBodiesFoundEvent> events)
         {
             List<string> mappedSystems = new List<string>();
             Regex ByeiaAerbRegex = new Regex("Byeia Aerb");
 
-            foreach (FSSEvent _event in events)
+            foreach (FSSAllBodiesFoundEvent _event in events)
             {
                 Match m = ByeiaAerbRegex.Match(_event.SystemName);
                 if (!m.Success) continue;

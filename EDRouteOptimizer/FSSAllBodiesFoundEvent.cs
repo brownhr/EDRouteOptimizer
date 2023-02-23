@@ -9,7 +9,7 @@ namespace EDRouteOptimizer
 {
 
     [JsonObject(MemberSerialization.OptIn)]
-    public class FSSEvent
+    public class FSSAllBodiesFoundEvent
     {
         [JsonProperty]
         public string? timestamp { get; set; }
@@ -27,10 +27,10 @@ namespace EDRouteOptimizer
         public int? Count { get; set; }
 
 
-        public static List<FSSEvent> ParseFSSJson(string filepath)
+        public static List<FSSAllBodiesFoundEvent> ParseFSSJson(string filepath)
         {
 
-            List<FSSEvent> eventList = new List<FSSEvent>();
+            List<FSSAllBodiesFoundEvent> eventList = new List<FSSAllBodiesFoundEvent>();
 
             var jsonReader = new JsonTextReader(new StreamReader(filepath))
 
@@ -40,7 +40,7 @@ namespace EDRouteOptimizer
             var jsonSerializer = new JsonSerializer();
             while (jsonReader.Read())
             {
-                FSSEvent e = jsonSerializer.Deserialize<FSSEvent>(jsonReader);
+                FSSAllBodiesFoundEvent e = jsonSerializer.Deserialize<FSSAllBodiesFoundEvent>(jsonReader);
 
                 eventList.Add(e);
             }

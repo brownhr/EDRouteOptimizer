@@ -22,7 +22,7 @@ namespace EDRouteOptimizer
         public List<dynamic> journalEntries = new List<dynamic>();
 
         private DateTime dateTimeCutoff = new DateTime();
-        public List<FSSEvent> FSSMappedSystems = new List<FSSEvent>();
+        public List<FSSAllBodiesFoundEvent> FSSMappedSystems = new List<FSSAllBodiesFoundEvent>();
 
 
         public JournalParser(DateTime cutoff)
@@ -54,7 +54,7 @@ namespace EDRouteOptimizer
                     int count = dynamicObj["Count"];
                     string timestamp = dynamicObj["timestamp"];
 
-                    FSSMappedSystems.Add(new FSSEvent() { @event = eventType, SystemName = systemName, SystemAddress = systemAddress, Count = count , timestamp = timestamp});
+                    FSSMappedSystems.Add(new FSSAllBodiesFoundEvent() { @event = eventType, SystemName = systemName, SystemAddress = systemAddress, Count = count , timestamp = timestamp});
                 }
             }
 
@@ -63,7 +63,7 @@ namespace EDRouteOptimizer
 
         }
 
-        public static FSSEvent ParseDynamicFSSEvent(string jsonString)
+        public static FSSAllBodiesFoundEvent ParseDynamicFSSEvent(string jsonString)
         {
             var dynamicObj = JsonConvert.DeserializeObject<dynamic>(jsonString)!;
 
@@ -72,7 +72,7 @@ namespace EDRouteOptimizer
             ulong systemAddress = dynamicObj["SystemAddress"];
             int count = dynamicObj["Count"];
 
-            return new FSSEvent() { @event = eventType, SystemName = systemName, SystemAddress = systemAddress, Count = count };
+            return new FSSAllBodiesFoundEvent() { @event = eventType, SystemName = systemName, SystemAddress = systemAddress, Count = count };
 
         }
 
