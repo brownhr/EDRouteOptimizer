@@ -24,6 +24,8 @@ namespace EDRouteOptimizer
         public double maxiumumPreferredDistance = 45;
 
         public double antCountMultiplier = 0.6;
+
+        // TODO: Refactor constructor to fix numberAnts
         public int? numberAnts = null;
         public double randomContribution = 0.125;
         private static int? DEBUG_SEED = null;
