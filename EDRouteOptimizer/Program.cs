@@ -96,41 +96,38 @@ namespace EDRouteOptimizer
                 }
             }
         }
-        public static void SetupRoute()
+
+
+        public static void FilterMappedSystems(EDRoute route, List<FSSEvent> events)
         {
-            route = EDRoute.ParseJson(inputFilePath);
-
-            CreateSystemDict();
-            homeSystem = SystemDict.TryGetValue(currentSystem, out EDSystem value) == true ? value : homeSystem;
-
-
-
-            List<FSSEvent> events = FSSEvent.ParseFSSJson(inputFSSDataPath);
-
             List<string> mappedSystems = new List<string>();
-            Regex BARegex = new Regex(@"Byeia Aerb");
-            foreach (FSSEvent e in events)
+            Regex ByeiaAerbRegex = new Regex("Byeia Aerb");
+
+            foreach (FSSEvent _event in events)
             {
-                Match m = BARegex.Match(e.SystemName);
+                Match m = ByeiaAerbRegex.Match(_event.SystemName);
                 if (!m.Success) continue;
-                mappedSystems.Add(e.SystemName);
+                mappedSystems.Add(_event.SystemName);
             }
+            string[] mappedSystemsArray = mappedSystems.ToArray();
 
-            string[] ms_array = mappedSystems.ToArray();
-            List<EDSystem> remaining = new List<EDSystem>();
-            int sum = 0;
+            List<EDSystem> remainingSystems = new List<EDSystem>();
 
-            foreach (EDSystem s in route.RouteWaypoints)
+            int countRemainingSystems = 0;
+
+            foreach (EDSystem system in route.RouteWaypoints)
             {
-                if (!Array.Exists(ms_array, e => e == s.SystemName))
+                if (!Array.Exists(mappedSystemsArray, x => x == system.SystemName))
                 {
-                    remaining.Add(s);
-                    sum++;
+                    remainingSystems.Add(system);
+                    countRemainingSystems++;
                 }
             }
 
-            Console.WriteLine(sum + " Systems remaining");
-            route.RouteWaypoints = remaining;
+            route.RouteWaypoints = remainingSystems;
+            Console.WriteLine(countRemainingSystems + " systems remaining.");
+
+        }
 
             route.RouteWaypoints.Insert(0, homeSystem);
             route.ShuffleSansFirst();
