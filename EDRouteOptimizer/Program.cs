@@ -8,80 +8,103 @@ namespace EDRouteOptimizer
 {
     public class Program
     {
-        public static EDSystem homeSystem;
+
+        public static string currentSystem = "Byeia Aerb HL-Y e0";
+        public static EDSystem homeSystem = new EDSystem(systemName: "Byeia Aerb HL-Y e0",
+                                                           coords: new RouteJsonCoords(x: 813.5, y: 1547.09375, z: 13291.96875));
+
         public static EDRoute route;
+        public static Dictionary<string, EDSystem> SystemDict = new Dictionary<string, EDSystem>();
+
 
         public static string inputFSSDataPath = @"C:\Users\brownhr\Documents\fss.log";
-        public static string inputFilePath = @"C:\Users\brownhr\Desktop\test_json_parse.route";
+        public static string inputFilePath = @"C:\Users\brownhr\Desktop\routes\test_json_parse.route";
+
+        public static double initialDistance;
+        public static double finalDistance;
+
+        public static int[] optimizedSequence;
+        public static double[] distances;
 
         public static void Main()
         {
             SetupRoute();
-           
-            NearestNeighborOptimizer NNO = new NearestNeighborOptimizer()
-
             double[,] distanceMatrix = route.GenerateDistanceMatrix();
 
-            AntColony antcolony = new AntColony(distanceMatrix) { numberAnts = 256 };
+            NearestNeighborOptimizer optimizer
+                = new NearestNeighborOptimizer(distanceMatrix);
 
-            int[] antColonySequence = antcolony.GenerateTrailSolution();
 
-            foreach (int i in Enumerable.Range(0, route.RouteWaypoints.Count))
+            RunOptimizer(optimizer);
+
+
+            route.VerifyRoute(optimizedSequence);
+
+
+            ReportDistances(distances, count: 10, reverse: true, message: "Largest distances:") ;
+            ReportDistances(distances, count: 10, reverse: false, message: "Shortest distances:");
+            
+            ReportDistances(distances, count: 10, reverse: false, sort: false, message: "Final route distances:");
+
+
+            route.SortByArray(optimizedSequence);
+            route.CurrentDestination = 0;
+            string outfile = @$"C:\Users\brownhr\Desktop\routes\test_json_parse{route.GetHashCode()}.route";
+
+            route.WriteJson(outfile);
+        }
+
+        public static void RunOptimizer(IRouteOptimizer routeOptimizer)
+        {
+            routeOptimizer.RunOptimizer();
+            optimizedSequence = routeOptimizer.GetOptimizedRoute();
+            distances = routeOptimizer.ReturnDistances();
+            finalDistance = distances.Sum();
+        }
+
+        public static void ReportDistances(double[] distances, int count, bool reverse = true, bool sort = true, string? message = null)
+        {
+            double[] array = (double[])distances.Clone();
+
+            if (sort) { Array.Sort(array); }
+            if (reverse) { Array.Reverse(array); }
+
+            double[] topDists = array.Take(count).ToArray();
+            StringBuilder sb = new StringBuilder();
+            if (message != null)
             {
-                if (!Array.Exists(antColonySequence, e => e == i))
-                {
-                    Console.WriteLine($"Index {i} not found within {nameof(antColonySequence)}");
-                }
-
+                Console.WriteLine(message);
             }
 
-            double[] maxDists = new double[antcolony.trailDistances.Length];
-            antcolony.trailDistances.CopyTo(maxDists, 0);
-            Array.Sort(maxDists);
-            Array.Reverse(maxDists);
-            double[] topDists = maxDists.Take(20).ToArray();
-            string[] tDSt = topDists.Select(x => x.ToString("F2")).ToArray();
-            StringBuilder sb = new StringBuilder();
             sb.Append("[");
-            sb.AppendJoin(',', tDSt);
+            sb.AppendJoin(',', topDists.Select(x => x.ToString("F2")).ToArray());
             sb.Append("]");
-
             Console.WriteLine(sb.ToString());
-
-
-            double finalDistance = antcolony.bestTrailLength;
-
-            Thread.Sleep(100);
-            EDRoute routecopy = new EDRoute() { AutoSetNextDestination = true, CurrentDestination = 0, RouteWaypoints = route.RouteWaypoints };
-            routecopy.SortByArray(antcolony.bestTrailOrder);
-            string timeStamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
-            string outfile = @$"C:\Users\brownhr\Desktop\test_json_parse{routecopy.GetHashCode()}.route";
-
-            route.WriteJson(outfile);
         }
 
-        public static void RunNearestNeighbor(EDRoute route)
+
+        public static void CreateSystemDict()
         {
+            foreach (EDSystem system in route.RouteWaypoints)
+            {
 
+                string name = system.SystemName;
 
-
-            NearestNeighbor distMat = new NearestNeighbor(route);
-            distMat.FindNearestNeighbors();
-
-            route.SortByArray(distMat.RouteIndex);
-
-            string timeStamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
-            string outfile = @$"C:\Users\brownhr\Desktop\test_json_parse{timeStamp}.route";
-
-            route.WriteJson(outfile);
-
+                if (!SystemDict.ContainsKey(name))
+                {
+                    SystemDict.Add(name, system);
+                }
+            }
         }
-
         public static void SetupRoute()
         {
             route = EDRoute.ParseJson(inputFilePath);
-            homeSystem = new EDSystem(systemName: "Byeia Aerb HL-Y e0",
-                                                           coords: new RouteJsonCoords(x: 813.5, y: 1547.09375, z: 13291.96875));
+
+            CreateSystemDict();
+            homeSystem = SystemDict.TryGetValue(currentSystem, out EDSystem value) == true ? value : homeSystem;
+
+
+
             List<FSSEvent> events = FSSEvent.ParseFSSJson(inputFSSDataPath);
 
             List<string> mappedSystems = new List<string>();
@@ -113,78 +136,5 @@ namespace EDRouteOptimizer
             route.ShuffleSansFirst();
         }
     }
-    public interface IRouteOptimizer
-    {
-        void SetupOptimizer();
 
-        //void SetupDistanceMatrix();
-        void RunOptimizer();
-        int[] ReportResults();
-
-
-    }
-
-    public class AntColonyOptimizer : IRouteOptimizer
-    {
-        public AntColony antColony;
-        public int[] optimizedSequence;
-        private double[,] distanceMatrix;
-
-        public AntColonyOptimizer(double[,] distanceMatrix)
-        {
-            this.distanceMatrix = distanceMatrix;
-            SetupOptimizer();
-        }
-
-        public void SetupOptimizer()
-        {
-            antColony = new AntColony(distanceMatrix);
-        }
-        public void RunOptimizer()
-        {
-            antColony.GenerateTrailSolution();
-            optimizedSequence = antColony.bestTrailOrder;
-        }
-
-        public int[] ReportResults()
-        {
-            return optimizedSequence;
-        }
-    }
-
-    public class NearestNeighborOptimizer : IRouteOptimizer
-    {
-        public NearestNeighbor nearestNeighbor;
-        public int[] optimizedSequence;
-        public double[][] jaggedDistanceMatrix;
-
-        public NearestNeighborOptimizer(double[][] distanceMatrix)
-        {
-            this.jaggedDistanceMatrix = distanceMatrix;
-            SetupOptimizer();
-
-        }
-        public NearestNeighborOptimizer(EDRoute route)
-        {
-            
-        }
-
-        public void SetupOptimizer()
-        {
-            nearestNeighbor = new NearestNeighbor(jaggedDistanceMatrix);
-        }
-
-        public void RunOptimizer()
-        {
-            nearestNeighbor.FindNearestNeighbors();
-            optimizedSequence = nearestNeighbor.RouteIndex;
-
-        }
-
-        public int[] ReportResults()
-        {
-            return optimizedSequence;
-        }
-
-    }
 }
