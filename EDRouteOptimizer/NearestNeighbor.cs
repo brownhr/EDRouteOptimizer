@@ -10,7 +10,6 @@ namespace EDRouteOptimizer
 {
     public partial class NearestNeighbor
     {
-        // TODO: Refactor to multidimensional array
         public double[,] DistanceMat { get; set; }
         public int Count;
         public int[] RouteIndex;
