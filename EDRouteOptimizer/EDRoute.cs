@@ -90,6 +90,18 @@ namespace EDRouteOptimizer
             RouteWaypoints = shuffledWaypoints;
         }
 
+
+        public void VerifyRoute(int[] sequence)
+        {
+            foreach (int i in Enumerable.Range(0, RouteWaypoints.Count))
+            {
+                if (!Array.Exists(sequence, e => e == i))
+                {
+                    Console.WriteLine($"Index {i} not found within {nameof(sequence)}");
+                }
+            }
+        }
+
         public override int GetHashCode()
         {
             return HashCode.Combine(RouteWaypoints);
