@@ -20,8 +20,6 @@ namespace EDRouteOptimizer
             Boxel = boxel;
         }
 
-
-
         public static int ManhattanDistanceBetweenSectors(EDSector sectorA, EDSector sectorB)
         {
 
@@ -116,6 +114,11 @@ namespace EDRouteOptimizer
             return $"{Sector} {Boxel}";
         }
 
+        public string ToString(bool includeMassNum)
+        {
+            return $"{Sector} {Boxel.BoxelCode} {Boxel.MassCode}";
+
+        }
         public override int GetHashCode()
         {
             return HashCode.Combine(Sector.SectorName,
@@ -125,7 +128,6 @@ namespace EDRouteOptimizer
         }
 
 
-        // TODO: Calculate Manhattan distance between subsectors
 
         // TODO: Method for determining orthogonal neighbors (and orth. + diag. neighbors?)
 

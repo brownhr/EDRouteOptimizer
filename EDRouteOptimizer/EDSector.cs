@@ -100,7 +100,7 @@ namespace EDRouteOptimizer
                         ).Value;
                 return sector;
             }
-            catch (InvalidOperationException e)
+            catch (InvalidOperationException)
             {
                 return null;
             }
