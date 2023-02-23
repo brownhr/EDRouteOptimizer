@@ -14,7 +14,6 @@ namespace EDROForms
 
         private void buttonUpdateOutput_Click(object sender, EventArgs e)
         {
-            FormControl.UpdateOutput();
         }
     }
 }
