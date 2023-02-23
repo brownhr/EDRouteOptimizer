@@ -9,7 +9,7 @@ namespace EDRouteOptimizer
 {
 
     [JsonObject(MemberSerialization.OptIn)]
-    internal class FSSEvent
+    public class FSSEvent
     {
         [JsonProperty]
         public string? timestamp { get; set; }
