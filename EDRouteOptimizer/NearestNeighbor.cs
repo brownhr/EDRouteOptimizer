@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using ShellProgressBar;
 
 namespace EDRouteOptimizer
 {
     public partial class NearestNeighbor
     {
         // TODO: Refactor to multidimensional array
-        public double[][] DistanceMat { get; set; }
+        public double[,] DistanceMat { get; set; }
         public int Count;
         public int[] RouteIndex;
         public bool[] IsVisited;
@@ -20,15 +21,14 @@ namespace EDRouteOptimizer
         public NearestNeighbor(EDRoute route)
         {
             Count = route.RouteWaypoints.Count;
-            DistanceMat = new double[Count][];
+            DistanceMat = new double[Count, Count];
             DefaultSort = Enumerable.Range(0, Count).ToArray();
 
             for (int i = 0; i < Count; i++)
             {
-                DistanceMat[i] = new double[Count];
                 for (int j = 0; j < Count; j++)
                 {
-                    DistanceMat[i][j] = GetDistance(route.RouteWaypoints[i].Coords, route.RouteWaypoints[j].Coords);
+                    DistanceMat[i, j] = GetDistance(route.RouteWaypoints[i].Coords, route.RouteWaypoints[j].Coords);
                 }
             }
             IsVisited = new bool[Count];
@@ -40,10 +40,10 @@ namespace EDRouteOptimizer
             RouteIndex[0] = 0;
         }
 
-        public NearestNeighbor(double[][] jaggedDistanceMatrix)
+        public NearestNeighbor(double[,] distanceMatrix)
         {
-            Count = jaggedDistanceMatrix.Length;
-            DistanceMat = jaggedDistanceMatrix;
+            Count = distanceMatrix.GetLength(0);
+            DistanceMat = distanceMatrix;
 
             DefaultSort = Enumerable.Range(0, Count).ToArray();
 
@@ -58,40 +58,52 @@ namespace EDRouteOptimizer
         {
             int targetIndex = 0;
 
-            for (int i = 0; i < Count - 1; i++)
+            ProgressBarOptions options = new ProgressBarOptions() { ProgressBarOnBottom = true, ProgressCharacter = '#'};
+
+            using (ProgressBar pbar = new ProgressBar(Count - 1, "Running nearest neighbor", options))
             {
-                const double TEMP_MIN_VALUE = 1e5d;
-                double currentRowMin = TEMP_MIN_VALUE;
-
-
-                double[] currentRow = DistanceMat[targetIndex];
-
-                for (int col = 0; col < currentRow.Length; col++)
+                for (int i = 0; i < Count - 1; i++)
                 {
-                    if (col == targetIndex) { continue; }
-                    if (IsVisited[col]) { continue; }
+                    const double TEMP_MIN_VALUE = 1e5d;
+                    double currentRowMin = TEMP_MIN_VALUE;
 
-                    if (currentRow[col] < currentRowMin)
+                    double[] currentRow = new double[DistanceMat.GetLength(0)];
+
+                    for (int n = 0; n < currentRow.Length; n++)
                     {
-                        currentRowMin = currentRow[col];
-                        targetIndex = col;
-                    }
-                    RouteIndex[i + 1] = targetIndex;
-                }
-                IsVisited[targetIndex] = true;
-            }
+                        currentRow[n] = DistanceMat[targetIndex, n];
 
+                    }
+
+                    //double[] currentRow = DistanceMat[targetIndex];
+
+                    for (int col = 0; col < Count; col++)
+                    {
+                        if (col == targetIndex) { continue; }
+                        if (IsVisited[col]) { continue; }
+
+                        if (currentRow[col] < currentRowMin)
+                        {
+                            currentRowMin = currentRow[col];
+                            targetIndex = col;
+                        }
+                        RouteIndex[i + 1] = targetIndex;
+                    }
+                    IsVisited[targetIndex] = true;
+                    pbar.Tick();
+                }
+            }
         }
 
 
 
-        public double[] ReportRouteDistance(int[] sequence)
+        public double[] CalculateTrailDistance(int[] sequence)
         {
             double[] dists = new double[sequence.Length];
             dists[0] = 0;
             for (int i = 0; i < Count - 1; i++)
             {
-                dists[i] = DistanceMat[sequence[i]][sequence[i + 1]];
+                dists[i] = DistanceMat[sequence[i], sequence[i + 1]];
             }
             return dists;
         }
