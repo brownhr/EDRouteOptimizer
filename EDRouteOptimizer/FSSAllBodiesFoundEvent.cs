@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 namespace EDRouteOptimizer
 {
 
+
+    // TODO: Refactor to use abstract class for different log events
     [JsonObject(MemberSerialization.OptIn)]
     public class FSSAllBodiesFoundEvent
     {
