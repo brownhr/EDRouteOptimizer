@@ -1,12 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Web.Helpers;
-using System.Threading.Tasks;
-using System.Dynamic;
 
 namespace EDRouteOptimizer
 {
@@ -31,11 +23,6 @@ namespace EDRouteOptimizer
         }
         public void ParseJournals()
         {
-
-
-
-
-
             foreach (string file in journalFiles)
             {
                 DateTime modifiedTime = File.GetLastWriteTime(file);
@@ -57,10 +44,6 @@ namespace EDRouteOptimizer
                     FSSMappedSystems.Add(new FSSAllBodiesFoundEvent() { @event = eventType, SystemName = systemName, SystemAddress = systemAddress, Count = count , timestamp = timestamp});
                 }
             }
-
-
-
-
         }
 
         public static FSSAllBodiesFoundEvent ParseDynamicFSSEvent(string jsonString)
