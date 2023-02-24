@@ -20,6 +20,15 @@ namespace EDRouteOptimizer
             Boxel = boxel;
         }
 
+        public EDSubsector(string parseableInputString)
+        {
+            EDSector sec = EDSector.GetSector(parseableInputString);
+            EDBoxel box = EDBoxel.GetBoxel(parseableInputString);
+
+            Sector = sec;
+            Boxel = box;
+        }
+
         public static int ManhattanDistanceBetweenSectors(EDSector sectorA, EDSector sectorB)
         {
 
@@ -30,7 +39,6 @@ namespace EDRouteOptimizer
 
             return axisDistances.Sum();
         }
-
 
 
         public EDSubsector? ShiftSubsectorByOffset(int[] offsetArray)
@@ -67,6 +75,25 @@ namespace EDRouteOptimizer
             return new EDSubsector(newSector, newBoxel);
 
         }
+
+        public List<EDSubsector> GetChildSubsectors(char recursiveMassCodeLimit)
+        {
+            if (!EDBoxel.IsValidMasscode(recursiveMassCodeLimit))
+            {
+                throw new ArgumentException(message: $"Invalid masscode passed to {nameof(recursiveMassCodeLimit)}");
+            }
+
+            List<EDSubsector> childrenSubsectors = new List<EDSubsector>();
+
+            char currentMassCode = Boxel.MassCode;
+
+            while (currentMassCode > recursiveMassCodeLimit && currentMassCode > 'a')
+            {
+                    Boxel.GetChildBoxels().ForEach(boxel => childrenSubsectors.Add(new EDSubsector(this.Sector, boxel)));
+            }
+            return childrenSubsectors;
+        }
+
 
         //public bool Equals(EDSubsector? obj)
         //{
