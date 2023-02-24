@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Text;
 
 namespace EDRouteOptimizer
 {
@@ -27,7 +28,9 @@ namespace EDRouteOptimizer
             {
                 DateTime modifiedTime = File.GetLastWriteTime(file);
                 if (modifiedTime < dateTimeCutoff) { continue; }
-                JsonTextReader jsonTextReader = new JsonTextReader(new StreamReader(file)) { SupportMultipleContent = true };
+
+                FileStream fileStream = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete);
+                JsonTextReader jsonTextReader = new JsonTextReader(new StreamReader(fileStream, encoding: Encoding.Default)) { SupportMultipleContent = true };
 
                 JsonSerializer jsonSerializer = new JsonSerializer();
 
