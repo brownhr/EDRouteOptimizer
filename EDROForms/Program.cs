@@ -1,7 +1,13 @@
+using EDRouteOptimizer;
+
 namespace EDROForms
 {
     internal static class Program
     {
+
+
+
+
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -13,5 +19,15 @@ namespace EDROForms
             ApplicationConfiguration.Initialize();
             Application.Run(new MainForm());
         }
+    }
+
+    internal static class Data
+    {
+        public static EDSubsector inputSubsector;
+
+        public static List<EDSubsector> childSubsectors = new List<EDSubsector>();
+
+
+
     }
 }
