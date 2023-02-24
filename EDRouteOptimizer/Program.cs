@@ -9,17 +9,19 @@ namespace EDRouteOptimizer
 {
     public class Program
     {
-
-        public static string currentSystem = "Byeia Aerb HL-Y e0";
+        public static string sector = "Eaezi";
+        public static string currentSystem = "Eaezi AA-A e0";
         public static EDSystem homeSystem = new EDSystem(systemName: "Byeia Aerb HL-Y e0",
-                                                           coords: new RouteJsonCoords(x: 813.5, y: 1547.09375, z: 13291.96875));
+                                                         coords: new RouteJsonCoords(x: 813.5,
+                                                                                     y: 1547.09375,
+                                                                                     z: 13291.96875));
 
         public static EDRoute route;
         public static Dictionary<string, EDSystem> SystemDict = new Dictionary<string, EDSystem>();
 
 
         public static string inputFSSDataPath = @"C:\Users\brownhr\Documents\fss.log";
-        public static string inputFilePath = @"C:\Users\brownhr\Desktop\routes\test_json_parse.route";
+        public static string inputFilePath = @"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Eaezi.route";
 
         public static double initialDistance;
         public static double finalDistance;
@@ -32,13 +34,15 @@ namespace EDRouteOptimizer
 
         public static void Main()
         {
-            DateTime cutoffDate = DateTime.ParseExact(s:"2023-01-01", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-01", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
             journalParser = new JournalParser(cutoff: cutoffDate);
             journalParser.ParseJournals();
+            route = EDRoute.ParseJson(inputFilePath);
 
             mappedSystems = journalParser.FSSMappedSystems;
-
             SetupRoute();
+            // TODO: Read most recent FSD Jump
+            homeSystem = LookupSystem(currentSystem);
             double[,] distanceMatrix = route.GenerateDistanceMatrix();
 
             NearestNeighborOptimizer optimizer
@@ -59,11 +63,25 @@ namespace EDRouteOptimizer
 
             route.SortByArray(optimizedSequence);
             route.CurrentDestination = 0;
-            string outfile = @$"C:\Users\brownhr\Desktop\routes\test_json_parse{route.GetHashCode()}.route";
+            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Eaezi_Filtered.route";
 
             route.WriteJson(outfile);
+
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
+        public static EDSystem LookupSystem(string systemName)
+        {
+            if (SystemDict.TryGetValue(systemName, out EDSystem system))
+            {
+                return system;
+            }
+            else
+            {
+                throw new KeyNotFoundException(message: $"System {systemName} not found");
+            }
+        }
         public static void RunOptimizer(IRouteOptimizer routeOptimizer)
         {
             routeOptimizer.RunOptimizer();
@@ -108,7 +126,7 @@ namespace EDRouteOptimizer
         }
 
 
-        public static void FilterMappedSystems(EDRoute route, List<FSSAllBodiesFoundEvent> events)
+        public static void FilterMappedSystems(EDRoute route, List<FSSAllBodiesFoundEvent> events, string sector)
         {
             List<string> mappedSystems = new List<string>();
             Regex ByeiaAerbRegex = new Regex("Byeia Aerb");
@@ -140,14 +158,13 @@ namespace EDRouteOptimizer
         }
         public static void SetupRoute()
         {
-            route = EDRoute.ParseJson(inputFilePath);
 
             CreateSystemDict();
             homeSystem = SystemDict.TryGetValue(currentSystem, out EDSystem value) == true ? value : homeSystem;
 
-            
 
-            FilterMappedSystems(route, mappedSystems);
+
+            FilterMappedSystems(route, mappedSystems, sector);
 
 
             route.RouteWaypoints.Insert(0, homeSystem);
