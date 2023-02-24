@@ -174,5 +174,17 @@ namespace EDRouteOptimizer.Tests
             Assert.ThrowsException<ArgumentException>(() => { EDSubsector.GetSubsector(failure); });
 
         }
+
+        //[TestMethod()]
+        //public void GetChildSubsectorsTest()
+        //{
+
+        //}
+
+        //private static IEnumerable<object[]> GetChildrenSubsectorsData =>
+        //    new List<object[]>
+        //    {
+        //        new object[] {new EDSubsector() }
+        //    };
     }
 }
