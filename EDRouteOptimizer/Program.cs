@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Newtonsoft.Json.Linq;
 using System.Globalization;
 using System.Linq.Expressions;
 using System.Security;
@@ -10,11 +11,13 @@ namespace EDRouteOptimizer
     public class Program
     {
         public static string sector = "Eaezi";
-        public static string currentSystem = "Eaezi AA-A e0";
-        public static EDSystem homeSystem = new EDSystem(systemName: "Byeia Aerb HL-Y e0",
-                                                         coords: new RouteJsonCoords(x: 813.5,
-                                                                                     y: 1547.09375,
-                                                                                     z: 13291.96875));
+        public static string currentSystem = "Eaezi GW-W c1-0";
+        //public static EDSystem homeSystem = new EDSystem(systemName: "Byeia Aerb HL-Y e0",
+        //                                                 coords: new RouteJsonCoords(x: 813.5,
+        //                                                                             y: 1547.09375,
+        //                                                                             z: 13291.96875));
+
+        public static EDSystem homeSystem;
 
         public static EDRoute route;
         public static Dictionary<string, EDSystem> SystemDict = new Dictionary<string, EDSystem>();
@@ -35,14 +38,32 @@ namespace EDRouteOptimizer
         public static void Main()
         {
             DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-01", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
-            journalParser = new JournalParser(cutoff: cutoffDate);
-            journalParser.ParseJournals();
+
+            EDEventParser.SetCutoff(cutoffDate);
+
+            EDEventParser.ParseAllJournals();
+
+
+            EDEventParser.ParseJournalEvents();
+            mappedSystems = EDEventParser.FSSAllBodiesFoundEvents;
+
+
+            FSDJumpEvent mostRecentJump = EDEventParser.FSDJumpEvents[^1];
+
+
+
+
+            //Thread.Sleep(1000);
+
+            //journalParser = new JournalParser(cutoff: cutoffDate);
+            //journalParser.ParseJournals();
             route = EDRoute.ParseJson(inputFilePath);
 
-            mappedSystems = journalParser.FSSMappedSystems;
             SetupRoute();
             // TODO: Read most recent FSD Jump
-            homeSystem = LookupSystem(currentSystem);
+            homeSystem = LookupSystem(mostRecentJump.StarSystem);
+            Console.WriteLine(homeSystem.SystemName);
+
             double[,] distanceMatrix = route.GenerateDistanceMatrix();
 
             NearestNeighborOptimizer optimizer
@@ -57,13 +78,14 @@ namespace EDRouteOptimizer
 
             ReportDistances(distances, count: 10, reverse: true, message: "Largest distances:");
             ReportDistances(distances, count: 10, reverse: false, message: "Shortest distances:");
-
-            ReportDistances(distances, count: 10, reverse: false, sort: false, message: "Final route distances:");
-
-
             route.SortByArray(optimizedSequence);
+
+
+            //ReportDistances(distances, count: 10, reverse: false, sort: false, message: "Final route distances:");
+            PrintRouteHead(10);
+
             route.CurrentDestination = 0;
-            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Eaezi_Filtered.route";
+            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Eaezi_Filtered_test.route";
 
             route.WriteJson(outfile);
 
@@ -110,6 +132,18 @@ namespace EDRouteOptimizer
             Console.WriteLine(sb.ToString());
         }
 
+        public static void PrintRouteHead(int count)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append('[');
+            var head = route.RouteWaypoints.Take(count).ToList();
+            List<string> strings = Enumerable.Zip(distances, head, (a, b) => $"{b.SystemName}: {a:F2}").ToList();
+            sb.AppendJoin(",\n", strings);
+            sb.Append(']');
+            Console.WriteLine(sb.ToString());
+        }
+
 
         public static void CreateSystemDict()
         {
@@ -129,7 +163,7 @@ namespace EDRouteOptimizer
         public static void FilterMappedSystems(EDRoute route, List<FSSAllBodiesFoundEvent> events, string sector)
         {
             List<string> mappedSystems = new List<string>();
-            Regex ByeiaAerbRegex = new Regex("Byeia Aerb");
+            Regex ByeiaAerbRegex = new Regex(sector);
 
             foreach (FSSAllBodiesFoundEvent _event in events)
             {
@@ -165,7 +199,7 @@ namespace EDRouteOptimizer
 
 
             FilterMappedSystems(route, mappedSystems, sector);
-
+            route.RouteWaypoints = route.RouteWaypoints.DistinctBy(x => x.SystemName).ToList();
 
             route.RouteWaypoints.Insert(0, homeSystem);
             route.ShuffleSansFirst();
