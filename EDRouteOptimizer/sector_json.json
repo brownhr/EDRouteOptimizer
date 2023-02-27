@@ -820,7 +820,7 @@
   },
   {
     "SectorName": "Aishaism",
-    "MaxXCoord": 7610.44,
+    "MaxXCoord": 7612.81,
     "MaxYCoord": 1252.62,
     "MaxZCoord": 34774.6,
     "ID64X": 44,
@@ -945,15 +945,6 @@
     "ID64Z": 13
   },
   {
-    "SectorName": "Alrai Sector",
-    "MaxXCoord": 24.66,
-    "MaxYCoord": 90.75,
-    "MaxZCoord": 137.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Angonn",
     "MaxXCoord": 23696.5,
     "MaxYCoord": 232.84,
@@ -970,15 +961,6 @@
     "ID64X": 56,
     "ID64Y": 32,
     "ID64Z": 8
-  },
-  {
-    "SectorName": "Antliae Sector",
-    "MaxXCoord": 244.25,
-    "MaxYCoord": 134.41,
-    "MaxZCoord": 98.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Aochou",
@@ -1060,33 +1042,6 @@
     "ID64X": 40,
     "ID64Y": 33,
     "ID64Z": 45
-  },
-  {
-    "SectorName": "Aquila Dark Region",
-    "MaxXCoord": -620.12,
-    "MaxYCoord": 81.59,
-    "MaxZCoord": 793.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Aries Dark Region",
-    "MaxXCoord": 4.0,
-    "MaxYCoord": -87.66,
-    "MaxZCoord": -160.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Arietis Sector",
-    "MaxXCoord": 6.22,
-    "MaxYCoord": 10.5,
-    "MaxZCoord": -59.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Assaibb",
@@ -2052,42 +2007,6 @@
     "ID64Z": 51
   },
   {
-    "SectorName": "B133 Sector",
-    "MaxXCoord": -11.22,
-    "MaxYCoord": -1.19,
-    "MaxZCoord": 972.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "B352 Sector",
-    "MaxXCoord": -1799.78,
-    "MaxYCoord": 106.66,
-    "MaxZCoord": 202.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "B92 Sector",
-    "MaxXCoord": -44.06,
-    "MaxYCoord": 384.62,
-    "MaxZCoord": 5309.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Barnard's Loop Sector",
-    "MaxXCoord": 822.97,
-    "MaxYCoord": -269.28,
-    "MaxZCoord": -1279.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Baukaae",
     "MaxXCoord": 5054.28,
     "MaxYCoord": 1254.78,
@@ -2212,15 +2131,6 @@
     "ID64X": 56,
     "ID64Y": 32,
     "ID64Z": 41
-  },
-  {
-    "SectorName": "Bei Dou Sector",
-    "MaxXCoord": 3.38,
-    "MaxYCoord": 110.0,
-    "MaxZCoord": 10.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Bengoa",
@@ -3978,15 +3888,6 @@
     "ID64Z": 53
   },
   {
-    "SectorName": "Blanco 1 Sector",
-    "MaxXCoord": 185.94,
-    "MaxYCoord": -635.31,
-    "MaxZCoord": 386.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Blau Aec",
     "MaxXCoord": 2494.97,
     "MaxYCoord": 1254.91,
@@ -4492,7 +4393,7 @@
   },
   {
     "SectorName": "Bleae Aod",
-    "MaxXCoord": 10174.7,
+    "MaxXCoord": 10174.8,
     "MaxYCoord": 1122.38,
     "MaxZCoord": 43733.3,
     "ID64X": 46,
@@ -5218,51 +5119,6 @@
     "ID64X": 44,
     "ID64Y": 30,
     "ID64Z": 54
-  },
-  {
-    "SectorName": "Bleia1",
-    "MaxXCoord": -83.12,
-    "MaxYCoord": -255.69,
-    "MaxZCoord": 37324.9,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Bleia2",
-    "MaxXCoord": -98.28,
-    "MaxYCoord": -67.25,
-    "MaxZCoord": 37066.1,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Bleia3",
-    "MaxXCoord": -80.91,
-    "MaxYCoord": -28.84,
-    "MaxZCoord": 36035.4,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Bleia4",
-    "MaxXCoord": 494.91,
-    "MaxYCoord": -115.59,
-    "MaxZCoord": 37324.8,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Bleia5",
-    "MaxXCoord": -625.81,
-    "MaxYCoord": 34.91,
-    "MaxZCoord": 36877.4,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Bleou Aec",
@@ -6721,15 +6577,6 @@
     "ID64X": 45,
     "ID64Y": 33,
     "ID64Z": 25
-  },
-  {
-    "SectorName": "Blinking Sector",
-    "MaxXCoord": -1842.28,
-    "MaxYCoord": 540.38,
-    "MaxZCoord": 313.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Blo Aeh",
@@ -8982,15 +8829,6 @@
     "ID64Z": 20
   },
   {
-    "SectorName": "Blue Flash Sector",
-    "MaxXCoord": -2503.0,
-    "MaxYCoord": 595.47,
-    "MaxZCoord": 1502.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Blue Flye",
     "MaxXCoord": -21829.3,
     "MaxYCoord": -25.22,
@@ -9187,15 +9025,6 @@
     "ID64X": 21,
     "ID64Y": 31,
     "ID64Z": 30
-  },
-  {
-    "SectorName": "Blue planetary Sector",
-    "MaxXCoord": 4624.88,
-    "MaxYCoord": 497.03,
-    "MaxZCoord": 2178.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Blue Ploe",
@@ -9511,24 +9340,6 @@
     "ID64X": 34,
     "ID64Y": 31,
     "ID64Z": 31
-  },
-  {
-    "SectorName": "Bovomit",
-    "MaxXCoord": -19778.0,
-    "MaxYCoord": -34.03,
-    "MaxZCoord": -7031.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Bow-Tie Sector",
-    "MaxXCoord": -2928.47,
-    "MaxYCoord": 664.78,
-    "MaxZCoord": -1662.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Brairaae",
@@ -10152,24 +9963,6 @@
     "ID64Z": 5
   },
   {
-    "SectorName": "Bubble Sector",
-    "MaxXCoord": -6474.28,
-    "MaxYCoord": 124.03,
-    "MaxZCoord": -2584.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Bug Sector",
-    "MaxXCoord": 718.59,
-    "MaxYCoord": 164.16,
-    "MaxZCoord": 3441.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Buqaei",
     "MaxXCoord": -23297.7,
     "MaxYCoord": 1962.75,
@@ -10213,15 +10006,6 @@
     "ID64X": 23,
     "ID64Y": 33,
     "ID64Z": 46
-  },
-  {
-    "SectorName": "Butterfly Sector",
-    "MaxXCoord": 1838.09,
-    "MaxYCoord": 275.53,
-    "MaxZCoord": -2339.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Bya Aeb",
@@ -13458,7 +13242,7 @@
     "SectorName": "Byua Ausms",
     "MaxXCoord": -2769.88,
     "MaxYCoord": 1339.62,
-    "MaxZCoord": 47019.5,
+    "MaxZCoord": 47109.8,
     "ID64X": 36,
     "ID64Y": 33,
     "ID64Z": 55
@@ -13779,42 +13563,6 @@
     "ID64Z": 29
   },
   {
-    "SectorName": "California Sector",
-    "MaxXCoord": -233.28,
-    "MaxYCoord": -117.97,
-    "MaxZCoord": -823.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Capricorni Sector",
-    "MaxXCoord": -2.03,
-    "MaxYCoord": -61.47,
-    "MaxZCoord": 166.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Cat's Paw Sector",
-    "MaxXCoord": 950.16,
-    "MaxYCoord": 156.59,
-    "MaxZCoord": 5532.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Cave Sector",
-    "MaxXCoord": -2153.78,
-    "MaxYCoord": 200.75,
-    "MaxZCoord": -730.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Ceeckaea",
     "MaxXCoord": -1345.03,
     "MaxYCoord": -25.06,
@@ -13849,42 +13597,6 @@
     "ID64X": 36,
     "ID64Y": 31,
     "ID64Z": 69
-  },
-  {
-    "SectorName": "Cephei Sector",
-    "MaxXCoord": -61.69,
-    "MaxYCoord": 77.28,
-    "MaxZCoord": 4.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Cepheus Dark Region",
-    "MaxXCoord": -1274.59,
-    "MaxYCoord": 340.28,
-    "MaxZCoord": -22.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Cepheus Dark Region B Sector",
-    "MaxXCoord": -851.0,
-    "MaxYCoord": 340.31,
-    "MaxZCoord": -119.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Ceti Sector",
-    "MaxXCoord": 53.62,
-    "MaxYCoord": -66.09,
-    "MaxZCoord": 32.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Cha Dryai",
@@ -14182,15 +13894,6 @@
     "ID64X": 37,
     "ID64Y": 30,
     "ID64Z": 23
-  },
-  {
-    "SectorName": "Chamaeleon Sector",
-    "MaxXCoord": 581.59,
-    "MaxYCoord": -56.19,
-    "MaxZCoord": 400.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Chamio",
@@ -14524,15 +14227,6 @@
     "ID64X": 45,
     "ID64Y": 31,
     "ID64Z": 64
-  },
-  {
-    "SectorName": "Chi Persei Sector",
-    "MaxXCoord": -4991.91,
-    "MaxYCoord": -80.38,
-    "MaxZCoord": -5009.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Chia Euhn",
@@ -14969,7 +14663,7 @@
   {
     "SectorName": "Choomu",
     "MaxXCoord": -15425.3,
-    "MaxYCoord": 1252.28,
+    "MaxYCoord": 1253.94,
     "MaxZCoord": 25814.7,
     "ID64X": 26,
     "ID64Y": 32,
@@ -15366,7 +15060,7 @@
     "SectorName": "Chraufoe",
     "MaxXCoord": -28226.4,
     "MaxYCoord": 1246.19,
-    "MaxZCoord": 2772.94,
+    "MaxZCoord": 2774.06,
     "ID64X": 16,
     "ID64Y": 32,
     "ID64Z": 20
@@ -16200,33 +15894,6 @@
     "ID64Z": 38
   },
   {
-    "SectorName": "Coalsack Dark Region",
-    "MaxXCoord": 549.03,
-    "MaxYCoord": 87.84,
-    "MaxZCoord": 356.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Coalsack Sector",
-    "MaxXCoord": 518.28,
-    "MaxYCoord": 97.97,
-    "MaxZCoord": 372.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Cocoon Sector",
-    "MaxXCoord": -3080.0,
-    "MaxYCoord": -215.72,
-    "MaxZCoord": -144.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Coeff",
     "MaxXCoord": 31048.6,
     "MaxYCoord": -31.66,
@@ -16488,159 +16155,6 @@
     "ID64Z": 21
   },
   {
-    "SectorName": "Col 107 Sector",
-    "MaxXCoord": 3165.41,
-    "MaxYCoord": 469.28,
-    "MaxZCoord": -4466.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 121 Sector",
-    "MaxXCoord": 1678.91,
-    "MaxYCoord": 77.38,
-    "MaxZCoord": -551.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 132 Sector",
-    "MaxXCoord": 1778.38,
-    "MaxYCoord": 189.28,
-    "MaxZCoord": -265.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 135 Sector",
-    "MaxXCoord": 1089.5,
-    "MaxYCoord": -48.59,
-    "MaxZCoord": -215.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 140 Sector",
-    "MaxXCoord": 1347.66,
-    "MaxYCoord": -20.22,
-    "MaxZCoord": -388.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 173 Sector",
-    "MaxXCoord": 1839.47,
-    "MaxYCoord": 304.75,
-    "MaxZCoord": 295.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 228 Sector",
-    "MaxXCoord": 7109.59,
-    "MaxYCoord": 158.44,
-    "MaxZCoord": 2448.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 240 Sector",
-    "MaxXCoord": 5176.44,
-    "MaxYCoord": 384.44,
-    "MaxZCoord": 2197.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 285 Sector",
-    "MaxXCoord": 272.34,
-    "MaxYCoord": 381.19,
-    "MaxZCoord": 494.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 359 Sector",
-    "MaxXCoord": 172.38,
-    "MaxYCoord": 738.41,
-    "MaxZCoord": 13394.8,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 394 Sector",
-    "MaxXCoord": -423.59,
-    "MaxYCoord": -228.81,
-    "MaxZCoord": 2286.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 463 Sector",
-    "MaxXCoord": -1608.47,
-    "MaxYCoord": 577.91,
-    "MaxZCoord": -1178.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 69 Sector",
-    "MaxXCoord": 660.19,
-    "MaxYCoord": 0.09,
-    "MaxZCoord": -1061.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 70 Sector",
-    "MaxXCoord": 965.56,
-    "MaxYCoord": 134.72,
-    "MaxZCoord": -579.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 89 Sector",
-    "MaxXCoord": 1188.16,
-    "MaxYCoord": 858.28,
-    "MaxZCoord": -3597.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Col 97 Sector",
-    "MaxXCoord": 1095.28,
-    "MaxYCoord": 59.97,
-    "MaxZCoord": -1645.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Cone Sector",
-    "MaxXCoord": 939.97,
-    "MaxYCoord": 118.16,
-    "MaxZCoord": -1932.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Cootaae",
     "MaxXCoord": 2460.22,
     "MaxYCoord": -1323.47,
@@ -16767,33 +16281,6 @@
     "ID64Z": 59
   },
   {
-    "SectorName": "Core Sys Sector",
-    "MaxXCoord": 37.78,
-    "MaxYCoord": 21.09,
-    "MaxZCoord": 47.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Corona Austr. Dark Region",
-    "MaxXCoord": 89.59,
-    "MaxYCoord": -78.91,
-    "MaxZCoord": 586.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Crab Sector",
-    "MaxXCoord": 643.09,
-    "MaxYCoord": -612.03,
-    "MaxZCoord": -6845.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Cralao",
     "MaxXCoord": 24254.8,
     "MaxYCoord": -25.28,
@@ -16873,15 +16360,6 @@
     "ID64X": 47,
     "ID64Y": 30,
     "ID64Z": 51
-  },
-  {
-    "SectorName": "Crescent Sector",
-    "MaxXCoord": -4738.81,
-    "MaxYCoord": 306.25,
-    "MaxZCoord": 1345.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Criewi",
@@ -17395,15 +16873,6 @@
     "ID64X": 51,
     "ID64Y": 33,
     "ID64Z": 38
-  },
-  {
-    "SectorName": "Crucis Sector",
-    "MaxXCoord": 135.5,
-    "MaxYCoord": 67.56,
-    "MaxZCoord": 102.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Cryaa Aim",
@@ -22455,15 +21924,6 @@
     "ID64Z": 50
   },
   {
-    "SectorName": "Dryman",
-    "MaxXCoord": 19016.8,
-    "MaxYCoord": -102.81,
-    "MaxZCoord": 20847.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Dryo Aeb",
     "MaxXCoord": -15425.8,
     "MaxYCoord": 748.16,
@@ -24381,15 +23841,6 @@
     "ID64Z": 36
   },
   {
-    "SectorName": "Dumbbell Sector",
-    "MaxXCoord": -858.84,
-    "MaxYCoord": 28.44,
-    "MaxZCoord": 632.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Dumbe",
     "MaxXCoord": 7614.91,
     "MaxYCoord": 1254.69,
@@ -24805,10 +24256,10 @@
   },
   {
     "SectorName": "Eaezi",
-    "MaxXCoord": 8895.0,
-    "MaxYCoord": 2535.0,
-    "MaxZCoord": 41175.0,
-    "ID64X": 45,
+    "MaxXCoord": 6535.97,
+    "MaxYCoord": 1503.59,
+    "MaxZCoord": 40154.1,
+    "ID64X": 44,
     "ID64Y": 33,
     "ID64Z": 50
   },
@@ -24910,15 +24361,6 @@
     "ID64X": 34,
     "ID64Y": 32,
     "ID64Z": 14
-  },
-  {
-    "SectorName": "Eagle Sector",
-    "MaxXCoord": -1948.69,
-    "MaxYCoord": 197.31,
-    "MaxZCoord": 6791.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Eambairns",
@@ -25839,15 +25281,6 @@
     "ID64Z": 27
   },
   {
-    "SectorName": "Eight Burst Sector",
-    "MaxXCoord": 2145.66,
-    "MaxYCoord": 549.31,
-    "MaxZCoord": 173.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Eimbaidy",
     "MaxXCoord": -18004.0,
     "MaxYCoord": 2284.72,
@@ -26179,15 +25612,6 @@
     "ID64X": 37,
     "ID64Y": 30,
     "ID64Z": 17
-  },
-  {
-    "SectorName": "Elephant's Trunk Sector",
-    "MaxXCoord": -2561.94,
-    "MaxYCoord": 273.38,
-    "MaxZCoord": -338.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Ellaic",
@@ -26778,7 +26202,7 @@
     "SectorName": "Eochainns",
     "MaxXCoord": -10377.4,
     "MaxYCoord": -1315.34,
-    "MaxZCoord": 40775.8,
+    "MaxZCoord": 41133.9,
     "ID64X": 30,
     "ID64Y": 30,
     "ID64Z": 50
@@ -31140,15 +30564,6 @@
     "ID64Z": 49
   },
   {
-    "SectorName": "Eskimo Sector",
-    "MaxXCoord": 327.53,
-    "MaxYCoord": 324.0,
-    "MaxZCoord": -639.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Essack",
     "MaxXCoord": 19134.8,
     "MaxYCoord": -25.06,
@@ -31210,15 +30625,6 @@
     "ID64X": 56,
     "ID64Y": 31,
     "ID64Z": 59
-  },
-  {
-    "SectorName": "Eta Carina Sector",
-    "MaxXCoord": 8679.41,
-    "MaxYCoord": -42.38,
-    "MaxZCoord": 2802.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Ethaihm",
@@ -31574,7 +30980,7 @@
   {
     "SectorName": "Eumogy",
     "MaxXCoord": 5051.59,
-    "MaxYCoord": 2529.31,
+    "MaxYCoord": 2531.5,
     "MaxZCoord": 18134.9,
     "ID64X": 42,
     "ID64Y": 33,
@@ -32049,15 +31455,6 @@
     "ID64Z": 54
   },
   {
-    "SectorName": "Fe 1 Sector",
-    "MaxXCoord": 3826.09,
-    "MaxYCoord": 298.44,
-    "MaxZCoord": 1565.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Fedgau",
     "MaxXCoord": 6334.84,
     "MaxYCoord": -25.03,
@@ -32119,42 +31516,6 @@
     "ID64X": 57,
     "ID64Y": 31,
     "ID64Z": 16
-  },
-  {
-    "SectorName": "Fetus Sector",
-    "MaxXCoord": -2787.78,
-    "MaxYCoord": 370.44,
-    "MaxZCoord": -76.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Fine Ring Sector",
-    "MaxXCoord": 611.69,
-    "MaxYCoord": 133.0,
-    "MaxZCoord": 956.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Flame Sector",
-    "MaxXCoord": 524.03,
-    "MaxYCoord": -182.19,
-    "MaxZCoord": -759.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Flaming Star Sector",
-    "MaxXCoord": -137.19,
-    "MaxYCoord": 29.59,
-    "MaxZCoord": -1587.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Flaufai",
@@ -33796,8 +33157,8 @@
   },
   {
     "SectorName": "Flyai Prae",
-    "MaxXCoord": -11710.1,
-    "MaxYCoord": -1315.12,
+    "MaxXCoord": -11601.8,
+    "MaxYCoord": -1314.09,
     "MaxZCoord": 41137.9,
     "ID64X": 29,
     "ID64Y": 30,
@@ -37053,15 +36414,6 @@
     "ID64Z": 30
   },
   {
-    "SectorName": "Froadik",
-    "MaxXCoord": -18585.3,
-    "MaxYCoord": 7.44,
-    "MaxZCoord": 14297.1,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Froadue",
     "MaxXCoord": 10174.6,
     "MaxYCoord": 1253.97,
@@ -37213,15 +36565,6 @@
     "ID64X": 44,
     "ID64Y": 30,
     "ID64Z": 15
-  },
-  {
-    "SectorName": "G2 Dust Cloud Sector",
-    "MaxXCoord": 126.19,
-    "MaxYCoord": 75.0,
-    "MaxZCoord": 27998.2,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Gaide",
@@ -37438,15 +36781,6 @@
     "ID64X": 22,
     "ID64Y": 33,
     "ID64Z": 26
-  },
-  {
-    "SectorName": "Ghost of Jupiter Sector",
-    "MaxXCoord": 1270.0,
-    "MaxYCoord": 840.81,
-    "MaxZCoord": -86.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Glaicha",
@@ -42318,15 +41652,6 @@
     "ID64Z": 53
   },
   {
-    "SectorName": "h Persei Sector",
-    "MaxXCoord": -4466.53,
-    "MaxYCoord": -84.53,
-    "MaxZCoord": -4401.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Hachaei",
     "MaxXCoord": -11585.3,
     "MaxYCoord": 1196.28,
@@ -42469,15 +41794,6 @@
     "ID64X": 44,
     "ID64Y": 32,
     "ID64Z": 54
-  },
-  {
-    "SectorName": "Heart Sector",
-    "MaxXCoord": -5222.34,
-    "MaxYCoord": 216.44,
-    "MaxZCoord": -5186.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Hedgaea",
@@ -42705,15 +42021,6 @@
     "ID64Z": 16
   },
   {
-    "SectorName": "Helix Sector",
-    "MaxXCoord": -126.91,
-    "MaxYCoord": -484.0,
-    "MaxZCoord": 397.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Hengaei",
     "MaxXCoord": 21547.1,
     "MaxYCoord": 1431.47,
@@ -42739,24 +42046,6 @@
     "ID64X": 53,
     "ID64Y": 33,
     "ID64Z": 26
-  },
-  {
-    "SectorName": "Herculis Sector",
-    "MaxXCoord": -30.06,
-    "MaxYCoord": 119.28,
-    "MaxZCoord": 85.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Hind Sector",
-    "MaxXCoord": 66.19,
-    "MaxYCoord": -108.12,
-    "MaxZCoord": -458.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Hoefs",
@@ -42865,33 +42154,6 @@
     "ID64X": 64,
     "ID64Y": 31,
     "ID64Z": 49
-  },
-  {
-    "SectorName": "Horsehead Dark Region",
-    "MaxXCoord": 786.75,
-    "MaxYCoord": -223.84,
-    "MaxZCoord": -1104.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Horsehead Sector",
-    "MaxXCoord": 500.28,
-    "MaxYCoord": -178.5,
-    "MaxZCoord": -714.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Hubble's Variable Sector",
-    "MaxXCoord": 1304.47,
-    "MaxYCoord": 159.81,
-    "MaxZCoord": -2651.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Huela",
@@ -43083,15 +42345,6 @@
     "ID64Z": 26
   },
   {
-    "SectorName": "Hyades Sector",
-    "MaxXCoord": 143.06,
-    "MaxYCoord": 86.47,
-    "MaxZCoord": -4.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Hyaea Eork",
     "MaxXCoord": 7381.62,
     "MaxYCoord": -27.44,
@@ -43153,15 +42406,6 @@
     "ID64X": 35,
     "ID64Y": 34,
     "ID64Z": 33
-  },
-  {
-    "SectorName": "Hydrae Sector",
-    "MaxXCoord": 134.38,
-    "MaxYCoord": 143.59,
-    "MaxZCoord": 125.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Hyeae Eoq",
@@ -45010,7 +44254,7 @@
   },
   {
     "SectorName": "Hypi Auvsky",
-    "MaxXCoord": -18019.3,
+    "MaxXCoord": -17999.6,
     "MaxYCoord": 2184.44,
     "MaxZCoord": 25792.5,
     "ID64X": 24,
@@ -47529,15 +46773,6 @@
     "ID64Z": 38
   },
   {
-    "SectorName": "Hyponia",
-    "MaxXCoord": -23174.9,
-    "MaxYCoord": -206.91,
-    "MaxZCoord": 23643.1,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Hypoonguae",
     "MaxXCoord": -3817.38,
     "MaxYCoord": -2696.97,
@@ -48951,267 +48186,6 @@
     "ID64Z": 46
   },
   {
-    "SectorName": "IC 1287 Sector",
-    "MaxXCoord": -259.06,
-    "MaxYCoord": 90.59,
-    "MaxZCoord": 1032.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 1396 Sector",
-    "MaxXCoord": -2179.53,
-    "MaxYCoord": 673.91,
-    "MaxZCoord": 59.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 1590 Sector",
-    "MaxXCoord": -7452.25,
-    "MaxYCoord": -501.19,
-    "MaxZCoord": -4690.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 1805 Sector",
-    "MaxXCoord": -4014.25,
-    "MaxYCoord": 445.28,
-    "MaxZCoord": -3969.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 1848 Sector",
-    "MaxXCoord": -4095.94,
-    "MaxYCoord": 440.97,
-    "MaxZCoord": -4449.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2149 Sector",
-    "MaxXCoord": -1636.19,
-    "MaxYCoord": 1384.5,
-    "MaxZCoord": -6813.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2391 Sector",
-    "MaxXCoord": 665.0,
-    "MaxYCoord": 30.59,
-    "MaxZCoord": 103.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2395 Sector",
-    "MaxXCoord": 2403.09,
-    "MaxYCoord": -39.56,
-    "MaxZCoord": -30.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2488 Sector",
-    "MaxXCoord": 3845.97,
-    "MaxYCoord": -95.97,
-    "MaxZCoord": 688.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2553 Sector",
-    "MaxXCoord": 12908.2,
-    "MaxYCoord": -1213.16,
-    "MaxZCoord": 3608.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2581 Sector",
-    "MaxXCoord": 7833.75,
-    "MaxYCoord": 103.34,
-    "MaxZCoord": 2121.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2602 Sector",
-    "MaxXCoord": 652.12,
-    "MaxYCoord": 109.31,
-    "MaxZCoord": 330.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2621 Sector",
-    "MaxXCoord": 14452.1,
-    "MaxYCoord": -1209.78,
-    "MaxZCoord": 5775.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 289 Sector",
-    "MaxXCoord": -1021.94,
-    "MaxYCoord": 178.78,
-    "MaxZCoord": -1178.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 2944 Sector",
-    "MaxXCoord": 5928.91,
-    "MaxYCoord": 464.78,
-    "MaxZCoord": 3041.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 348 Sector",
-    "MaxXCoord": -382.84,
-    "MaxYCoord": -382.06,
-    "MaxZCoord": -1122.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 410 Sector",
-    "MaxXCoord": -1112.19,
-    "MaxYCoord": -219.38,
-    "MaxZCoord": -10810.8,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4191 Sector",
-    "MaxXCoord": 11898.4,
-    "MaxYCoord": -1124.53,
-    "MaxZCoord": 8228.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4604 Sector",
-    "MaxXCoord": 161.28,
-    "MaxYCoord": 282.19,
-    "MaxZCoord": 665.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4634 Sector",
-    "MaxXCoord": 30.09,
-    "MaxYCoord": 1617.03,
-    "MaxZCoord": 7404.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4651 Sector",
-    "MaxXCoord": 1061.19,
-    "MaxYCoord": -322.91,
-    "MaxZCoord": 2778.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4663 Sector",
-    "MaxXCoord": 1619.16,
-    "MaxYCoord": -838.47,
-    "MaxZCoord": 6344.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4665 Sector",
-    "MaxXCoord": -327.16,
-    "MaxYCoord": 565.94,
-    "MaxZCoord": 1177.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4756 Sector",
-    "MaxXCoord": -751.56,
-    "MaxYCoord": 325.75,
-    "MaxZCoord": 1447.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4996 Sector",
-    "MaxXCoord": -5390.12,
-    "MaxYCoord": 204.69,
-    "MaxZCoord": 1500.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 4997 Sector",
-    "MaxXCoord": -6585.84,
-    "MaxYCoord": -1446.53,
-    "MaxZCoord": 4183.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 5117 Sector",
-    "MaxXCoord": -2891.81,
-    "MaxYCoord": -168.28,
-    "MaxZCoord": 88.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 5146 Sector",
-    "MaxXCoord": -2693.09,
-    "MaxYCoord": -198.72,
-    "MaxZCoord": -144.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "IC 5217 Sector",
-    "MaxXCoord": -9116.06,
-    "MaxYCoord": -798.94,
-    "MaxZCoord": -1631.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Ictaa",
     "MaxXCoord": 8891.75,
     "MaxYCoord": -27.5,
@@ -49255,15 +48229,6 @@
     "ID64X": 49,
     "ID64Y": 31,
     "ID64Z": 6
-  },
-  {
-    "SectorName": "ICZ",
-    "MaxXCoord": 144.59,
-    "MaxYCoord": -60.0,
-    "MaxZCoord": 139.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Ihab",
@@ -50175,15 +49140,6 @@
     "ID64Z": 16
   },
   {
-    "SectorName": "Iris Sector",
-    "MaxXCoord": -1316.5,
-    "MaxYCoord": 465.69,
-    "MaxZCoord": -256.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Ishaei",
     "MaxXCoord": -5251.72,
     "MaxYCoord": -34.59,
@@ -50499,15 +49455,6 @@
     "ID64Z": 31
   },
   {
-    "SectorName": "Jastreb Sector",
-    "MaxXCoord": -2.03,
-    "MaxYCoord": 23.75,
-    "MaxZCoord": 2.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Jegai",
     "MaxXCoord": -23679.5,
     "MaxYCoord": 1317.69,
@@ -50589,15 +49536,6 @@
     "ID64Z": 16
   },
   {
-    "SectorName": "Jellyfish Sector",
-    "MaxXCoord": 887.62,
-    "MaxYCoord": 348.53,
-    "MaxZCoord": -4831.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Jengaae",
     "MaxXCoord": -2667.62,
     "MaxYCoord": 2918.62,
@@ -50632,15 +49570,6 @@
     "ID64X": 35,
     "ID64Y": 34,
     "ID64Z": 26
-  },
-  {
-    "SectorName": "Jewel Box Sector",
-    "MaxXCoord": 5569.75,
-    "MaxYCoord": 455.69,
-    "MaxZCoord": 3709.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Joihaea",
@@ -51822,15 +50751,6 @@
     "ID64Z": 45
   },
   {
-    "SectorName": "Kylau Prou",
-    "MaxXCoord": -14201.8,
-    "MaxYCoord": -3075.28,
-    "MaxZCoord": 26144.8,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Kyleae Flyoae",
     "MaxXCoord": -11660.6,
     "MaxYCoord": -2654.81,
@@ -52335,15 +51255,6 @@
     "ID64Z": 39
   },
   {
-    "SectorName": "Lagoon Sector",
-    "MaxXCoord": -371.84,
-    "MaxYCoord": 4.16,
-    "MaxZCoord": 4573.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Laidau",
     "MaxXCoord": -14471.7,
     "MaxYCoord": 1300.91,
@@ -52450,15 +51361,6 @@
     "ID64X": 41,
     "ID64Y": 32,
     "ID64Z": 44
-  },
-  {
-    "SectorName": "LBN 623 Sector",
-    "MaxXCoord": -399.94,
-    "MaxYCoord": 79.84,
-    "MaxZCoord": -232.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Leamae",
@@ -52603,33 +51505,6 @@
     "ID64X": 49,
     "ID64Y": 32,
     "ID64Z": 6
-  },
-  {
-    "SectorName": "Little Dumbbell Sector",
-    "MaxXCoord": -1462.66,
-    "MaxYCoord": -289.47,
-    "MaxZCoord": -1256.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Little Gem Sector",
-    "MaxXCoord": -2428.19,
-    "MaxYCoord": -1770.56,
-    "MaxZCoord": 5194.25,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Little Ghost Sector",
-    "MaxXCoord": -107.44,
-    "MaxYCoord": 600.38,
-    "MaxZCoord": 4965.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Loihaae",
@@ -52819,24 +51694,6 @@
     "ID64X": 56,
     "ID64Y": 30,
     "ID64Z": 29
-  },
-  {
-    "SectorName": "Lupus Dark Region",
-    "MaxXCoord": 256.94,
-    "MaxYCoord": 225.69,
-    "MaxZCoord": 510.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Lupus Dark Region B Sector",
-    "MaxXCoord": 271.31,
-    "MaxYCoord": 179.78,
-    "MaxZCoord": 528.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Lyairaae",
@@ -53145,15 +52002,6 @@
     "ID64Z": 5
   },
   {
-    "SectorName": "Lyncis Sector",
-    "MaxXCoord": 0.28,
-    "MaxYCoord": 132.75,
-    "MaxZCoord": -75.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Lyookaa",
     "MaxXCoord": 7608.72,
     "MaxYCoord": -1305.56,
@@ -53400,7 +52248,7 @@
     "SectorName": "Lyrude",
     "MaxXCoord": -10312.0,
     "MaxYCoord": -1315.81,
-    "MaxZCoord": 42830.3,
+    "MaxZCoord": 43447.6,
     "ID64X": 30,
     "ID64Y": 30,
     "ID64Z": 52
@@ -53658,231 +52506,6 @@
     "ID64Z": 5
   },
   {
-    "SectorName": "M103 Sector",
-    "MaxXCoord": -5535.62,
-    "MaxYCoord": -144.53,
-    "MaxZCoord": -4307.25,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M16 Sector",
-    "MaxXCoord": -1567.84,
-    "MaxYCoord": 173.91,
-    "MaxZCoord": 5549.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M17 Sector",
-    "MaxXCoord": -803.88,
-    "MaxYCoord": 247.16,
-    "MaxZCoord": 4401.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M18 Sector",
-    "MaxXCoord": -977.75,
-    "MaxYCoord": -13.38,
-    "MaxZCoord": 4159.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M20 Sector",
-    "MaxXCoord": -108.12,
-    "MaxYCoord": 206.28,
-    "MaxZCoord": 2855.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M21 Sector",
-    "MaxXCoord": -367.25,
-    "MaxYCoord": 132.31,
-    "MaxZCoord": 4052.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M23 Sector",
-    "MaxXCoord": -170.88,
-    "MaxYCoord": 281.19,
-    "MaxZCoord": 2195.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M25 Sector",
-    "MaxXCoord": -298.88,
-    "MaxYCoord": 17.56,
-    "MaxZCoord": 2133.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M26 Sector",
-    "MaxXCoord": -2009.09,
-    "MaxYCoord": -157.53,
-    "MaxZCoord": 4868.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M29 Sector",
-    "MaxXCoord": -3534.56,
-    "MaxYCoord": 144.09,
-    "MaxZCoord": 950.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M34 Sector",
-    "MaxXCoord": -764.28,
-    "MaxYCoord": -269.75,
-    "MaxZCoord": -1095.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M35 Sector",
-    "MaxXCoord": 497.44,
-    "MaxYCoord": 289.03,
-    "MaxZCoord": -2448.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M36 Sector",
-    "MaxXCoord": -294.06,
-    "MaxYCoord": 191.53,
-    "MaxZCoord": -4157.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M37 Sector",
-    "MaxXCoord": 0.66,
-    "MaxYCoord": 424.94,
-    "MaxZCoord": -4323.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M38 Sector",
-    "MaxXCoord": -270.16,
-    "MaxYCoord": 239.12,
-    "MaxZCoord": -3249.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M39 Sector",
-    "MaxXCoord": -966.62,
-    "MaxYCoord": 48.03,
-    "MaxZCoord": 46.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M41 Sector",
-    "MaxXCoord": 2012.06,
-    "MaxYCoord": -182.12,
-    "MaxZCoord": -1211.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M46 Sector",
-    "MaxXCoord": 3765.0,
-    "MaxYCoord": 562.59,
-    "MaxZCoord": -2499.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M47 Sector",
-    "MaxXCoord": 1356.62,
-    "MaxYCoord": 200.78,
-    "MaxZCoord": -889.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M48 Sector",
-    "MaxXCoord": 2001.75,
-    "MaxYCoord": 866.47,
-    "MaxZCoord": -1405.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M50 Sector",
-    "MaxXCoord": 2135.34,
-    "MaxYCoord": 59.16,
-    "MaxZCoord": -2141.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M52 Sector",
-    "MaxXCoord": -4068.75,
-    "MaxYCoord": 234.03,
-    "MaxZCoord": -1592.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M6 Sector",
-    "MaxXCoord": 186.25,
-    "MaxYCoord": 71.44,
-    "MaxZCoord": 1679.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M7 Sector",
-    "MaxXCoord": 298.22,
-    "MaxYCoord": 151.72,
-    "MaxZCoord": 1202.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "M93 Sector",
-    "MaxXCoord": 3021.16,
-    "MaxYCoord": 109.41,
-    "MaxZCoord": -1589.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Mauthaea",
     "MaxXCoord": -6502.19,
     "MaxYCoord": -1311.09,
@@ -54126,51 +52749,6 @@
     "ID64Z": 34
   },
   {
-    "SectorName": "Mel 111 Sector",
-    "MaxXCoord": 129.97,
-    "MaxYCoord": 414.12,
-    "MaxZCoord": 81.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Mel 22 Sector",
-    "MaxXCoord": 89.97,
-    "MaxYCoord": -25.16,
-    "MaxZCoord": 24.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Mel 227 Sector",
-    "MaxXCoord": 294.09,
-    "MaxYCoord": -142.47,
-    "MaxZCoord": 291.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Mel 71 Sector",
-    "MaxXCoord": 7953.81,
-    "MaxYCoord": 990.53,
-    "MaxZCoord": -6581.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Messier 78 Sector",
-    "MaxXCoord": 757.19,
-    "MaxYCoord": -301.78,
-    "MaxZCoord": -1304.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Moihaae",
     "MaxXCoord": 16573.3,
     "MaxYCoord": -25.03,
@@ -54250,15 +52828,6 @@
     "ID64X": 54,
     "ID64Y": 31,
     "ID64Z": 34
-  },
-  {
-    "SectorName": "Monkey Head Sector",
-    "MaxXCoord": 1229.66,
-    "MaxYCoord": 141.91,
-    "MaxZCoord": -6200.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Moora",
@@ -54457,15 +53026,6 @@
     "ID64X": 22,
     "ID64Y": 32,
     "ID64Z": 39
-  },
-  {
-    "SectorName": "Musca Dark Region",
-    "MaxXCoord": 512.84,
-    "MaxYCoord": 31.19,
-    "MaxZCoord": 347.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Myalaei",
@@ -55494,1860 +54054,6 @@
     "ID64Z": 34
   },
   {
-    "SectorName": "NGC 1027 Sector",
-    "MaxXCoord": -1615.75,
-    "MaxYCoord": 206.78,
-    "MaxZCoord": -1661.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 129 Sector",
-    "MaxXCoord": -4264.81,
-    "MaxYCoord": 72.97,
-    "MaxZCoord": -2371.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1333 Sector",
-    "MaxXCoord": -284.78,
-    "MaxYCoord": -292.47,
-    "MaxZCoord": -860.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1342 Sector",
-    "MaxXCoord": -818.88,
-    "MaxYCoord": -487.12,
-    "MaxZCoord": -1820.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1360 Sector",
-    "MaxXCoord": 528.31,
-    "MaxYCoord": -826.44,
-    "MaxZCoord": -417.25,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1444 Sector",
-    "MaxXCoord": -2022.0,
-    "MaxYCoord": -43.47,
-    "MaxZCoord": -3279.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1491 Sector",
-    "MaxXCoord": -4820.72,
-    "MaxYCoord": -82.81,
-    "MaxZCoord": -8618.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1501 Sector",
-    "MaxXCoord": -1974.16,
-    "MaxYCoord": 508.88,
-    "MaxZCoord": -2818.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1502 Sector",
-    "MaxXCoord": -1519.06,
-    "MaxYCoord": 417.88,
-    "MaxZCoord": -2080.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1514 Sector",
-    "MaxXCoord": -82.25,
-    "MaxYCoord": -122.25,
-    "MaxZCoord": -702.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1528 Sector",
-    "MaxXCoord": -1069.56,
-    "MaxYCoord": 127.56,
-    "MaxZCoord": -2123.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1545 Sector",
-    "MaxXCoord": -921.03,
-    "MaxYCoord": 126.22,
-    "MaxZCoord": -1955.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1647 Sector",
-    "MaxXCoord": 117.12,
-    "MaxYCoord": -388.5,
-    "MaxZCoord": -1591.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1662 Sector",
-    "MaxXCoord": 230.09,
-    "MaxYCoord": -441.19,
-    "MaxZCoord": -1255.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1664 Sector",
-    "MaxXCoord": -1058.44,
-    "MaxYCoord": 140.88,
-    "MaxZCoord": -3543.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1746 Sector",
-    "MaxXCoord": 213.25,
-    "MaxYCoord": -134.97,
-    "MaxZCoord": -1779.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1778 Sector",
-    "MaxXCoord": -836.59,
-    "MaxYCoord": -80.81,
-    "MaxZCoord": -4605.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1817 Sector",
-    "MaxXCoord": 918.75,
-    "MaxYCoord": -1180.88,
-    "MaxZCoord": -6000.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1857 Sector",
-    "MaxXCoord": -1156.03,
-    "MaxYCoord": 219.72,
-    "MaxZCoord": -5968.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1893 Sector",
-    "MaxXCoord": -878.28,
-    "MaxYCoord": 20.06,
-    "MaxZCoord": -10314.7,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1931 Sector",
-    "MaxXCoord": -648.0,
-    "MaxYCoord": 129.81,
-    "MaxZCoord": -6862.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1981 Sector",
-    "MaxXCoord": 640.03,
-    "MaxYCoord": -319.19,
-    "MaxZCoord": -1019.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 1999 Sector",
-    "MaxXCoord": 645.44,
-    "MaxYCoord": -277.94,
-    "MaxZCoord": -832.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2129 Sector",
-    "MaxXCoord": 636.84,
-    "MaxYCoord": 72.34,
-    "MaxZCoord": -4841.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2169 Sector",
-    "MaxXCoord": 952.09,
-    "MaxYCoord": -128.56,
-    "MaxZCoord": -3262.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2175 Sector",
-    "MaxXCoord": 1011.5,
-    "MaxYCoord": 107.12,
-    "MaxZCoord": -5151.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2232 Sector",
-    "MaxXCoord": 806.91,
-    "MaxYCoord": -1.53,
-    "MaxZCoord": -803.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2244 Sector",
-    "MaxXCoord": 2502.44,
-    "MaxYCoord": 238.75,
-    "MaxZCoord": -3806.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 225 Sector",
-    "MaxXCoord": -1716.09,
-    "MaxYCoord": 57.69,
-    "MaxZCoord": -1034.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2251 Sector",
-    "MaxXCoord": 1855.41,
-    "MaxYCoord": 122.5,
-    "MaxZCoord": -3847.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2264 Sector",
-    "MaxXCoord": 1353.22,
-    "MaxYCoord": 169.19,
-    "MaxZCoord": -1561.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2281 Sector",
-    "MaxXCoord": -23.97,
-    "MaxYCoord": 634.25,
-    "MaxZCoord": -1612.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2286 Sector",
-    "MaxXCoord": 5695.53,
-    "MaxYCoord": -92.69,
-    "MaxZCoord": -7536.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2301 Sector",
-    "MaxXCoord": 1638.53,
-    "MaxYCoord": 123.03,
-    "MaxZCoord": -2279.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2324 Sector",
-    "MaxXCoord": 2154.38,
-    "MaxYCoord": 287.44,
-    "MaxZCoord": -3104.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2335 Sector",
-    "MaxXCoord": 3318.88,
-    "MaxYCoord": 24.47,
-    "MaxZCoord": -3212.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2343 Sector",
-    "MaxXCoord": 2446.97,
-    "MaxYCoord": -19.03,
-    "MaxZCoord": -2421.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2345 Sector",
-    "MaxXCoord": 5568.25,
-    "MaxYCoord": -43.66,
-    "MaxZCoord": -4799.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2353 Sector",
-    "MaxXCoord": 2758.62,
-    "MaxYCoord": 215.59,
-    "MaxZCoord": -2402.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2354 Sector",
-    "MaxXCoord": 11697.5,
-    "MaxYCoord": -1095.25,
-    "MaxZCoord": -6490.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2360 Sector",
-    "MaxXCoord": 4920.59,
-    "MaxYCoord": 79.97,
-    "MaxZCoord": -3743.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2362 Sector",
-    "MaxXCoord": 3888.94,
-    "MaxYCoord": -399.72,
-    "MaxZCoord": -2339.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2367 Sector",
-    "MaxXCoord": 5443.47,
-    "MaxYCoord": -362.12,
-    "MaxZCoord": -3616.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2371/2 Sector",
-    "MaxXCoord": 736.62,
-    "MaxYCoord": 1582.03,
-    "MaxZCoord": -4013.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2374 Sector",
-    "MaxXCoord": 3780.75,
-    "MaxYCoord": 287.56,
-    "MaxZCoord": -2971.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2384 Sector",
-    "MaxXCoord": 5762.78,
-    "MaxYCoord": -212.78,
-    "MaxZCoord": -3843.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2392 Sector",
-    "MaxXCoord": 328.56,
-    "MaxYCoord": 336.72,
-    "MaxZCoord": -631.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2395 Sector",
-    "MaxXCoord": 727.94,
-    "MaxYCoord": 459.69,
-    "MaxZCoord": -1414.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2414 Sector",
-    "MaxXCoord": 8938.03,
-    "MaxYCoord": 491.22,
-    "MaxZCoord": -6890.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2423 Sector",
-    "MaxXCoord": 2005.53,
-    "MaxYCoord": 239.91,
-    "MaxZCoord": -1501.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2438 Sector",
-    "MaxXCoord": 2606.09,
-    "MaxYCoord": 314.31,
-    "MaxZCoord": -1883.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2439 Sector",
-    "MaxXCoord": 11791.8,
-    "MaxYCoord": -662.5,
-    "MaxZCoord": -4745.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2440 Sector",
-    "MaxXCoord": 4745.72,
-    "MaxYCoord": 312.97,
-    "MaxZCoord": -3199.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2451A Sector",
-    "MaxXCoord": 860.31,
-    "MaxYCoord": 11.0,
-    "MaxZCoord": -136.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2452 Sector",
-    "MaxXCoord": 9480.56,
-    "MaxYCoord": -89.53,
-    "MaxZCoord": -4605.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2467 Sector",
-    "MaxXCoord": 4130.91,
-    "MaxYCoord": 217.53,
-    "MaxZCoord": -1815.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2477 Sector",
-    "MaxXCoord": 3980.06,
-    "MaxYCoord": -233.22,
-    "MaxZCoord": -949.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2482 Sector",
-    "MaxXCoord": 3995.19,
-    "MaxYCoord": 297.41,
-    "MaxZCoord": -1936.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2483 Sector",
-    "MaxXCoord": 5034.44,
-    "MaxYCoord": 152.28,
-    "MaxZCoord": -2162.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2489 Sector",
-    "MaxXCoord": 12098.8,
-    "MaxYCoord": 81.84,
-    "MaxZCoord": -4851.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2506 Sector",
-    "MaxXCoord": 8689.66,
-    "MaxYCoord": 1641.03,
-    "MaxZCoord": -6886.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2516 Sector",
-    "MaxXCoord": 1388.69,
-    "MaxYCoord": -249.91,
-    "MaxZCoord": 198.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2527 Sector",
-    "MaxXCoord": 1843.78,
-    "MaxYCoord": 120.44,
-    "MaxZCoord": -736.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2533 Sector",
-    "MaxXCoord": 10340.7,
-    "MaxYCoord": 396.06,
-    "MaxZCoord": -4015.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2539 Sector",
-    "MaxXCoord": 3628.16,
-    "MaxYCoord": 930.0,
-    "MaxZCoord": -2491.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2546 Sector",
-    "MaxXCoord": 3502.38,
-    "MaxYCoord": 501.06,
-    "MaxZCoord": -171.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2547 Sector",
-    "MaxXCoord": 1563.09,
-    "MaxYCoord": -111.78,
-    "MaxZCoord": -30.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2567 Sector",
-    "MaxXCoord": 5260.5,
-    "MaxYCoord": 383.81,
-    "MaxZCoord": -1759.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2571 Sector",
-    "MaxXCoord": 4177.41,
-    "MaxYCoord": -182.16,
-    "MaxZCoord": -1468.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2579 Sector",
-    "MaxXCoord": 3336.56,
-    "MaxYCoord": 97.59,
-    "MaxZCoord": -802.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2627 Sector",
-    "MaxXCoord": 6282.53,
-    "MaxYCoord": 702.78,
-    "MaxZCoord": -1911.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2632 Sector",
-    "MaxXCoord": 343.06,
-    "MaxYCoord": 449.38,
-    "MaxZCoord": -341.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2645 Sector",
-    "MaxXCoord": 5423.0,
-    "MaxYCoord": -256.47,
-    "MaxZCoord": -482.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2669 Sector",
-    "MaxXCoord": 3583.94,
-    "MaxYCoord": -181.94,
-    "MaxZCoord": 231.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2670 Sector",
-    "MaxXCoord": 3945.62,
-    "MaxYCoord": -153.84,
-    "MaxZCoord": -86.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2792 Sector",
-    "MaxXCoord": 8239.56,
-    "MaxYCoord": 679.19,
-    "MaxZCoord": -504.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 281 Sector",
-    "MaxXCoord": -6564.34,
-    "MaxYCoord": -780.22,
-    "MaxZCoord": -4249.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2818 Sector",
-    "MaxXCoord": 8400.47,
-    "MaxYCoord": 1343.03,
-    "MaxZCoord": -1131.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2867 Sector",
-    "MaxXCoord": 12255.9,
-    "MaxYCoord": -1189.09,
-    "MaxZCoord": 1822.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2899 Sector",
-    "MaxXCoord": 6533.09,
-    "MaxYCoord": -336.69,
-    "MaxZCoord": 907.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2910 Sector",
-    "MaxXCoord": 8530.19,
-    "MaxYCoord": -86.91,
-    "MaxZCoord": 865.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 2925 Sector",
-    "MaxXCoord": 2576.69,
-    "MaxYCoord": 18.75,
-    "MaxZCoord": 334.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3114 Sector",
-    "MaxXCoord": 3194.06,
-    "MaxYCoord": 114.06,
-    "MaxZCoord": 990.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3199 Sector",
-    "MaxXCoord": 14665.0,
-    "MaxYCoord": -163.53,
-    "MaxZCoord": 3621.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3211 Sector",
-    "MaxXCoord": 8896.41,
-    "MaxYCoord": -701.0,
-    "MaxZCoord": 2661.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3228 Sector",
-    "MaxXCoord": 1755.31,
-    "MaxYCoord": 164.62,
-    "MaxZCoord": 349.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3247 Sector",
-    "MaxXCoord": 4957.56,
-    "MaxYCoord": 42.47,
-    "MaxZCoord": 1346.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3293 Sector",
-    "MaxXCoord": 7431.12,
-    "MaxYCoord": 141.06,
-    "MaxZCoord": 2208.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3324 Sector",
-    "MaxXCoord": 7521.66,
-    "MaxYCoord": 229.06,
-    "MaxZCoord": 2371.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3330 Sector",
-    "MaxXCoord": 2850.88,
-    "MaxYCoord": 232.81,
-    "MaxZCoord": 749.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3519 Sector",
-    "MaxXCoord": 4470.94,
-    "MaxYCoord": -13.0,
-    "MaxZCoord": 1723.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3532 Sector",
-    "MaxXCoord": 1727.94,
-    "MaxYCoord": 272.16,
-    "MaxZCoord": 761.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3572 Sector",
-    "MaxXCoord": 6182.09,
-    "MaxYCoord": 116.31,
-    "MaxZCoord": 2390.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3590 Sector",
-    "MaxXCoord": 5059.16,
-    "MaxYCoord": 23.0,
-    "MaxZCoord": 1989.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3603 Sector",
-    "MaxXCoord": 18653.4,
-    "MaxYCoord": -173.31,
-    "MaxZCoord": 7432.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3680 Sector",
-    "MaxXCoord": 2896.34,
-    "MaxYCoord": 983.09,
-    "MaxZCoord": 940.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3699 Sector",
-    "MaxXCoord": 4248.44,
-    "MaxYCoord": 200.69,
-    "MaxZCoord": 1826.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 3766 Sector",
-    "MaxXCoord": 5275.38,
-    "MaxYCoord": 76.0,
-    "MaxZCoord": 2401.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 4103 Sector",
-    "MaxXCoord": 4797.22,
-    "MaxYCoord": 192.44,
-    "MaxZCoord": 2546.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 4349 Sector",
-    "MaxXCoord": 6365.31,
-    "MaxYCoord": 298.12,
-    "MaxZCoord": 3728.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 4463 Sector",
-    "MaxXCoord": 3446.5,
-    "MaxYCoord": 389.28,
-    "MaxZCoord": 2252.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 457 Sector",
-    "MaxXCoord": -5885.03,
-    "MaxYCoord": -140.72,
-    "MaxZCoord": -4253.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 4609 Sector",
-    "MaxXCoord": 3898.28,
-    "MaxYCoord": 501.5,
-    "MaxZCoord": 2619.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5138 Sector",
-    "MaxXCoord": 5230.88,
-    "MaxYCoord": 496.84,
-    "MaxZCoord": 4065.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5281 Sector",
-    "MaxXCoord": 3307.41,
-    "MaxYCoord": 466.22,
-    "MaxZCoord": 2792.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5307 Sector",
-    "MaxXCoord": 5951.28,
-    "MaxYCoord": 1580.16,
-    "MaxZCoord": 5460.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5315 Sector",
-    "MaxXCoord": 6596.22,
-    "MaxYCoord": -547.91,
-    "MaxZCoord": 5378.25,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5316 Sector",
-    "MaxXCoord": 3272.0,
-    "MaxYCoord": 254.5,
-    "MaxZCoord": 2805.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5367 Sector",
-    "MaxXCoord": 1441.56,
-    "MaxYCoord": 839.97,
-    "MaxZCoord": 1517.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5460 Sector",
-    "MaxXCoord": 1731.22,
-    "MaxYCoord": 697.38,
-    "MaxZCoord": 1777.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5606 Sector",
-    "MaxXCoord": 4228.0,
-    "MaxYCoord": 152.44,
-    "MaxZCoord": 4199.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5617 Sector",
-    "MaxXCoord": 3697.62,
-    "MaxYCoord": 135.38,
-    "MaxZCoord": 3662.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5662 Sector",
-    "MaxXCoord": 1666.94,
-    "MaxYCoord": 319.56,
-    "MaxZCoord": 1770.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5822 Sector",
-    "MaxXCoord": 2159.12,
-    "MaxYCoord": 497.34,
-    "MaxZCoord": 2653.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5823 Sector",
-    "MaxXCoord": 2565.41,
-    "MaxYCoord": 300.84,
-    "MaxZCoord": 3163.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5882 Sector",
-    "MaxXCoord": 4673.88,
-    "MaxYCoord": 1593.84,
-    "MaxZCoord": 7406.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 5979 Sector",
-    "MaxXCoord": 5541.28,
-    "MaxYCoord": -738.47,
-    "MaxZCoord": 7215.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6025 Sector",
-    "MaxXCoord": 1520.41,
-    "MaxYCoord": -160.44,
-    "MaxZCoord": 2096.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6067 Sector",
-    "MaxXCoord": 2508.16,
-    "MaxYCoord": 8.97,
-    "MaxZCoord": 4177.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6087 Sector",
-    "MaxXCoord": 1660.59,
-    "MaxYCoord": -159.19,
-    "MaxZCoord": 2568.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6124 Sector",
-    "MaxXCoord": 739.41,
-    "MaxYCoord": 367.56,
-    "MaxZCoord": 1762.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6134 Sector",
-    "MaxXCoord": 1310.56,
-    "MaxYCoord": 40.75,
-    "MaxZCoord": 2748.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6152 Sector",
-    "MaxXCoord": 1769.06,
-    "MaxYCoord": 62.19,
-    "MaxZCoord": 3226.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6153 Sector",
-    "MaxXCoord": 1754.41,
-    "MaxYCoord": 608.09,
-    "MaxZCoord": 5199.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6167 Sector",
-    "MaxXCoord": 1578.44,
-    "MaxYCoord": -11.66,
-    "MaxZCoord": 3348.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6169 Sector",
-    "MaxXCoord": 1359.88,
-    "MaxYCoord": 258.03,
-    "MaxZCoord": 3459.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6178 Sector",
-    "MaxXCoord": 1264.81,
-    "MaxYCoord": 116.78,
-    "MaxZCoord": 3122.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6188 Sector",
-    "MaxXCoord": 1802.91,
-    "MaxYCoord": 13.25,
-    "MaxZCoord": 4153.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6193 Sector",
-    "MaxXCoord": 1640.62,
-    "MaxYCoord": 44.12,
-    "MaxZCoord": 3613.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6200 Sector",
-    "MaxXCoord": 2737.44,
-    "MaxYCoord": 100.69,
-    "MaxZCoord": 6443.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6208 Sector",
-    "MaxXCoord": 1211.53,
-    "MaxYCoord": -151.72,
-    "MaxZCoord": 3006.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6231 Sector",
-    "MaxXCoord": 1313.22,
-    "MaxYCoord": 246.44,
-    "MaxZCoord": 4046.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6242 Sector",
-    "MaxXCoord": 1018.31,
-    "MaxYCoord": 249.94,
-    "MaxZCoord": 3660.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6250 Sector",
-    "MaxXCoord": 1006.94,
-    "MaxYCoord": -9.78,
-    "MaxZCoord": 2740.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6259 Sector",
-    "MaxXCoord": 1153.81,
-    "MaxYCoord": 26.5,
-    "MaxZCoord": 3308.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6281 Sector",
-    "MaxXCoord": 363.62,
-    "MaxYCoord": 87.09,
-    "MaxZCoord": 1558.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6322 Sector",
-    "MaxXCoord": 865.72,
-    "MaxYCoord": -133.06,
-    "MaxZCoord": 3183.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6326 Sector",
-    "MaxXCoord": 4137.19,
-    "MaxYCoord": -1520.66,
-    "MaxZCoord": 10183.4,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6337 Sector",
-    "MaxXCoord": 998.81,
-    "MaxYCoord": 3.69,
-    "MaxZCoord": 4913.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6357 Sector",
-    "MaxXCoord": 1064.09,
-    "MaxYCoord": 239.5,
-    "MaxZCoord": 8189.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6383 Sector",
-    "MaxXCoord": 421.75,
-    "MaxYCoord": 191.47,
-    "MaxZCoord": 3386.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6416 Sector",
-    "MaxXCoord": 223.66,
-    "MaxYCoord": 29.25,
-    "MaxZCoord": 2512.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6425 Sector",
-    "MaxXCoord": 169.22,
-    "MaxYCoord": 1.81,
-    "MaxZCoord": 2712.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6445 Sector",
-    "MaxXCoord": -533.78,
-    "MaxYCoord": 404.41,
-    "MaxZCoord": 4540.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6520 Sector",
-    "MaxXCoord": -171.47,
-    "MaxYCoord": -168.38,
-    "MaxZCoord": 5215.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6530 Sector",
-    "MaxXCoord": -286.0,
-    "MaxYCoord": 69.75,
-    "MaxZCoord": 4465.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 654 Sector",
-    "MaxXCoord": -5074.44,
-    "MaxYCoord": 44.53,
-    "MaxZCoord": -4107.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6546 Sector",
-    "MaxXCoord": -264.38,
-    "MaxYCoord": 49.31,
-    "MaxZCoord": 3158.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6563 Sector",
-    "MaxXCoord": 175.91,
-    "MaxYCoord": -298.84,
-    "MaxZCoord": 3169.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6565 Sector",
-    "MaxXCoord": -262.12,
-    "MaxYCoord": -382.0,
-    "MaxZCoord": 5967.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6567 Sector",
-    "MaxXCoord": -753.19,
-    "MaxYCoord": 45.34,
-    "MaxZCoord": 4209.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6572 Sector",
-    "MaxXCoord": -4260.0,
-    "MaxYCoord": 1658.12,
-    "MaxZCoord": 6339.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 659 Sector",
-    "MaxXCoord": -4794.66,
-    "MaxYCoord": -77.72,
-    "MaxZCoord": -3919.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6604 Sector",
-    "MaxXCoord": -1658.81,
-    "MaxYCoord": 240.12,
-    "MaxZCoord": 5323.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6629 Sector",
-    "MaxXCoord": -944.44,
-    "MaxYCoord": -472.44,
-    "MaxZCoord": 6385.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 663 Sector",
-    "MaxXCoord": -4659.44,
-    "MaxYCoord": 158.75,
-    "MaxZCoord": -3796.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6633 Sector",
-    "MaxXCoord": -648.41,
-    "MaxYCoord": 243.66,
-    "MaxZCoord": 1051.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6644 Sector",
-    "MaxXCoord": -1336.94,
-    "MaxYCoord": -1176.97,
-    "MaxZCoord": 9703.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6664 Sector",
-    "MaxXCoord": -1381.84,
-    "MaxYCoord": 130.75,
-    "MaxZCoord": 13394.8,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6705 Sector",
-    "MaxXCoord": -2572.81,
-    "MaxYCoord": -69.5,
-    "MaxZCoord": 5661.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6709 Sector",
-    "MaxXCoord": -2213.88,
-    "MaxYCoord": 426.09,
-    "MaxZCoord": 2726.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6716 Sector",
-    "MaxXCoord": -576.12,
-    "MaxYCoord": -330.41,
-    "MaxZCoord": 2538.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6751 Sector",
-    "MaxXCoord": -3008.09,
-    "MaxYCoord": -560.66,
-    "MaxZCoord": 5652.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6755 Sector",
-    "MaxXCoord": -2700.69,
-    "MaxYCoord": 51.25,
-    "MaxZCoord": 3799.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6781 Sector",
-    "MaxXCoord": -3302.91,
-    "MaxYCoord": -174.09,
-    "MaxZCoord": 3891.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6790 Sector",
-    "MaxXCoord": -1918.62,
-    "MaxYCoord": -263.84,
-    "MaxZCoord": 2678.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6803 Sector",
-    "MaxXCoord": -4020.75,
-    "MaxYCoord": -318.0,
-    "MaxZCoord": 4018.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6804 Sector",
-    "MaxXCoord": -3479.44,
-    "MaxYCoord": -311.72,
-    "MaxZCoord": 3565.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6811 Sector",
-    "MaxXCoord": -3656.75,
-    "MaxYCoord": 961.94,
-    "MaxZCoord": 857.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6819 Sector",
-    "MaxXCoord": -7240.0,
-    "MaxYCoord": 1183.94,
-    "MaxZCoord": 2146.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6820 Sector",
-    "MaxXCoord": -5478.91,
-    "MaxYCoord": 86.25,
-    "MaxZCoord": 3434.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6823 Sector",
-    "MaxXCoord": -5203.44,
-    "MaxYCoord": 96.28,
-    "MaxZCoord": 3246.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6830 Sector",
-    "MaxXCoord": -4452.25,
-    "MaxYCoord": 16.56,
-    "MaxZCoord": 2848.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6834 Sector",
-    "MaxXCoord": -6050.88,
-    "MaxYCoord": 234.09,
-    "MaxZCoord": 2861.41,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6842 Sector",
-    "MaxXCoord": -5378.88,
-    "MaxYCoord": 154.84,
-    "MaxZCoord": 2547.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6852 Sector",
-    "MaxXCoord": -3182.0,
-    "MaxYCoord": -1166.25,
-    "MaxZCoord": 3645.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6866 Sector",
-    "MaxXCoord": -4492.56,
-    "MaxYCoord": 692.47,
-    "MaxZCoord": 992.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6871 Sector",
-    "MaxXCoord": -4252.34,
-    "MaxYCoord": 626.69,
-    "MaxZCoord": 1976.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6884 Sector",
-    "MaxXCoord": -2360.03,
-    "MaxYCoord": 398.28,
-    "MaxZCoord": 439.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6885 Sector",
-    "MaxXCoord": -1717.03,
-    "MaxYCoord": -84.0,
-    "MaxZCoord": 862.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6886 Sector",
-    "MaxXCoord": -7651.97,
-    "MaxYCoord": -1111.94,
-    "MaxZCoord": 4538.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6891 Sector",
-    "MaxXCoord": -6669.0,
-    "MaxYCoord": -1696.47,
-    "MaxZCoord": 4938.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6910 Sector",
-    "MaxXCoord": -3532.31,
-    "MaxYCoord": 233.78,
-    "MaxZCoord": 828.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6939 Sector",
-    "MaxXCoord": -3657.91,
-    "MaxYCoord": 870.91,
-    "MaxZCoord": -341.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 6940 Sector",
-    "MaxXCoord": -2157.84,
-    "MaxYCoord": -135.31,
-    "MaxZCoord": 1031.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7026 Sector",
-    "MaxXCoord": -5903.94,
-    "MaxYCoord": 139.34,
-    "MaxZCoord": 202.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7027 Sector",
-    "MaxXCoord": -3285.31,
-    "MaxYCoord": -117.09,
-    "MaxZCoord": 393.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7039 Sector",
-    "MaxXCoord": -2971.88,
-    "MaxYCoord": 32.31,
-    "MaxZCoord": 232.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7048 Sector",
-    "MaxXCoord": -5497.97,
-    "MaxYCoord": -71.56,
-    "MaxZCoord": 206.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7063 Sector",
-    "MaxXCoord": -2162.22,
-    "MaxYCoord": -343.69,
-    "MaxZCoord": 308.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7082 Sector",
-    "MaxXCoord": -4353.81,
-    "MaxYCoord": 92.66,
-    "MaxZCoord": 235.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7160 Sector",
-    "MaxXCoord": -2448.56,
-    "MaxYCoord": 318.97,
-    "MaxZCoord": -583.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7209 Sector",
-    "MaxXCoord": -3576.34,
-    "MaxYCoord": -292.28,
-    "MaxZCoord": -166.12,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7235 Sector",
-    "MaxXCoord": -8857.28,
-    "MaxYCoord": 259.78,
-    "MaxZCoord": -1901.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7243 Sector",
-    "MaxXCoord": -2373.88,
-    "MaxYCoord": -35.62,
-    "MaxZCoord": -183.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7354 Sector",
-    "MaxXCoord": -3897.53,
-    "MaxYCoord": 263.84,
-    "MaxZCoord": -1187.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7380 Sector",
-    "MaxXCoord": -6511.44,
-    "MaxYCoord": 303.91,
-    "MaxZCoord": -1721.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 744 Sector",
-    "MaxXCoord": -2780.0,
-    "MaxYCoord": -314.81,
-    "MaxZCoord": -2541.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7510 Sector",
-    "MaxXCoord": -6224.0,
-    "MaxYCoord": 95.53,
-    "MaxZCoord": -2330.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 752 Sector",
-    "MaxXCoord": -609.53,
-    "MaxYCoord": -263.47,
-    "MaxZCoord": -694.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7538 Sector",
-    "MaxXCoord": -8278.97,
-    "MaxYCoord": 219.38,
-    "MaxZCoord": -3200.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7686 Sector",
-    "MaxXCoord": -2896.62,
-    "MaxYCoord": -527.06,
-    "MaxZCoord": -950.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7789 Sector",
-    "MaxXCoord": -6299.5,
-    "MaxYCoord": -164.59,
-    "MaxZCoord": -2732.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7790 Sector",
-    "MaxXCoord": -8259.78,
-    "MaxYCoord": 150.19,
-    "MaxZCoord": -3965.38,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 7822 Sector",
-    "MaxXCoord": -2350.88,
-    "MaxYCoord": 393.78,
-    "MaxZCoord": -1244.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "NGC 957 Sector",
-    "MaxXCoord": -3902.16,
-    "MaxYCoord": -91.56,
-    "MaxZCoord": -4091.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Nidgaa",
     "MaxXCoord": -12879.7,
     "MaxYCoord": -1322.28,
@@ -57553,15 +54259,6 @@
     "ID64X": 31,
     "ID64Y": 33,
     "ID64Z": 44
-  },
-  {
-    "SectorName": "North America Sector",
-    "MaxXCoord": -1794.56,
-    "MaxYCoord": 65.44,
-    "MaxZCoord": 247.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Nuekaae",
@@ -59184,15 +55881,6 @@
     "ID64Z": 49
   },
   {
-    "SectorName": "Omega Sector",
-    "MaxXCoord": -1333.25,
-    "MaxYCoord": 21.91,
-    "MaxZCoord": 5407.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Ongaihn",
     "MaxXCoord": 6334.97,
     "MaxYCoord": 1254.94,
@@ -60131,7 +56819,7 @@
   {
     "SectorName": "Oofainz",
     "MaxXCoord": 9262.19,
-    "MaxYCoord": -2621.06,
+    "MaxYCoord": -2591.97,
     "MaxZCoord": 27577.8,
     "ID64X": 46,
     "ID64Y": 29,
@@ -61281,33 +57969,6 @@
     "ID64Z": 34
   },
   {
-    "SectorName": "Ophiuchus Dark Region",
-    "MaxXCoord": 111.91,
-    "MaxYCoord": 248.81,
-    "MaxZCoord": 544.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Ophiuchus Dark Region B Sector",
-    "MaxXCoord": 48.84,
-    "MaxYCoord": 267.16,
-    "MaxZCoord": 585.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Ophiuchus Dark Region C Sector",
-    "MaxXCoord": -98.31,
-    "MaxYCoord": 87.44,
-    "MaxZCoord": 538.84,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Ophokh",
     "MaxXCoord": 5053.66,
     "MaxYCoord": -1305.19,
@@ -61315,24 +57976,6 @@
     "ID64X": 42,
     "ID64Y": 30,
     "ID64Z": 19
-  },
-  {
-    "SectorName": "Orion Dark Region",
-    "MaxXCoord": 695.62,
-    "MaxYCoord": -216.31,
-    "MaxZCoord": -1243.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Orion Sector",
-    "MaxXCoord": 714.03,
-    "MaxYCoord": -353.41,
-    "MaxZCoord": -1024.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Oshont",
@@ -61563,7 +58206,7 @@
     "SectorName": "Ouctorps",
     "MaxXCoord": 5049.31,
     "MaxYCoord": 2808.47,
-    "MaxZCoord": 18099.4,
+    "MaxZCoord": 18100.7,
     "ID64X": 42,
     "ID64Y": 34,
     "ID64Z": 32
@@ -62604,15 +59247,6 @@
     "ID64Z": 57
   },
   {
-    "SectorName": "Parrot's Head Sector",
-    "MaxXCoord": 118.62,
-    "MaxYCoord": 8.59,
-    "MaxZCoord": 1093.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Peangia",
     "MaxXCoord": 6327.38,
     "MaxYCoord": -1309.44,
@@ -62620,42 +59254,6 @@
     "ID64X": 43,
     "ID64Y": 30,
     "ID64Z": 14
-  },
-  {
-    "SectorName": "Pegasi Sector",
-    "MaxXCoord": -77.34,
-    "MaxYCoord": 4.25,
-    "MaxZCoord": 79.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Pelican Sector",
-    "MaxXCoord": -1794.12,
-    "MaxYCoord": 101.56,
-    "MaxZCoord": 278.09,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Pencil Sector",
-    "MaxXCoord": 912.66,
-    "MaxYCoord": 101.09,
-    "MaxZCoord": 55.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Perseus Dark Region",
-    "MaxXCoord": -264.34,
-    "MaxYCoord": -220.12,
-    "MaxZCoord": -952.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Pha Aeb",
@@ -63637,15 +60235,6 @@
     "ID64X": 65,
     "ID64Y": 32,
     "ID64Z": 39
-  },
-  {
-    "SectorName": "Phantom Streak Sector",
-    "MaxXCoord": -3514.91,
-    "MaxYCoord": -207.44,
-    "MaxZCoord": 5492.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Phao Aoc",
@@ -69039,42 +65628,6 @@
     "ID64Z": 14
   },
   {
-    "SectorName": "Pipe (bowl) Sector",
-    "MaxXCoord": 39.28,
-    "MaxYCoord": 85.19,
-    "MaxZCoord": 573.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Pipe (stem) Sector",
-    "MaxXCoord": 97.0,
-    "MaxYCoord": 147.59,
-    "MaxZCoord": 596.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Piscium Sector",
-    "MaxXCoord": 7.28,
-    "MaxYCoord": -10.97,
-    "MaxZCoord": 29.25,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Pismis 4 Sector",
-    "MaxXCoord": 2011.84,
-    "MaxYCoord": 19.94,
-    "MaxZCoord": -144.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Pla Aick",
     "MaxXCoord": 34494.8,
     "MaxYCoord": 1254.16,
@@ -70533,15 +67086,6 @@
     "ID64Z": 16
   },
   {
-    "SectorName": "Pleiades Sector",
-    "MaxXCoord": 16.56,
-    "MaxYCoord": -52.22,
-    "MaxZCoord": -245.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Plielaae",
     "MaxXCoord": 29374.5,
     "MaxYCoord": -25.06,
@@ -71290,7 +67834,7 @@
   },
   {
     "SectorName": "Ploea Aurb",
-    "MaxXCoord": 6196.25,
+    "MaxXCoord": 6325.78,
     "MaxYCoord": 1890.19,
     "MaxZCoord": 41105.2,
     "ID64X": 43,
@@ -71454,7 +67998,7 @@
     "SectorName": "Ploea Scrae",
     "MaxXCoord": 6178.56,
     "MaxYCoord": 1658.88,
-    "MaxZCoord": 38058.3,
+    "MaxZCoord": 38460.4,
     "ID64X": 43,
     "ID64Y": 33,
     "ID64Z": 48
@@ -73144,7 +69688,7 @@
   },
   {
     "SectorName": "Pothuia",
-    "MaxXCoord": -6475.72,
+    "MaxXCoord": -6469.59,
     "MaxYCoord": -2601.62,
     "MaxZCoord": 30542.2,
     "ID64X": 33,
@@ -74700,24 +71244,6 @@
     "ID64Z": 19
   },
   {
-    "SectorName": "Praei1",
-    "MaxXCoord": -652.81,
-    "MaxYCoord": 4.41,
-    "MaxZCoord": 54324.7,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Praei3",
-    "MaxXCoord": -1000.38,
-    "MaxYCoord": 12.56,
-    "MaxZCoord": 54000.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Prai Bliae",
     "MaxXCoord": -11585.2,
     "MaxYCoord": -25.03,
@@ -75511,7 +72037,7 @@
   },
   {
     "SectorName": "Preae Scrae",
-    "MaxXCoord": 6192.19,
+    "MaxXCoord": 6260.53,
     "MaxYCoord": 1579.0,
     "MaxZCoord": 39816.2,
     "ID64X": 43,
@@ -76683,7 +73209,7 @@
     "SectorName": "Pria Eurk",
     "MaxXCoord": 12734.9,
     "MaxYCoord": 987.62,
-    "MaxZCoord": 1488.84,
+    "MaxZCoord": 1492.94,
     "ID64X": 48,
     "ID64Y": 32,
     "ID64Z": 19
@@ -80514,33 +77040,6 @@
     "ID64Z": 39
   },
   {
-    "SectorName": "Puppis Dark Region",
-    "MaxXCoord": 1538.22,
-    "MaxYCoord": -190.5,
-    "MaxZCoord": -207.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Puppis Dark Region B Sector",
-    "MaxXCoord": 1450.09,
-    "MaxYCoord": 98.06,
-    "MaxZCoord": -264.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Puppis Sector",
-    "MaxXCoord": 104.38,
-    "MaxYCoord": 51.06,
-    "MaxZCoord": 18.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Puveia",
     "MaxXCoord": -30785.5,
     "MaxYCoord": -25.06,
@@ -82629,15 +79128,6 @@
     "ID64Z": 39
   },
   {
-    "SectorName": "R CrA Sector",
-    "MaxXCoord": 97.28,
-    "MaxYCoord": -29.41,
-    "MaxZCoord": 498.03,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Reangu",
     "MaxXCoord": 14014.4,
     "MaxYCoord": -25.16,
@@ -82645,24 +79135,6 @@
     "ID64X": 49,
     "ID64Y": 31,
     "ID64Z": 14
-  },
-  {
-    "SectorName": "Red Spider Sector",
-    "MaxXCoord": -427.31,
-    "MaxYCoord": 133.81,
-    "MaxZCoord": 3051.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Retina Sector",
-    "MaxXCoord": 1962.72,
-    "MaxYCoord": 899.78,
-    "MaxZCoord": 2298.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Rhadaea",
@@ -82744,15 +79216,6 @@
     "ID64X": 12,
     "ID64Y": 32,
     "ID64Z": 33
-  },
-  {
-    "SectorName": "Rho Ophiuchi Sector",
-    "MaxXCoord": 138.22,
-    "MaxYCoord": 250.47,
-    "MaxZCoord": 539.25,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Rhoolaa",
@@ -83070,15 +79533,6 @@
     "ID64Z": 19
   },
   {
-    "SectorName": "Ring Sector",
-    "MaxXCoord": -1881.62,
-    "MaxYCoord": 645.44,
-    "MaxZCoord": 1089.69,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Roedaae",
     "MaxXCoord": 6334.69,
     "MaxYCoord": -25.03,
@@ -83212,15 +79666,6 @@
     "ID64X": 57,
     "ID64Y": 31,
     "ID64Z": 52
-  },
-  {
-    "SectorName": "Rosette Sector",
-    "MaxXCoord": 2446.38,
-    "MaxYCoord": -76.47,
-    "MaxZCoord": -4651.88,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Rotha",
@@ -83511,15 +79956,6 @@
     "ID64Z": 29
   },
   {
-    "SectorName": "Running Man Sector",
-    "MaxXCoord": 685.09,
-    "MaxYCoord": -328.5,
-    "MaxZCoord": -983.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Rutchao",
     "MaxXCoord": -29505.2,
     "MaxYCoord": 1246.09,
@@ -83599,15 +80035,6 @@
     "ID64X": 19,
     "ID64Y": 32,
     "ID64Z": 57
-  },
-  {
-    "SectorName": "Sadr Region Sector",
-    "MaxXCoord": -1696.09,
-    "MaxYCoord": 152.88,
-    "MaxZCoord": 464.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Saimaa",
@@ -85707,24 +82134,6 @@
     "ID64Z": 28
   },
   {
-    "SectorName": "Scorpii Sector",
-    "MaxXCoord": 97.22,
-    "MaxYCoord": 58.94,
-    "MaxZCoord": 186.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Scorpius Dark Region",
-    "MaxXCoord": 208.91,
-    "MaxYCoord": 96.22,
-    "MaxZCoord": 576.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Scraehn",
     "MaxXCoord": 21461.6,
     "MaxYCoord": 1872.28,
@@ -86175,24 +82584,6 @@
     "ID64Z": 36
   },
   {
-    "SectorName": "Scutum Dark Region",
-    "MaxXCoord": -175.5,
-    "MaxYCoord": 109.53,
-    "MaxZCoord": 13394.8,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Seagull Sector",
-    "MaxXCoord": 2750.72,
-    "MaxYCoord": -61.94,
-    "MaxZCoord": -2619.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Seakoae",
     "MaxXCoord": -30807.5,
     "MaxYCoord": 1411.0,
@@ -86389,15 +82780,6 @@
     "ID64X": 32,
     "ID64Y": 30,
     "ID64Z": 64
-  },
-  {
-    "SectorName": "Sharru Sector",
-    "MaxXCoord": 86.44,
-    "MaxYCoord": 102.75,
-    "MaxZCoord": 6.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Shaukaae",
@@ -86690,8 +83072,8 @@
   {
     "SectorName": "Shoagaea",
     "MaxXCoord": 5944.81,
-    "MaxYCoord": 1280.38,
-    "MaxZCoord": 42380.0,
+    "MaxYCoord": 1537.25,
+    "MaxZCoord": 42388.9,
     "ID64X": 43,
     "ID64Y": 33,
     "ID64Z": 51
@@ -87039,24 +83421,6 @@
     "ID64Z": 25
   },
   {
-    "SectorName": "Shudun Sector",
-    "MaxXCoord": 6.16,
-    "MaxYCoord": 45.97,
-    "MaxZCoord": 36.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Shui Wei Sector",
-    "MaxXCoord": 143.53,
-    "MaxYCoord": -42.28,
-    "MaxZCoord": 100.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Shumbeia",
     "MaxXCoord": 28094.7,
     "MaxYCoord": -25.09,
@@ -87172,15 +83536,6 @@
     "ID64X": 57,
     "ID64Y": 32,
     "ID64Z": 19
-  },
-  {
-    "SectorName": "Sidgoir",
-    "MaxXCoord": -24140.1,
-    "MaxYCoord": -75.91,
-    "MaxZCoord": -1238.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Sidgoo",
@@ -87730,24 +84085,6 @@
     "ID64X": 34,
     "ID64Y": 31,
     "ID64Z": 64
-  },
-  {
-    "SectorName": "Skull and Crossbones Neb. Sector",
-    "MaxXCoord": 13487.5,
-    "MaxYCoord": 201.81,
-    "MaxZCoord": -6664.22,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Skull Sector",
-    "MaxXCoord": -291.03,
-    "MaxYCoord": -1476.34,
-    "MaxZCoord": -140.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Slachaae",
@@ -89406,15 +85743,6 @@
     "ID64Z": 36
   },
   {
-    "SectorName": "Snake Sector",
-    "MaxXCoord": 79.56,
-    "MaxYCoord": 169.19,
-    "MaxZCoord": 693.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Soac",
     "MaxXCoord": -1345.31,
     "MaxYCoord": -25.03,
@@ -89494,15 +85822,6 @@
     "ID64X": 49,
     "ID64Y": 30,
     "ID64Z": 42
-  },
-  {
-    "SectorName": "Soul Sector",
-    "MaxXCoord": -4998.97,
-    "MaxYCoord": 214.12,
-    "MaxZCoord": -5403.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Spaidau",
@@ -90342,24 +86661,6 @@
     "ID64Z": 46
   },
   {
-    "SectorName": "Spiral Planetary Sector",
-    "MaxXCoord": 1513.62,
-    "MaxYCoord": -9.19,
-    "MaxZCoord": 1173.75,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Spirograph Sector",
-    "MaxXCoord": 676.62,
-    "MaxYCoord": -354.72,
-    "MaxZCoord": -719.66,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Spleedaea",
     "MaxXCoord": -34626.8,
     "MaxYCoord": -25.03,
@@ -91170,15 +87471,6 @@
     "ID64Z": 39
   },
   {
-    "SectorName": "Statue of Liberty Sector",
-    "MaxXCoord": 5686.78,
-    "MaxYCoord": 25.28,
-    "MaxZCoord": 2275.91,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Staugnaae",
     "MaxXCoord": 3481.78,
     "MaxYCoord": -1359.72,
@@ -91231,42 +87523,6 @@
     "ID64X": 48,
     "ID64Y": 30,
     "ID64Z": 24
-  },
-  {
-    "SectorName": "Steph 1 Sector",
-    "MaxXCoord": -1058.88,
-    "MaxYCoord": 408.69,
-    "MaxZCoord": 550.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Stock 1 Sector",
-    "MaxXCoord": -43.25,
-    "MaxYCoord": 282.25,
-    "MaxZCoord": 756.94,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Stock 14 Sector",
-    "MaxXCoord": 6427.03,
-    "MaxYCoord": 11.94,
-    "MaxZCoord": 3077.19,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Stock 2 Sector",
-    "MaxXCoord": -590.84,
-    "MaxYCoord": 95.44,
-    "MaxZCoord": -550.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Stoijea",
@@ -91933,15 +88189,6 @@
     "ID64X": 40,
     "ID64Y": 30,
     "ID64Z": 46
-  },
-  {
-    "SectorName": "Struve's Lost Sector",
-    "MaxXCoord": 67.56,
-    "MaxYCoord": -111.91,
-    "MaxZCoord": -379.62,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Stuekeau",
@@ -93297,7 +89544,7 @@
     "SectorName": "Syniecheae",
     "MaxXCoord": -26946.7,
     "MaxYCoord": -25.12,
-    "MaxZCoord": 48850.4,
+    "MaxZCoord": 48854.4,
     "ID64X": 17,
     "ID64Y": 31,
     "ID64Z": 56
@@ -95445,24 +91692,6 @@
     "ID64Z": 36
   },
   {
-    "SectorName": "Tascheter Sector",
-    "MaxXCoord": 44.84,
-    "MaxYCoord": 21.97,
-    "MaxZCoord": -14.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Taurus Dark Region",
-    "MaxXCoord": 35.66,
-    "MaxYCoord": -6.28,
-    "MaxZCoord": -363.78,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Tauthai",
     "MaxXCoord": -12942.4,
     "MaxYCoord": 1258.12,
@@ -96615,15 +92844,6 @@
     "ID64Z": 50
   },
   {
-    "SectorName": "Thor's Helmet Sector",
-    "MaxXCoord": 2802.16,
-    "MaxYCoord": 77.81,
-    "MaxZCoord": -2372.31,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Thraijee",
     "MaxXCoord": -30788.5,
     "MaxYCoord": 1233.72,
@@ -97461,51 +93681,6 @@
     "ID64Z": 52
   },
   {
-    "SectorName": "Tr 10 Sector",
-    "MaxXCoord": 1423.94,
-    "MaxYCoord": 69.72,
-    "MaxZCoord": -118.16,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Tr 14 Sector",
-    "MaxXCoord": 8626.84,
-    "MaxYCoord": 31.22,
-    "MaxZCoord": 2789.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Tr 16 Sector",
-    "MaxXCoord": 8543.03,
-    "MaxYCoord": 139.53,
-    "MaxZCoord": 2888.59,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Tr 2 Sector",
-    "MaxXCoord": -1321.94,
-    "MaxYCoord": -32.94,
-    "MaxZCoord": -1446.28,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Tr 24 Sector",
-    "MaxXCoord": 1477.66,
-    "MaxYCoord": 593.53,
-    "MaxZCoord": 4075.34,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Tradgio",
     "MaxXCoord": -15426.5,
     "MaxYCoord": -25.03,
@@ -97792,15 +93967,6 @@
     "ID64X": 52,
     "ID64Y": 32,
     "ID64Z": 22
-  },
-  {
-    "SectorName": "Trapezium Sector",
-    "MaxXCoord": 772.56,
-    "MaxYCoord": -252.81,
-    "MaxZCoord": -902.5,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Trea Bliae",
@@ -98100,15 +94266,6 @@
     "ID64Z": 35
   },
   {
-    "SectorName": "Trianguli Sector",
-    "MaxXCoord": 107.69,
-    "MaxYCoord": -3.81,
-    "MaxZCoord": -33.06,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Trie Bluae",
     "MaxXCoord": -65.66,
     "MaxYCoord": -2585.28,
@@ -98289,24 +94446,6 @@
     "ID64Z": 35
   },
   {
-    "SectorName": "Trifid of the North Sector",
-    "MaxXCoord": -564.97,
-    "MaxYCoord": -307.09,
-    "MaxZCoord": -2397.97,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Trifid Sector",
-    "MaxXCoord": -534.97,
-    "MaxYCoord": 71.62,
-    "MaxZCoord": 5260.56,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Trigna",
     "MaxXCoord": -17985.1,
     "MaxYCoord": -25.12,
@@ -98454,7 +94593,7 @@
     "SectorName": "Truechae",
     "MaxXCoord": -10305.4,
     "MaxYCoord": 1251.5,
-    "MaxZCoord": 53973.9,
+    "MaxZCoord": 53974.7,
     "ID64X": 30,
     "ID64Y": 32,
     "ID64Z": 60
@@ -98676,15 +94815,6 @@
     "ID64Z": 33
   },
   {
-    "SectorName": "Tucanae Sector",
-    "MaxXCoord": 203.75,
-    "MaxYCoord": -119.47,
-    "MaxZCoord": 258.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Tyrau Eaewsy",
     "MaxXCoord": -9025.03,
     "MaxYCoord": -2602.38,
@@ -98787,7 +94917,7 @@
     "SectorName": "Tyreangoa",
     "MaxXCoord": 3586.38,
     "MaxYCoord": -2598.03,
-    "MaxZCoord": 19383.1,
+    "MaxZCoord": 19407.1,
     "ID64X": 41,
     "ID64Y": 29,
     "ID64Z": 33
@@ -99972,33 +96102,6 @@
     "ID64Z": 47
   },
   {
-    "SectorName": "Veil East Sector",
-    "MaxXCoord": -1818.5,
-    "MaxYCoord": -207.19,
-    "MaxZCoord": 589.44,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Veil West Sector",
-    "MaxXCoord": -1298.53,
-    "MaxYCoord": -95.81,
-    "MaxZCoord": 515.72,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
-    "SectorName": "Vela Dark Region",
-    "MaxXCoord": 1087.31,
-    "MaxYCoord": -23.47,
-    "MaxZCoord": 46.81,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
-  },
-  {
     "SectorName": "Vepou",
     "MaxXCoord": -38470.6,
     "MaxYCoord": -25.16,
@@ -100312,15 +96415,6 @@
     "ID64X": 41,
     "ID64Y": 33,
     "ID64Z": 57
-  },
-  {
-    "SectorName": "Vulpecula Dark Region",
-    "MaxXCoord": -446.88,
-    "MaxYCoord": 144.25,
-    "MaxZCoord": 452.53,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Vutchio",
@@ -100677,7 +96771,7 @@
     "SectorName": "Whaireau",
     "MaxXCoord": 17801.4,
     "MaxYCoord": 1796.97,
-    "MaxZCoord": 32076.5,
+    "MaxZCoord": 32184.9,
     "ID64X": 52,
     "ID64Y": 33,
     "ID64Z": 43
@@ -101158,15 +97252,6 @@
     "ID64X": 54,
     "ID64Y": 32,
     "ID64Z": 9
-  },
-  {
-    "SectorName": "Witch Head Sector",
-    "MaxXCoord": 467.75,
-    "MaxYCoord": -302.94,
-    "MaxZCoord": -619.47,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Wizz",
@@ -102688,15 +98773,6 @@
     "ID64X": 34,
     "ID64Y": 33,
     "ID64Z": 47
-  },
-  {
-    "SectorName": "Yin Sector",
-    "MaxXCoord": 45.66,
-    "MaxYCoord": 61.81,
-    "MaxZCoord": -9.0,
-    "ID64X": null,
-    "ID64Y": null,
-    "ID64Z": null
   },
   {
     "SectorName": "Yooxe",
