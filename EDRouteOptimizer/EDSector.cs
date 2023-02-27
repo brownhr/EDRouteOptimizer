@@ -12,7 +12,8 @@ namespace EDRouteOptimizer
     public class EDSector
     {
         private static string JsonFilePath = "sector_json.json";
-        private static readonly Dictionary<string, EDSector> EDSectorDictionary = ReadJson();
+        public static  Dictionary<string, EDSector> EDSectorDictionary = ReadJson();
+
 
         [JsonProperty]
         public string SectorName { get; set; }
