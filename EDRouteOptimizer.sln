@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDRouteOptimizerTests", "ED
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDROForms", "EDROForms\EDROForms.csproj", "{10AFC71E-7356-4D2C-A9B2-B3084689849F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDData", "EDData\EDData.csproj", "{8D2AD780-399C-4613-8862-8A1D1A1A7105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDData", "EDData\EDData.csproj", "{8D2AD780-399C-4613-8862-8A1D1A1A7105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfEDRO", "wpfEDRO\wpfEDRO.csproj", "{0F24BCD7-8497-4B9F-989D-B2243165C1B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8D2AD780-399C-4613-8862-8A1D1A1A7105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2AD780-399C-4613-8862-8A1D1A1A7105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2AD780-399C-4613-8862-8A1D1A1A7105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F24BCD7-8497-4B9F-989D-B2243165C1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F24BCD7-8497-4B9F-989D-B2243165C1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F24BCD7-8497-4B9F-989D-B2243165C1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F24BCD7-8497-4B9F-989D-B2243165C1B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
