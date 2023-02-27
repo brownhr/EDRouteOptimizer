@@ -15,7 +15,7 @@ public class Program
         Task.WaitAll(download);
 
         sectors = EDAstroDownloader.ParseDownloadedCsv(tempFile);
-        ManualAddSector();
+        //ManualAddSector();
 
         sectors.Sort((a, b) =>
         {
