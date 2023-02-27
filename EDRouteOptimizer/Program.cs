@@ -43,7 +43,7 @@ namespace EDRouteOptimizer
         {
             
 
-            DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-20", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-26", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
 
             EDEventParser.SetCutoff(cutoffDate);
 
