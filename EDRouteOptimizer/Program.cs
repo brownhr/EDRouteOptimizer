@@ -6,25 +6,28 @@ using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 
+
 namespace EDRouteOptimizer
 {
     public class Program
     {
-        public static string sector = "Eaezi";
-        public static string currentSystem = "Eaezi GW-W c1-0";
+
+        //public static string currentSystem = "Eaezi GW-W c1-0";
         //public static EDSystem homeSystem = new EDSystem(systemName: "Byeia Aerb HL-Y e0",
         //                                                 coords: new RouteJsonCoords(x: 813.5,
         //                                                                             y: 1547.09375,
         //                                                                             z: 13291.96875));
 
         public static EDSystem homeSystem;
+        public static string sector;
+        public static string currentSystem;
 
         public static EDRoute route;
         public static Dictionary<string, EDSystem> SystemDict = new Dictionary<string, EDSystem>();
 
 
         public static string inputFSSDataPath = @"C:\Users\brownhr\Documents\fss.log";
-        public static string inputFilePath = @"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Eaezi.route";
+        public static string inputFilePath = @"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\ScheauBlaoLX-U_f2-.route";
 
         public static double initialDistance;
         public static double finalDistance;
@@ -34,10 +37,13 @@ namespace EDRouteOptimizer
 
         public static JournalParser journalParser;
         public static List<FSSAllBodiesFoundEvent> mappedSystems;
+        [STAThread]
 
         public static void Main()
         {
-            DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-01", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            
+
+            DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-20", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
 
             EDEventParser.SetCutoff(cutoffDate);
 
@@ -50,6 +56,20 @@ namespace EDRouteOptimizer
 
             FSDJumpEvent mostRecentJump = EDEventParser.FSDJumpEvents[^1];
 
+            string sysName = mostRecentJump.StarSystem;
+
+            EDSubsector subsector = EDSubsector.GetSubsector(sysName);
+            sector = subsector.Sector.SectorName;
+
+            route = EDRoute.ParseJson(inputFilePath);
+            CreateSystemDict();
+            homeSystem = LookupSystem(mostRecentJump.StarSystem);
+
+
+            SetupRoute();
+
+            currentSystem = homeSystem.SystemName;
+
 
 
 
@@ -57,11 +77,8 @@ namespace EDRouteOptimizer
 
             //journalParser = new JournalParser(cutoff: cutoffDate);
             //journalParser.ParseJournals();
-            route = EDRoute.ParseJson(inputFilePath);
 
-            SetupRoute();
             // TODO: Read most recent FSD Jump
-            homeSystem = LookupSystem(mostRecentJump.StarSystem);
             Console.WriteLine(homeSystem.SystemName);
 
             double[,] distanceMatrix = route.GenerateDistanceMatrix();
@@ -85,7 +102,7 @@ namespace EDRouteOptimizer
             PrintRouteHead(10);
 
             route.CurrentDestination = 0;
-            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Eaezi_Filtered_test.route";
+            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\{sector}_Optimized.route";
 
             route.WriteJson(outfile);
 
@@ -187,14 +204,14 @@ namespace EDRouteOptimizer
             }
 
             route.RouteWaypoints = remainingSystems;
+            route.RouteWaypoints = route.RouteWaypoints.Where(e => e != null).ToList();
             Console.WriteLine(countRemainingSystems + " systems remaining.");
 
         }
         public static void SetupRoute()
         {
 
-            CreateSystemDict();
-            homeSystem = SystemDict.TryGetValue(currentSystem, out EDSystem value) == true ? value : homeSystem;
+            //homeSystem = SystemDict.TryGetValue(currentSystem, out EDSystem value) == true ? value : homeSystem;
 
 
 
