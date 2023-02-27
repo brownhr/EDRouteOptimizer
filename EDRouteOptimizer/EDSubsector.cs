@@ -103,7 +103,7 @@ namespace EDRouteOptimizer
 
         public static EDSubsector GetSubsector(string input)
         {
-            Regex sectorRegex = new Regex(@"(?<sector>[\w ]+(?= [A-Z]{2}))");
+            Regex sectorRegex = new Regex(@"(?<sector>[\w ]+(?= [A-Z]{2}-[A-Z]))");
             Regex boxelRegex = new Regex(@"(?<boxel>[A-Z]{2}-[A-Z] [a-h]\d+)");
 
             Match sectorMatch = sectorRegex.Match(input);
@@ -111,7 +111,9 @@ namespace EDRouteOptimizer
 
             if (sectorMatch.Success && boxelMatch.Success)
             {
-                EDSector sector = EDSector.GetSector(sectorMatch.Value);
+
+                EDSector sector = new EDSector();
+                sector = EDSector.GetSector(sectorMatch.Value);
                 EDBoxel boxel = EDBoxel.GetBoxel(boxelMatch.Value);
 
                 return new EDSubsector(sector, boxel);
