@@ -33,6 +33,7 @@ namespace EDData
             result = File.ReadAllLines(filePath)
                 .Skip(1)
                 .Select(row => EDAstroSectorCSV.FromCsv(row))
+                .Where(e => e.ID64X != null || e.ID64Y != null || e.ID64Z != null)
                 .ToList();
             return result;
         }
