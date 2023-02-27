@@ -98,7 +98,7 @@ namespace EDRouteOptimizer
         {
             InitializeAnts();
             ClearPheromoneMatrix();
-            using (ProgressBar pbar = new ProgressBar(maxIterations, "Iterating ants: ", options))
+            using (ShellProgressBar.ProgressBar pbar = new ShellProgressBar.ProgressBar(maxIterations, "Iterating ants: ", options))
             {
                 for (int i = 0; i < maxIterations; i++)
                 {

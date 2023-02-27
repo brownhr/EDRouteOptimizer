@@ -10,7 +10,6 @@ namespace EDRouteOptimizer
 {
     public partial class NearestNeighbor
     {
-        // TODO: Refactor to multidimensional array
         public double[,] DistanceMat { get; set; }
         public int Count;
         public int[] RouteIndex;
@@ -60,7 +59,7 @@ namespace EDRouteOptimizer
 
             ProgressBarOptions options = new ProgressBarOptions() { ProgressBarOnBottom = true, ProgressCharacter = '#'};
 
-            using (ProgressBar pbar = new ProgressBar(Count - 1, "Running nearest neighbor", options))
+            using (ShellProgressBar.ProgressBar pbar = new ShellProgressBar.ProgressBar(Count - 1, "Running nearest neighbor", options))
             {
                 for (int i = 0; i < Count - 1; i++)
                 {

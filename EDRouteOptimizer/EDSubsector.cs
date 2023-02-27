@@ -20,6 +20,15 @@ namespace EDRouteOptimizer
             Boxel = boxel;
         }
 
+        public EDSubsector(string parseableInputString)
+        {
+            EDSector sec = EDSector.GetSector(parseableInputString);
+            EDBoxel box = EDBoxel.GetBoxel(parseableInputString);
+
+            Sector = sec;
+            Boxel = box;
+        }
+
         public static int ManhattanDistanceBetweenSectors(EDSector sectorA, EDSector sectorB)
         {
 
@@ -30,7 +39,6 @@ namespace EDRouteOptimizer
 
             return axisDistances.Sum();
         }
-
 
 
         public EDSubsector? ShiftSubsectorByOffset(int[] offsetArray)
@@ -68,6 +76,25 @@ namespace EDRouteOptimizer
 
         }
 
+        public List<EDSubsector> GetChildSubsectors(char recursiveMassCodeLimit)
+        {
+            if (!EDBoxel.IsValidMasscode(recursiveMassCodeLimit))
+            {
+                throw new ArgumentException(message: $"Invalid masscode passed to {nameof(recursiveMassCodeLimit)}");
+            }
+
+            List<EDSubsector> childrenSubsectors = new List<EDSubsector>();
+
+            char currentMassCode = Boxel.MassCode;
+
+            while (currentMassCode > recursiveMassCodeLimit && currentMassCode > 'a')
+            {
+                    Boxel.GetChildBoxels().ForEach(boxel => childrenSubsectors.Add(new EDSubsector(this.Sector, boxel)));
+            }
+            return childrenSubsectors;
+        }
+
+
         //public bool Equals(EDSubsector? obj)
         //{
         //    if (obj == null) return false;
@@ -76,7 +103,7 @@ namespace EDRouteOptimizer
 
         public static EDSubsector GetSubsector(string input)
         {
-            Regex sectorRegex = new Regex(@"(?<sector>[\w ]+(?= [A-Z]{2}))");
+            Regex sectorRegex = new Regex(@"(?<sector>[\w ]+(?= [A-Z]{2}-[A-Z]))");
             Regex boxelRegex = new Regex(@"(?<boxel>[A-Z]{2}-[A-Z] [a-h]\d+)");
 
             Match sectorMatch = sectorRegex.Match(input);
@@ -84,7 +111,9 @@ namespace EDRouteOptimizer
 
             if (sectorMatch.Success && boxelMatch.Success)
             {
-                EDSector sector = EDSector.GetSector(sectorMatch.Value);
+
+                EDSector sector = new EDSector();
+                sector = EDSector.GetSector(sectorMatch.Value);
                 EDBoxel boxel = EDBoxel.GetBoxel(boxelMatch.Value);
 
                 return new EDSubsector(sector, boxel);
