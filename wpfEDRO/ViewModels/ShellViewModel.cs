@@ -11,68 +11,76 @@ namespace wpfEDRO.ViewModels
 {
     public class ShellViewModel : Screen
     {
-        private string _subSector = "[Testing]";
-        private string _boxelCode;
 
-        private BindableCollection<SubSectorModel> _subSectors = new BindableCollection<SubSectorModel>();
-        private SubSectorModel _selectedSubSector;
+        private string _firstName = "testing";
+        private string _lastName;
 
         public ShellViewModel()
         {
-            List<EDSubsector> children = EDSubsector.GetSubsector("Graea Hypue RT-Y d2").GetChildSubsectors('b');
+            People.Add(new PersonModel { FirstName = "Harrison", LastName = "Brown" });
+            People.Add(new PersonModel { FirstName = "John", LastName = "Smith" });
+            People.Add(new PersonModel { FirstName = "David", LastName = "Braben" });
         }
 
-        public string SubSector
+        public string FirstName
         {
-            get
-            {
-                return _subSector;
-            }
+            get { return _firstName; }
             set
             {
-                _subSector = value;
-                NotifyOfPropertyChange(() => SubSector);
-                NotifyOfPropertyChange(() => FullName);
-            }
-        }
-        public string BoxelCode
-        {
-            get
-            {
-                return _boxelCode;
-            }
-            set
-            {
-                _boxelCode = value;
-                NotifyOfPropertyChange(() => BoxelCode);
+                _firstName = value;
+                NotifyOfPropertyChange(() => FirstName);
                 NotifyOfPropertyChange(() => FullName);
 
             }
         }
+
+        public string LastName
+        {
+            get { return _lastName; }
+            set
+            {
+                _lastName = value;
+                NotifyOfPropertyChange(() => LastName);
+                NotifyOfPropertyChange(() => FullName);
+            }
+        }
+
         public string FullName
         {
-            get { return $"{SubSector} {BoxelCode}"; }
-
+            get { return $"{FirstName} {LastName}"; }
         }
 
-        public BindableCollection<SubSectorModel> SubSectors
+        private BindableCollection<PersonModel> _people = new BindableCollection<PersonModel>();
+
+        public BindableCollection<PersonModel> People
         {
-            get { return _subSectors; }
-            set { _subSectors = value; }
+            get { return _people; }
+            set { _people = value; }
         }
 
-        public SubSectorModel SelectedSubSector
+        private PersonModel _selectedPerson;
+
+        public PersonModel SelectedPerson
         {
-            get { return _selectedSubSector; }
+            get { return _selectedPerson; }
             set
             {
-                _selectedSubSector = value;
-                NotifyOfPropertyChange(() => SelectedSubSector);
+                _selectedPerson = value;
+                NotifyOfPropertyChange(() => SelectedPerson);
             }
         }
 
+        public bool CanClearText(string firstName, string lastName)
+        {
+            return 
+                !string.IsNullOrWhiteSpace(firstName) || 
+                !string.IsNullOrWhiteSpace(lastName);
+        }
 
-
-
+        public void ClearText(string firstName, string lastName)
+        {
+            FirstName = "";
+            LastName = "";
+        }
     }
 }

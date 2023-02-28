@@ -5,7 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfEDRO.Views"
         mc:Ignorable="d"
-        Background="#eeffff"
         Title="ShellView" Height="400" Width="600"
         WindowStartupLocation="CenterScreen">
     <Grid>
@@ -29,10 +28,14 @@
 
         <TextBlock Text="{Binding Path=FullName, Mode=OneWay}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
 
-        <TextBox MinWidth="100" Grid.Row="2" Grid.Column="1" x:Name="SubSector" />
-        <TextBox MinWidth="100" Grid.Row="2" Grid.Column="2" x:Name="BoxelCode" />
-        
-        
-        
+        <TextBox MinWidth="100" Grid.Row="2" Grid.Column="1" x:Name="FirstName" />
+        <TextBox MinWidth="100" Grid.Row="2" Grid.Column="2" x:Name="LastName" />
+
+        <ComboBox Grid.Row="3" Grid.Column="1" x:Name="People"
+                  SelectedItem="{Binding Path=SelectedPerson, Mode=OneWayToSource}"
+                  DisplayMemberPath="FirstName" />
+        <TextBlock Grid.Row="3" Grid.Column="2" x:Name="SelectedPerson_LastName"/>
+
+        <Button x:Name="ClearText" Grid.Row="4" Grid.Column="1">Clear Text</Button>
     </Grid>
 </Window>
