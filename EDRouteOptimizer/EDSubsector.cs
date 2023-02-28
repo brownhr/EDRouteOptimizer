@@ -89,7 +89,8 @@ namespace EDRouteOptimizer
 
             while (currentMassCode > recursiveMassCodeLimit && currentMassCode > 'a')
             {
-                    Boxel.GetChildBoxels().ForEach(boxel => childrenSubsectors.Add(new EDSubsector(this.Sector, boxel)));
+                Boxel.GetChildBoxels().ForEach(boxel => childrenSubsectors.Add(new EDSubsector(this.Sector, boxel)));
+                currentMassCode--;
             }
             return childrenSubsectors;
         }
