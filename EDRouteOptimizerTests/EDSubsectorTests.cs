@@ -175,16 +175,49 @@ namespace EDRouteOptimizer.Tests
 
         }
 
-        //[TestMethod()]
-        //public void GetChildSubsectorsTest()
-        //{
 
-        //}
+        [TestMethod()]
+        [DynamicData(nameof(GetChildrenSubsectorsData))]
+        public void GetChildSubsectorsTest(EDSubsector parentSubsector, string[] childrenStrings)
+        {
+            List<EDSubsector> children = parentSubsector.GetChildSubsectors('c');
+            foreach (EDSubsector sector in children)
+            {
+                CollectionAssert.Contains(childrenStrings, sector.ToString());
+            }
 
-        //private static IEnumerable<object[]> GetChildrenSubsectorsData =>
-        //    new List<object[]>
-        //    {
-        //        new object[] {new EDSubsector() }
-        //    };
+        }
+
+        private static IEnumerable<object[]> GetChildrenSubsectorsData =>
+            new List<object[]>
+            {
+                new object[] {EDSubsector.GetSubsector("Scheau Blao JY-Z d13"),
+                new string[]
+                {
+                    "Scheau Blao SW-Z c27",
+                    "Scheau Blao TW-Z c27",
+                    "Scheau Blao QB-A c28",
+                    "Scheau Blao RB-A c28",
+                    "Scheau Blao WC-Y c28",
+                    "Scheau Blao XC-Y c28",
+                    "Scheau Blao UH-Y c28",
+                    "Scheau Blao VH-Y c28"
+                } },
+                new object[] {EDSubsector.GetSubsector("Scheau Blao JY-Z d13"),
+                    readText(@"C:\Users\brownhr\Desktop\children.txt")
+
+
+                }
+            };
+
+        private static string[] readText(string filepath)
+        {
+
+
+            string[] lines = File.ReadAllLines(filepath);
+            return lines;
+
+
+        }
     }
 }
