@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         FontFamily="Consolas"
 
-        Title="E:D Route Optimizer" Height="550" Width="400">
+        Title="E:D Route Optimizer" Height="550" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -20,6 +20,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition x:Name="rowDropDown"  Height="auto"/>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
@@ -34,6 +35,10 @@
        
         <ComboBox x:Name="dropdownSelectWaypoint"  Grid.Column="1" Grid.Row="3" SelectionChanged="dropdownSelectWaypoint_SelectionChanged"/>
         <TextBlock x:Name="labelCoordinates" Text="[coordinates]" Grid.Row="3" Grid.Column="2" TextAlignment="Center"/>
+
+        
+        <Button x:Name="buttonReadJournals" Content="Read Journals" Grid.Column="2" Grid.Row="4" Click="buttonReadJournals_Click" Margin="20,20,20,20"/>
+        <Button Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Date Limit" Click="Button_Click"/>
 
     </Grid>
 </Window>

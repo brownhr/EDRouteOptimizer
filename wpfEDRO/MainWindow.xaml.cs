@@ -23,11 +23,24 @@ namespace wpfEDRO
     {
         private static string filename;
         private static EDRoute inputRoute;
+        private static EDSystem startSystem;
+        private static List<FSSAllBodiesFoundEvent> allBodiesFoundEvents = new List<FSSAllBodiesFoundEvent>();
+
+        private DateTime journalCutoffDate = new DateTime();
+
+        public void setCutoffDate(DateTime cutoffDate)
+        {
+
+            this.journalCutoffDate = cutoffDate;
+        }
+
         public MainWindow()
         {
             InitializeComponent();
             btnParseRoute.IsEnabled = false;
             dropdownSelectWaypoint.IsEnabled = false;
+            buttonReadJournals.IsEnabled = false;
+
         }
 
         private void btnOpenRoute_Click(object sender, RoutedEventArgs e)
@@ -45,8 +58,6 @@ namespace wpfEDRO
                 filename = dialog.FileName;
                 btnParseRoute.IsEnabled = true;
             }
-
-
         }
 
         private void btnParseRoute_Click(object sender, RoutedEventArgs e)
@@ -73,6 +84,29 @@ namespace wpfEDRO
             string coordString = coord != null ? coord.Coords.ToString() : "null";
 
             labelCoordinates.Text = coordString;
+        }
+
+
+
+        private void buttonReadJournals_Click(object sender, RoutedEventArgs e)
+        {
+            EDEventParser.ParseAllJournals();
+            EDEventParser.ParseJournalEvents();
+            EDEventParser.JournalEvents.Clear();
+        }
+
+
+        private void RunOptimizer(IRouteOptimizer routeOptimizer)
+        {
+
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CalendarWindow calendarWindow = new CalendarWindow();
+
+            calendarWindow.Show();
         }
     }
 }
