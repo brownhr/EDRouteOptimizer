@@ -83,16 +83,30 @@ namespace EDRouteOptimizer
                 throw new ArgumentException(message: $"Invalid masscode passed to {nameof(recursiveMassCodeLimit)}");
             }
 
-            List<EDSubsector> childrenSubsectors = new List<EDSubsector>();
-
             char currentMassCode = Boxel.MassCode;
+            List<EDSubsector> allChildren = new List<EDSubsector>() { this };
 
             while (currentMassCode > recursiveMassCodeLimit && currentMassCode > 'a')
             {
-                Boxel.GetChildBoxels().ForEach(boxel => childrenSubsectors.Add(new EDSubsector(this.Sector, boxel)));
+                List<EDSubsector> children = allChildren
+                     .Where(e => e.Boxel.MassCode == currentMassCode)
+                     .ToList()
+                     .SelectMany(child => child.ChildSubsectors())
+                     .ToList();
+                allChildren.AddRange(children);
+
                 currentMassCode--;
             }
-            return childrenSubsectors;
+            allChildren.Remove(this);
+            return allChildren;
+        }
+
+        private List<EDSubsector> ChildSubsectors()
+        {
+            List<EDSubsector> results = new List<EDSubsector>();
+            this.Boxel.GetChildBoxels()
+                .ForEach(box => results.Add(new EDSubsector(this.Sector, box)));
+            return results;
         }
 
 

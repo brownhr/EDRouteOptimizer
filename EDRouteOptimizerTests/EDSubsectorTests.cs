@@ -186,6 +186,22 @@ namespace EDRouteOptimizer.Tests
                 CollectionAssert.Contains(childrenStrings, sector.ToString());
             }
 
+
+
+        }
+        [TestMethod()]
+        [DynamicData(nameof(SubsectorExpectedData))]
+        public void GetChildSubsectorsExpectedTest(EDSubsector parentSubsector, string[] childrenSubsectors)
+        {
+            List<string> children = parentSubsector.GetChildSubsectors('a')
+                .Select(e => e.ToString())
+                .ToList();
+
+            foreach (string expected in childrenSubsectors)
+            {
+                CollectionAssert.Contains(children, expected, message: $"Expected: {expected}");
+            }
+
         }
 
         private static IEnumerable<object[]> GetChildrenSubsectorsData =>
@@ -202,12 +218,14 @@ namespace EDRouteOptimizer.Tests
                     "Scheau Blao XC-Y c28",
                     "Scheau Blao UH-Y c28",
                     "Scheau Blao VH-Y c28"
-                } },
-                new object[] {EDSubsector.GetSubsector("Scheau Blao JY-Z d13"),
-                    readText(@"C:\Users\brownhr\Desktop\children.txt")
-
-
                 }
+            } };
+
+        private static IEnumerable<object[]> SubsectorExpectedData =>
+            new List<object[]>
+            {
+                new object[] {EDSubsector.GetSubsector("Scheau Blao JY-Z d13"),
+                readText("children.txt")}
             };
 
         private static string[] readText(string filepath)
