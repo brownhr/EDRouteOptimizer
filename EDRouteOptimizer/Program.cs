@@ -35,9 +35,8 @@ namespace EDRouteOptimizer
         public static int[] optimizedSequence;
         public static double[] distances;
 
-        public static JournalParser journalParser;
         public static List<FSSAllBodiesFoundEvent> mappedSystems;
-        [STAThread]
+       
 
         public static void Main()
         {
