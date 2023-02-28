@@ -140,6 +140,20 @@ namespace EDRouteOptimizer
 
         }
 
+        public static bool TryParse(string input, out EDSubsector? result)
+        {
+            try
+            {
+                result = GetSubsector(input);
+                return true;
+            }
+            catch (ArgumentException)
+            {
+                result = null;
+                return false;
+            }
+        }
+
 
         public override bool Equals(object? obj)
         {
