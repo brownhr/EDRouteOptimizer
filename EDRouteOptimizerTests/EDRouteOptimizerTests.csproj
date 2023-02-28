@@ -19,4 +19,10 @@
     <ProjectReference Include="..\EDRouteOptimizer\EDRouteOptimizer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="children.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

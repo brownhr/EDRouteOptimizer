@@ -13,7 +13,7 @@ namespace EDData
     {
         internal static string SystemListFilename = @"https://edastro.com/mapcharts/files/sector-list.csv";
 
-
+        //TODO: Manually transform ID64 to coords
 
         internal static async Task DownloadFile(string url, string outputFile)
         {
@@ -98,9 +98,34 @@ namespace EDData
             int? IDY = Func.ParseBlankInt(values[15]);
             int? IDZ = Func.ParseBlankInt(values[16]);
 
+            if (IDX != null)
+            {
+                MaxXCoord = _TX(IDX.Value);
+            }
+            if (IDY != null)
+            {
+                MaxYCoord = _TY(IDY.Value);
+            }
+            if (IDZ != null)
+            {
+                MaxZCoord = _TZ(IDZ.Value);
+            }
+
             return new EDAstroSectorCSV(sectorName, MaxXCoord, MaxYCoord, MaxZCoord, IDX, IDY, IDZ);
         }
 
+        private static double _TX(int idx)
+        {
+            return ((idx - 38) * 1280) - 65;
+        }
+        private static double _TY(int idy)
+        {
+            return ((idy - 31) * 1280) - 25;
+        }
+        private static double _TZ(int idz)
+        {
+            return ((idz - 18) * 1280) + 215;
+        }
 
     }
 

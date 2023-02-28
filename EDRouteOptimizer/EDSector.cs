@@ -31,7 +31,6 @@ namespace EDRouteOptimizer
         public double MaxZCoord { get; set; }
 
 
-        public GalacticCoordinates MinimumCoordinates;
 
         public SectorCoordinates GetSectorCoordinates()
         {
