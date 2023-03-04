@@ -6,15 +6,18 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
 
 namespace EDRouteOptimizer
 {
 
     public static class EDEventParser
     {
-        public static List<JObject> JournalEvents = new List<JObject>();
-        public static List<FSSAllBodiesFoundEvent> FSSAllBodiesFoundEvents = new List<FSSAllBodiesFoundEvent>();
-        public static List<FSDJumpEvent> FSDJumpEvents = new List<FSDJumpEvent>();
+        public static HashSet<JObject> JournalEvents = new HashSet<JObject>();
+        public static HashSet<FSSAllBodiesFoundEvent> FSSAllBodiesFoundEvents = new HashSet<FSSAllBodiesFoundEvent>();
+        public static HashSet<FSDJumpEvent> FSDJumpEvents = new HashSet<FSDJumpEvent>();
+
+
 
         private static string JournalDirectory =
             Environment.ExpandEnvironmentVariables(@"%USERPROFILE%\Saved Games\Frontier Developments\Elite Dangerous");
@@ -24,6 +27,7 @@ namespace EDRouteOptimizer
 
         public static DateTime _dateCutoff = new DateTime();
 
+        public static EDSystem CurrentSystem;
 
         public static void SetCutoff(DateTime cutoff)
         {
@@ -48,18 +52,12 @@ namespace EDRouteOptimizer
                 {
                     Console.WriteLine(e.ToString());
                 }
-
-
             }
-
         }
-
-
-
 
         public static void ReadJournal(string filename)
         {
-           
+
             FileStream fileStream = new FileStream(filename,
                                                    FileMode.Open,
                                                    FileAccess.Read,
@@ -100,12 +98,27 @@ namespace EDRouteOptimizer
 
             }
 
+            SetCurrentSystem();
+
 
         }
 
+        public static void SetCurrentSystem()
+        {
+            FSDJumpEvent lastJump = FSDJumpEvents.OrderBy(e=> e.timestamp).ToList()[^1];
 
+            RouteJsonCoords coords
+                = new RouteJsonCoords(lastJump.StarPos);
 
+            EDSystem system = new EDSystem(
+                systemName: lastJump.StarSystem,
+                coords: coords,
+                iD64: lastJump.SystemAddress);
+            CurrentSystem = system;
+        }
     }
+
+
 
 
     [JsonObject(MemberSerialization.OptIn)]
@@ -149,10 +162,10 @@ namespace EDRouteOptimizer
         //    this.Count = count ;
         //}
 
-        public static List<FSSAllBodiesFoundEvent> ParseFSSJson(string filepath)
+        public static HashSet<FSSAllBodiesFoundEvent> ParseFSSJson(string filepath)
         {
 
-            List<FSSAllBodiesFoundEvent> eventList = new List<FSSAllBodiesFoundEvent>();
+            HashSet<FSSAllBodiesFoundEvent> eventList = new HashSet<FSSAllBodiesFoundEvent>();
 
             var jsonReader = new JsonTextReader(new StreamReader(filepath))
 
@@ -175,10 +188,6 @@ namespace EDRouteOptimizer
     [JsonObject(MemberSerialization.OptIn)]
     public class FSDJumpEvent : JournalEvent
     {
-        [JsonProperty]
-        public bool Taxi { get; set; }
-        [JsonProperty]
-        public bool Multicrew { get; set; }
         [JsonProperty]
         public string StarSystem { get; set; }
         [JsonProperty]
