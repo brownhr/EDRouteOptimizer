@@ -18,7 +18,7 @@ namespace wpfEDRO
 
         protected override void OnStartup(object sender, StartupEventArgs e)
         {
-            DisplayRootViewForAsync<ShellViewModel>();
+            DisplayRootViewForAsync<RouteOptimizerMainViewModel>();
         }
     }
 }
