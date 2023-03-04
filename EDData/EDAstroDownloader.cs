@@ -13,8 +13,6 @@ namespace EDData
     {
         internal static string SystemListFilename = @"https://edastro.com/mapcharts/files/sector-list.csv";
 
-        //TODO: Manually transform ID64 to coords
-
         internal static async Task DownloadFile(string url, string outputFile)
         {
             HttpClient client = new HttpClient();
