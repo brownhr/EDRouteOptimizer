@@ -18,16 +18,16 @@ namespace EDRouteOptimizer
         //                                                                             y: 1547.09375,
         //                                                                             z: 13291.96875));
 
-        public static EDSystem homeSystem;
-        public static string sector;
-        public static string currentSystem;
+        //public static EDSystem homeSystem;
+        //public static string currentSystem;
+        public static EDSystem mostRecentJump;
 
         public static EDRoute route;
         public static Dictionary<string, EDSystem> SystemDict = new Dictionary<string, EDSystem>();
 
 
         public static string inputFSSDataPath = @"C:\Users\brownhr\Documents\fss.log";
-        public static string inputFilePath = @"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\ScheauBlaoLX-U_f2-.route";
+        public static string inputFilePath = @"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\Egnaiw GR-W F1 Black Hole Survey.route";
 
         public static double initialDistance;
         public static double finalDistance;
@@ -35,14 +35,14 @@ namespace EDRouteOptimizer
         public static int[] optimizedSequence;
         public static double[] distances;
 
-        public static List<FSSAllBodiesFoundEvent> mappedSystems;
+        public static HashSet<FSSAllBodiesFoundEvent> mappedSystems;
        
 
         public static void Main()
         {
             
 
-            DateTime cutoffDate = DateTime.ParseExact(s: "2023-02-26", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            DateTime cutoffDate = DateTime.ParseExact(s: "2023-03-01", format: "yyyy-MM-dd", CultureInfo.InvariantCulture);
 
             EDEventParser.SetCutoff(cutoffDate);
 
@@ -53,21 +53,19 @@ namespace EDRouteOptimizer
             mappedSystems = EDEventParser.FSSAllBodiesFoundEvents;
 
 
-            FSDJumpEvent mostRecentJump = EDEventParser.FSDJumpEvents[^1];
+            mostRecentJump = EDEventParser.CurrentSystem;
 
-            string sysName = mostRecentJump.StarSystem;
-
-            EDSubsector subsector = EDSubsector.GetSubsector(sysName);
-            sector = subsector.Sector.SectorName;
 
             route = EDRoute.ParseJson(inputFilePath);
-            CreateSystemDict();
-            homeSystem = LookupSystem(mostRecentJump.StarSystem);
 
+            // TODO:  Choose between 0-index of route or current system
+            CreateSystemDict();
+
+            FilterMappedSystems();
 
             SetupRoute();
 
-            currentSystem = homeSystem.SystemName;
+
 
 
 
@@ -78,7 +76,7 @@ namespace EDRouteOptimizer
             //journalParser.ParseJournals();
 
             // TODO: Read most recent FSD Jump
-            Console.WriteLine(homeSystem.SystemName);
+            Console.WriteLine(mostRecentJump.SystemName);
 
             double[,] distanceMatrix = route.GenerateDistanceMatrix();
 
@@ -101,7 +99,9 @@ namespace EDRouteOptimizer
             PrintRouteHead(10);
 
             route.CurrentDestination = 0;
-            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\{sector}_Optimized.route";
+            FileInfo fi = new FileInfo(inputFilePath);
+            
+            string outfile = @$"C:\Users\brownhr\Documents\EDJP\DATA\F4352458\{fi.Name}_Optimized.route";
 
             route.WriteJson(outfile);
 
@@ -176,18 +176,12 @@ namespace EDRouteOptimizer
         }
 
 
-        public static void FilterMappedSystems(EDRoute route, List<FSSAllBodiesFoundEvent> events, string sector)
+        public static void FilterMappedSystems()
         {
-            List<string> mappedSystems = new List<string>();
-            Regex ByeiaAerbRegex = new Regex(sector);
 
-            foreach (FSSAllBodiesFoundEvent _event in events)
-            {
-                Match m = ByeiaAerbRegex.Match(_event.SystemName);
-                if (!m.Success) continue;
-                mappedSystems.Add(_event.SystemName);
-            }
-            string[] mappedSystemsArray = mappedSystems.ToArray();
+            // TODO: Fix to use static mappedSystems HashSet
+           
+            string[] mappedSystemsArray = mappedSystems.ToList().Select(e => e.SystemName).ToArray();
 
             List<EDSystem> remainingSystems = new List<EDSystem>();
 
@@ -214,10 +208,9 @@ namespace EDRouteOptimizer
 
 
 
-            FilterMappedSystems(route, mappedSystems, sector);
             route.RouteWaypoints = route.RouteWaypoints.DistinctBy(x => x.SystemName).ToList();
 
-            route.RouteWaypoints.Insert(0, homeSystem);
+            route.RouteWaypoints.Insert(0, mostRecentJump);
             route.ShuffleSansFirst();
         }
     }
