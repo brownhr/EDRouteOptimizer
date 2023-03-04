@@ -121,11 +121,19 @@ namespace EDRouteOptimizer
         [JsonProperty]
         public double z { get; set; }
 
+        [Newtonsoft.Json.JsonConstructor]
         public RouteJsonCoords(double x, double y, double z)
         {
             this.x = x;
             this.y = y;
             this.z = z;
+        }
+        public RouteJsonCoords(double[] coordArray)
+        {
+            if (coordArray.Length != 3) { throw new ArgumentException("Coordinate array must be of length 3"); }
+            this.x = coordArray[0];
+            this.y = coordArray[1];
+            this.z = coordArray[2];
         }
 
         public override string ToString()
